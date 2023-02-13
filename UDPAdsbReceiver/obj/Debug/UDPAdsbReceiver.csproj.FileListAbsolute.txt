@@ -1,0 +1,10 @@
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csprojAssemblyReference.cache
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb

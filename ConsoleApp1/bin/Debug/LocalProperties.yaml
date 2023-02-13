@@ -1,0 +1,4 @@
+IPudpLocal: 127.0.0.1
+UdpPortLocal: 16002
+NameApplication: UDPAdsbReceiver
+

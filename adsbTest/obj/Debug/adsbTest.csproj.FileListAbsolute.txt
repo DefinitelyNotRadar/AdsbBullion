@@ -1,0 +1,17 @@
+C:\Users\osipo\source\repos\adsbTest\adsbTest\bin\Debug\adsbTest.exe.config
+C:\Users\osipo\source\repos\adsbTest\adsbTest\bin\Debug\adsbTest.exe
+C:\Users\osipo\source\repos\adsbTest\adsbTest\bin\Debug\adsbTest.pdb
+C:\Users\osipo\source\repos\adsbTest\adsbTest\obj\Debug\adsbTest.csprojAssemblyReference.cache
+C:\Users\osipo\source\repos\adsbTest\adsbTest\obj\Debug\adsbTest.exe
+C:\Users\osipo\source\repos\adsbTest\adsbTest\obj\Debug\adsbTest.pdb
+E:\adsb\adsbTest\adsbTest\bin\Debug\adsbTest.exe.config
+E:\adsb\adsbTest\adsbTest\bin\Debug\adsbTest.exe
+E:\adsb\adsbTest\adsbTest\bin\Debug\adsbTest.pdb
+E:\adsb\adsbTest\adsbTest\bin\Debug\Newtonsoft.Json.dll
+E:\adsb\adsbTest\adsbTest\bin\Debug\YamlDotNet.dll
+E:\adsb\adsbTest\adsbTest\bin\Debug\Newtonsoft.Json.xml
+E:\adsb\adsbTest\adsbTest\bin\Debug\YamlDotNet.xml
+E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.csprojAssemblyReference.cache
+E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.csproj.CopyComplete
+E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.exe
+E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.pdb
