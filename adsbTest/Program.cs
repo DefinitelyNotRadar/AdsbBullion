@@ -18,10 +18,12 @@ namespace adsbTest
 
             TcpClient tcpClient = new TcpClient();
             NetworkStream streamClient;
+            localProperties = yaml.YamlLoad();
 
             try
-            {              
-                // create client
+            {       
+                
+                // create client for receiving raw hex data from Bullion
                 tcpClient = new System.Net.Sockets.TcpClient();
 
                 // begin connect 

@@ -49,12 +49,17 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="LocalProperties.cs" />
-    <Compile Include="PlaneData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Yaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlaneInfoLib\PlaneInfoLib.csproj">
+      <Project>{84692dcc-e86b-4a67-8e86-a41dbe19481f}</Project>
+      <Name>PlaneInfoLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

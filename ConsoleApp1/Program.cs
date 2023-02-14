@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlaneInfoLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Client receiver = new Client(16002);
-            receiver.OnUDPPacketReceived += processPacket;
+            receiver.OnUDPPacketReceived += ProcessPacket;
             try
             {
                 receiver.Listen();
@@ -24,11 +25,11 @@ namespace ConsoleApp1
             }
             Console.ReadLine();
         }
-        private static void processPacket(object sender, List<PlaneData> e)
+        private static void ProcessPacket(object sender, List<PlaneData> e)
         {
             //вывод данных e.tableAeroscope
-            Console.WriteLine("Data updated! Icao: " + e.Last().Icao + " Lat: " + e.Last().Lat + " Long: " + e.Last().Long);            
-            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Data updated! Icao: " + e.Last().Icao + " AirId: "+e.Last().AirId+" Lat: " + e.Last().Lat + " Long: " + e.Last().Long + " Height: " + e.Last().Altitude);            
+            Console.WriteLine("------------------------------------------------------------------------------------------------------------");
 
         }
     }

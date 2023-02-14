@@ -68,7 +68,7 @@ namespace adsbTest
             localProperties.IsWritingQuery = true;
 
             ///for sending aeroscope data to lib user by udp
-            localProperties.UDPAdsbReceiverPort = 5002;
+            localProperties.UDPAdsbReceiverPort = 16002;
             localProperties.UDPAdsbReceiverIp = "127.0.0.1";
             localProperties.IsSend2UDPAdsbReceiver = true;
 

@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PlaneInfoLib\PlaneInfoLib.csproj">
+      <Project>{84692dcc-e86b-4a67-8e86-a41dbe19481f}</Project>
+      <Name>PlaneInfoLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\UDPAdsbReceiver\UDPAdsbReceiver.csproj">
       <Project>{5B666926-580C-4358-AEC0-7883072F8D4B}</Project>
       <Name>UDPAdsbReceiver</Name>

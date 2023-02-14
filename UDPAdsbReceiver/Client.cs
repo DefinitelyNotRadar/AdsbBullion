@@ -8,6 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using YamlDotNet;
 using Newtonsoft.Json;
+using PlaneInfoLib;
 
 namespace UDPAdsbReceiver
 {
@@ -35,7 +36,7 @@ namespace UDPAdsbReceiver
         {
             try
             {
-                LocalProperties localProperties = yaml.YamlLoad();
+                localProperties = yaml.YamlLoad();
                 localProperties.UdpPortLocal = localPort;
             }
             catch (Exception ex)

@@ -15,3 +15,16 @@ E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.csprojAssemblyReference.cache
 E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.csproj.CopyComplete
 E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.exe
 E:\adsb\adsbTest\adsbTest\obj\Debug\adsbTest.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\adsbTest.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\obj\Debug\adsbTest.csprojAssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\obj\Debug\adsbTest.csproj.CopyComplete
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\obj\Debug\adsbTest.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\adsbTest.exe.config
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\bin\Debug\adsbTest.exe
+C:\Users\osipo\source\repos\AdsbBullion\adsbTest\obj\Debug\adsbTest.exe

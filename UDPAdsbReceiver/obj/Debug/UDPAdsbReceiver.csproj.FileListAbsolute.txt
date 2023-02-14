@@ -8,3 +8,15 @@ E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csprojAssemblyReferen
 E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
 E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
 E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csprojAssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb

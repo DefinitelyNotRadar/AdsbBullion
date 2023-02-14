@@ -10,3 +10,9 @@ E:\adsb\adsbTest\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
 E:\adsb\adsbTest\adsbPacketSender\obj\Debug\adsbPacketSender.csprojAssemblyReference.cache
 E:\adsb\adsbTest\adsbPacketSender\obj\Debug\adsbPacketSender.exe
 E:\adsb\adsbTest\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe.config
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csprojAssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
+C:\Users\osipo\source\repos\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb

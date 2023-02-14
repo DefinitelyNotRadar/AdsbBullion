@@ -29,19 +29,30 @@ namespace adsbPacketSender
                     var stream = tcpClient.GetStream();
                     while (!Console.KeyAvailable)
                     {
-                        //send DF17
+                        //send DF17 different type packets
 
                         //send plane ID
                         byte[] bytestosendID = new byte[] { 0x2a, 0x8d, 0x48, 0x40, 0xd6, 0x20, 0x2c, 0xc3, 0x71, 0xc3, 0x28, 0xe0, 0x57, 0x60, 0x98, 0x3b };
                         await stream.WriteAsync(bytestosendID, 0, bytestosendID.Length);
                         Thread.Sleep(2000);
-                        //send airborne position
+
+                        //send even air coordinates message
                         byte[] bytestosendEven = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x82, 0xd6, 0x90, 0xc8, 0xac, 0x28, 0x63, 0xa7, 0x3b };
                         await stream.WriteAsync(bytestosendEven, 0, bytestosendEven.Length);
+                        
                         Thread.Sleep(2000);
+                        
                         //send odd air coordinates message
                         byte[] bytestosendOdd = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x86, 0x43, 0x5c, 0xc4, 0x12, 0x69, 0x2a, 0xd6, 0x3b };
                         await stream.WriteAsync(bytestosendOdd, 0, bytestosendOdd.Length);
+
+                        Thread.Sleep(2000);
+
+                        //send GNSS plane height
+                        byte[] bytestosendGnssHeight = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x82, 0xd6, 0x90, 0xC8, 0xac, 0x28, 0x63, 0xa7, 0x3b };
+                        await stream.WriteAsync(bytestosendGnssHeight, 0, bytestosendGnssHeight.Length);
+
+
                         Console.WriteLine($"Клиенту {tcpClient.Client.RemoteEndPoint} отправлены данные");
                     }
                 }
