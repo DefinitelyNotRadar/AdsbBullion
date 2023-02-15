@@ -24,9 +24,7 @@ namespace adsbTest
                
                 adsbHexMessage = hexstr;
                 planeData = new PlaneData();
-                planeData.Icao = ParseICAO();
-
-                AddPlane();
+                
 
                 double downlinkFormat = 0;
                 downlinkFormat = (double)ulong.Parse(String.Concat(hexstr[0], hexstr[1]), System.Globalization.NumberStyles.HexNumber);
@@ -38,7 +36,8 @@ namespace adsbTest
 
                 if (downlinkFormat == 17)
                 {
-
+                    planeData.Icao = ParseICAO(); 
+                    AddPlane();
                     if (typeCode >= 1 && typeCode <= 4)
                     {
                         try
@@ -78,6 +77,28 @@ namespace adsbTest
                     //{
                     //    ParseOperationStatus(hexstr.Substring(8, 21));
                     //}
+                }
+
+                if(downlinkFormat==6)
+                {
+                    byte[] message = Enumerable.Range(0, hexstr.Length)
+                           .Where(x => x % 2 == 0)
+                           .Select(x => Convert.ToByte(hexstr.Substring(x, 2), 16))
+                           .ToArray();
+
+                    // Extract the various fields from the message
+                    int subtype = (message[1] & 0xF0) >> 4;
+                    planeData.Icao = BitConverter.ToString(new byte[] { message[2], message[3], message[4] }).Replace("-", "");
+                    AddPlane();
+                    planeData.VerticalSpeedSign = ((message[4] & 0x08) == 0x08) ? -1 : 1;
+                    planeData.VerticalSpeed = (((message[4] & 0x07) << 6) | ((message[5] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
+                    planeData.AirSpeedType = message[5] & 0x03;
+                    planeData.AirVelocity = ((message[6] & 0x7F) << 3) | ((message[7] & 0xE0) >> 5);
+                    planeData.TrackAngle = ((message[7] & 0x1F) << 6) | ((message[8] & 0xFC) >> 2);
+                    planeData.GroundSpeed = ((message[8] & 0x03) << 8) | message[9];
+                    planeData.IsOnGround = (message[10] & 0x80) >> 7;
+                    planeData.Altitude = ((message[10] & 0x7F) << 4) | ((message[11] & 0xF0) >> 4);
+                    planeData.BarometricPressureSetting = ((message[11] & 0x0F) << 8) | message[12];
                 }
 
                 
@@ -245,6 +266,7 @@ namespace adsbTest
                 }
                
             }
+            planeData.AirId = planeData.AirId.Replace("#", "");
         }
       
         //Ground position
@@ -258,43 +280,43 @@ namespace adsbTest
 
             if(intMov == 0)
             {
-                planeData.GrounfSpeed = -1;
+                planeData.GroundSpeed = -1;
             }
             if (intMov == 1)
             {
-                planeData.GrounfSpeed = 0;
+                planeData.GroundSpeed = 0;
             }
             if (intMov >=2 && intMov <=8)
             {
-                planeData.GrounfSpeed = 0.125 + (intMov -2) * 0.125;
+                planeData.GroundSpeed = 0.125 + (intMov -2) * 0.125;
             }
             if (intMov >= 9 && intMov <= 12)
             {
-                planeData.GrounfSpeed = 1+ (intMov -9)*0.25;
+                planeData.GroundSpeed = 1+ (intMov -9)*0.25;
             }
             if (intMov >= 13 && intMov <= 38)
             {
-                planeData.GrounfSpeed = 2 + (intMov - 13) * 0.5;
+                planeData.GroundSpeed = 2 + (intMov - 13) * 0.5;
             }
             if (intMov >= 39 && intMov <= 93)
             {
-                planeData.GrounfSpeed = 15 + (intMov - 39) * 1;
+                planeData.GroundSpeed = 15 + (intMov - 39) * 1;
             }
             if (intMov >= 94 && intMov <= 108)
             {
-                planeData.GrounfSpeed = 70 + (intMov - 94) * 2;
+                planeData.GroundSpeed = 70 + (intMov - 94) * 2;
             }
             if (intMov >= 109 && intMov <= 123)
             {
-                planeData.GrounfSpeed = 100 + (intMov - 109) * 5;
+                planeData.GroundSpeed = 100 + (intMov - 109) * 5;
             }
             if (intMov == 124)
             {
-                planeData.GrounfSpeed = 175;//speed is 175 nautical miles(knotes) or more
+                planeData.GroundSpeed = 175;//speed is 175 nautical miles(knotes) or more
             }
             if (intMov >= 125 && intMov <= 127)
             {
-                planeData.GrounfSpeed = -1;//??reserved:)
+                planeData.GroundSpeed = -1;//??reserved:)
             }
 
             //Track

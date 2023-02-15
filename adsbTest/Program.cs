@@ -27,7 +27,8 @@ namespace adsbTest
                 tcpClient = new System.Net.Sockets.TcpClient();
 
                 // begin connect 
-                var result = tcpClient.BeginConnect("127.0.0.1", 30005, null, null);
+                //var result = tcpClient.BeginConnect("127.0.0.1", 30005, null, null);
+                var result = tcpClient.BeginConnect("192.168.0.11", 30005, null, null);
 
                 // try connect
                 var success = result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(5));
@@ -152,7 +153,12 @@ namespace adsbTest
                         if (j>=10 && j<= 30 && isoutofstring == false)
                         {
                             bool isParsed = parser.ParseData(String.Concat(str[i], str[i + 1], str[i + 2], str[i + 3], str[i + 4], str[i + 5], str[i + 6], str[i + 7], str[i + 8], str[i + 9], str[i + 10], str[i + 11], str[i + 12], str[i + 13], str[i + 14], str[i + 15], str[i + 16], str[i + 17], str[i+18], str[i+19], str[i + 20], str[i + 21]));
-                            if (isParsed == true) { Console.WriteLine("data is parsed. ICAO: " + parser.listPlanes[parser.listPlanes.Count-1].Icao + "DF: " +parser.listPlanes[parser.listPlanes.Count-1].DF); }
+                            if (isParsed == true)
+                            {
+                                Console.WriteLine("data is parsed. ICAO: " + parser.listPlanes[parser.listPlanes.Count - 1].Icao);
+                            }
+
+                            //+ " DF: " +parser.listPlanes[parser.listPlanes.Count-1].DF); }
                             try
                             {
 
