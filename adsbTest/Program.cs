@@ -148,11 +148,16 @@ namespace adsbTest
                         while (!(str[i+j].Equals('3') && str[i+j+1].Equals('B')))
                         {
                             j++;                         
-                            if (j > 30 || i+j>str.Length) { isoutofstring = true; break; }
+                            if (j > 40 || i+j>str.Length) { isoutofstring = true; break; }
                         }
-                        if (j>=10 && j<= 30 && isoutofstring == false)
+                        if (j>=10 && j<40 && isoutofstring == false)
                         {
-                            bool isParsed = parser.ParseData(String.Concat(str[i], str[i + 1], str[i + 2], str[i + 3], str[i + 4], str[i + 5], str[i + 6], str[i + 7], str[i + 8], str[i + 9], str[i + 10], str[i + 11], str[i + 12], str[i + 13], str[i + 14], str[i + 15], str[i + 16], str[i + 17], str[i+18], str[i+19], str[i + 20], str[i + 21]));
+                            string msg = "";
+                            for (int k = i; k < i + j; k++)
+                            {
+                                msg = msg + str[k];
+                            }
+                            bool isParsed = parser.ParseData(msg);
                             if (isParsed == true)
                             {
                                 Console.WriteLine("data is parsed. ICAO: " + parser.listPlanes[parser.listPlanes.Count - 1].Icao);

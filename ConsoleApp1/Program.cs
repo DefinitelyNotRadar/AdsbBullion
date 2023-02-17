@@ -28,7 +28,8 @@ namespace ConsoleApp1
         private static void ProcessPacket(object sender, List<PlaneData> e)
         {
             //вывод данных e.tableAeroscope
-            e.ForEach(p => Console.WriteLine("Data updated! Icao: " + p.Icao + " AirId: " + p.AirId + " Lat: " + p.Lat + " Long: " + p.Long + " Height: " + p.Altitude + " Velocity: " + p.AirVelocity + " AirCat: " + p.AirCat + " Track angle: " + p.TrackAngle + " Ground speed:" + p.GroundSpeed));            
+            Console.WriteLine("Data updated!");
+            e.ForEach(p => Console.WriteLine("Icao: " + p.Icao + " AirId: " + p.AirId + " Lat: " + p.Lat + " Long: " + p.Long + " Height: " + p.Altitude + " Velocity: " + p.AirVelocity + " AirCat: " + p.AirCat + " Track angle: " + p.TrackAngle + " Ground speed:" + p.GroundSpeed));            
             Console.WriteLine("---------------------------------------------------------------------------------------------------------");
 
         }

@@ -20,29 +20,38 @@ namespace adsbTest
         {
             try
             {
+                byte[] hexstr2byte = Enumerable.Range(0, hexstr.Length)
+                         .Where(x => x % 2 == 0)
+                         .Select(x => Convert.ToByte(hexstr.Substring(x, 2), 16))
+                         .ToArray();
+                string asciiHexStr = Encoding.ASCII.GetString(hexstr2byte);
+
+
+
                 receiveTime = DateTime.UtcNow;
                
-                adsbHexMessage = hexstr;
+                adsbHexMessage = asciiHexStr;
                 planeData = new PlaneData();
                 
 
                 double downlinkFormat = 0;
-                downlinkFormat = (double)ulong.Parse(String.Concat(hexstr[0], hexstr[1]), System.Globalization.NumberStyles.HexNumber);
+                downlinkFormat = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 downlinkFormat = (int)downlinkFormat >> 3;
 
                 double typeCode = 0;
-                typeCode = (double)ulong.Parse(String.Concat(hexstr[8], hexstr[9]), System.Globalization.NumberStyles.HexNumber);
+                typeCode = (double)ulong.Parse(String.Concat(asciiHexStr[8], asciiHexStr[9]), System.Globalization.NumberStyles.HexNumber);
                 typeCode = (int)typeCode >> 3;
 
                 if (downlinkFormat == 17)
                 {
-                    planeData.Icao = ParseICAO(); 
+
+                    planeData.Icao = ParseICAO(asciiHexStr); 
                     AddPlane();
                     if (typeCode >= 1 && typeCode <= 4)
                     {
                         try
                         {
-                            ParseAirId(hexstr.Substring(8, 14));
+                            ParseAirId(asciiHexStr.Substring(8, 14));
                         }
                         catch(Exception ex)
                         {
@@ -51,23 +60,23 @@ namespace adsbTest
                     }
                     if (typeCode >= 5 && typeCode <= 8)
                     {
-                        ParseSurfPos(hexstr.Substring(8, 14));
+                        ParseSurfPos(asciiHexStr.Substring(8, 14));
                     }
                     if (typeCode >= 9 && typeCode <= 18)
                     {
-                        ParseAirPosBaro(hexstr.Substring(8, 14));
+                        ParseAirPosBaro(asciiHexStr.Substring(8, 14));
                     }
                     if (typeCode >= 20 && typeCode <= 22)
                     {
-                        ParseAirPosGNSS(hexstr.Substring(8, 14));
+                        ParseAirPosGNSS(asciiHexStr.Substring(8, 14));
                     }
                     if (typeCode == 19)
                     {
-                        ParseAirVelocity(hexstr.Substring(8,14));
+                        ParseAirVelocity(asciiHexStr.Substring(8,14));
                     }
                     if (typeCode == 28)
                     {
-                        ParseAirStatus(hexstr.Substring(8, 14));
+                        ParseAirStatus(asciiHexStr.Substring(8, 14));
                     }
                     //if (typeCode == 29)
                     //{
@@ -81,24 +90,33 @@ namespace adsbTest
 
                 if(downlinkFormat==6)
                 {
-                    byte[] message = Enumerable.Range(0, hexstr.Length)
+                    byte[] message = Enumerable.Range(0, asciiHexStr.Length)
                            .Where(x => x % 2 == 0)
                            .Select(x => Convert.ToByte(hexstr.Substring(x, 2), 16))
                            .ToArray();
 
                     // Extract the various fields from the message
                     int subtype = (message[1] & 0xF0) >> 4;
-                    planeData.Icao = BitConverter.ToString(new byte[] { message[2], message[3], message[4] }).Replace("-", "");
+                    planeData.Icao = System.Text.Encoding.ASCII.GetString(new byte[] { message[2], message[3], message[4], message[5], message[6], message[7] }).Replace("-", "");
                     AddPlane();
-                    planeData.VerticalSpeedSign = ((message[4] & 0x08) == 0x08) ? -1 : 1;
-                    planeData.VerticalSpeed = (((message[4] & 0x07) << 6) | ((message[5] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
-                    planeData.AirSpeedType = message[5] & 0x03;
-                    planeData.AirVelocity = ((message[6] & 0x7F) << 3) | ((message[7] & 0xE0) >> 5);
-                    planeData.TrackAngle = ((message[7] & 0x1F) << 6) | ((message[8] & 0xFC) >> 2);
-                    planeData.GroundSpeed = ((message[8] & 0x03) << 8) | message[9];
-                    planeData.IsOnGround = (message[10] & 0x80) >> 7;
-                    planeData.Altitude = ((message[10] & 0x7F) << 4) | ((message[11] & 0xF0) >> 4);
-                    planeData.BarometricPressureSetting = ((message[11] & 0x0F) << 8) | message[12];
+                    //planeData.VerticalSpeedSign = ((message[4] & 0x08) == 0x08) ? -1 : 1;
+                    //planeData.VerticalSpeed = (((message[4] & 0x07) << 6) | ((message[5] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
+                    //planeData.AirSpeedType = message[5] & 0x03;
+                    //planeData.AirVelocity = ((message[6] & 0x7F) << 3) | ((message[7] & 0xE0) >> 5);
+                    //planeData.TrackAngle = ((message[7] & 0x1F) << 6) | ((message[8] & 0xFC) >> 2);
+                    //planeData.GroundSpeed = ((message[8] & 0x03) << 8) | message[9];
+                    //planeData.IsOnGround = (message[10] & 0x80) >> 7;
+                    //planeData.Altitude = ((message[10] & 0x7F) << 4) | ((message[11] & 0xF0) >> 4);
+                    //planeData.BarometricPressureSetting = ((message[11] & 0x0F) << 8) | message[12];
+                    planeData.VerticalSpeedSign = ((message[7] & 0x08) == 0x08) ? -1 : 1;
+                    planeData.VerticalSpeed = (((message[7] & 0x07) << 6) | ((message[8] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
+                    planeData.AirSpeedType = message[8] & 0x03;
+                    planeData.AirVelocity = ((message[9] & 0x7F) << 3) | ((message[10] & 0xE0) >> 5);
+                    planeData.TrackAngle = ((message[10] & 0x1F) << 6) | ((message[11] & 0xFC) >> 2);
+                    planeData.GroundSpeed = ((message[11] & 0x03) << 8) | message[12];
+                    planeData.IsOnGround = (message[13] & 0x80) >> 7;
+                    planeData.Altitude = ((message[13] & 0x7F) << 4) | ((message[14] & 0xF0) >> 4);
+                    planeData.BarometricPressureSetting = ((message[14] & 0x0F) << 8) | message[15];
                 }
 
                 
@@ -112,10 +130,10 @@ namespace adsbTest
         }
 
         
-        private string ParseICAO()
+        private string ParseICAO(string bytestr)
         {
             string icao = "";
-            return icao = string.Concat(adsbHexMessage[2], adsbHexMessage[3], adsbHexMessage[4], adsbHexMessage[5], adsbHexMessage[6], adsbHexMessage[7]);           
+            return icao = String.Concat(bytestr[2], bytestr[3], bytestr[4], bytestr[5], bytestr[6], bytestr[7]);           
         }
 
         private int ParseParity()
