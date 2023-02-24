@@ -23,3 +23,8 @@ F:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.Assem
 F:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
 F:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
 F:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
+E:\АДСБ\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe.config
+E:\АДСБ\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe
+E:\АДСБ\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
+E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
+E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb

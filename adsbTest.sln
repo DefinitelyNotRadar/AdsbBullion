@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adsbTest", "adsbTest\adsbTest.csproj", "{F42E2E18-83C8-4B4B-8192-78B7D4248A72}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adsbPacketSender", "adsbPacketSender\adsbPacketSender.csproj", "{BCCCAA32-4B77-4E74-A523-69B396312E2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSBUDPClientTest", "ConsoleApp1\ADSBUDPClientTest.csproj", "{E2E28661-3F54-49C4-B2A6-FC7FC1FD6C06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPAdsbReceiver", "UDPAdsbReceiver\UDPAdsbReceiver.csproj", "{5B666926-580C-4358-AEC0-7883072F8D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaneInfoLib", "PlaneInfoLib\PlaneInfoLib.csproj", "{84692DCC-E86B-4A67-8E86-A41DBE19481F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlaneInfoLib", "PlaneInfoLib\PlaneInfoLib.csproj", "{84692DCC-E86B-4A67-8E86-A41DBE19481F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSBClientLib", "ADSBClient\ADSBClientLib.csproj", "{0538FCA8-847B-4393-85FF-8AB741CA639C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADSBClientTest", "ADSBClientTest\ADSBClientTest.csproj", "{B3C9BAC2-6E34-48DD-B1CA-022AEB94E5B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F42E2E18-83C8-4B4B-8192-78B7D4248A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F42E2E18-83C8-4B4B-8192-78B7D4248A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F42E2E18-83C8-4B4B-8192-78B7D4248A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F42E2E18-83C8-4B4B-8192-78B7D4248A72}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BCCCAA32-4B77-4E74-A523-69B396312E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BCCCAA32-4B77-4E74-A523-69B396312E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCCCAA32-4B77-4E74-A523-69B396312E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{84692DCC-E86B-4A67-8E86-A41DBE19481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84692DCC-E86B-4A67-8E86-A41DBE19481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84692DCC-E86B-4A67-8E86-A41DBE19481F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0538FCA8-847B-4393-85FF-8AB741CA639C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0538FCA8-847B-4393-85FF-8AB741CA639C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0538FCA8-847B-4393-85FF-8AB741CA639C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0538FCA8-847B-4393-85FF-8AB741CA639C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C9BAC2-6E34-48DD-B1CA-022AEB94E5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C9BAC2-6E34-48DD-B1CA-022AEB94E5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C9BAC2-6E34-48DD-B1CA-022AEB94E5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C9BAC2-6E34-48DD-B1CA-022AEB94E5B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
