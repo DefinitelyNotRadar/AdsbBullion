@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PlaneInfoLib\PlaneInfoLib.csproj">
-      <Project>{84692dcc-e86b-4a67-8e86-a41dbe19481f}</Project>
+      <Project>{CB6EF4A0-DECF-4380-B95D-6CF88BA2ABC8}</Project>
       <Name>PlaneInfoLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\UDPAdsbReceiver\UDPAdsbReceiver.csproj">

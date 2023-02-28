@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PlaneInfoLib\PlaneInfoLib.csproj">
-      <Project>{84692dcc-e86b-4a67-8e86-a41dbe19481f}</Project>
+      <Project>{cb6ef4a0-decf-4380-b95d-6cf88ba2abc8}</Project>
       <Name>PlaneInfoLib</Name>
     </ProjectReference>
   </ItemGroup>

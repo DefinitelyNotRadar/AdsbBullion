@@ -28,3 +28,6 @@ E:\АДСБ\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe
 E:\АДСБ\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
 E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
 E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
+E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.AssemblyReference.cache
+E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.SuggestedBindingRedirects.cache
+E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
