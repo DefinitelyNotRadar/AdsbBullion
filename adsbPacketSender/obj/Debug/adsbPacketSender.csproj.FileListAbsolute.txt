@@ -31,3 +31,11 @@ E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
 E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.AssemblyReference.cache
 E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.SuggestedBindingRedirects.cache
 E:\АДСБ\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe.config
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
+C:\Users\User\Desktop\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
