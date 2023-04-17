@@ -1,0 +1,12 @@
+E:\АДСБ\AdsbBullion\ADSBClient\obj\Debug\ADSBClient.csprojAssemblyReference.cache
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\ADSBClient.dll
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\ADSBClient.pdb
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\YamlDotNet.dll
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ\AdsbBullion\ADSBClient\bin\Debug\YamlDotNet.xml
+E:\АДСБ\AdsbBullion\ADSBClient\obj\Debug\ADSBClient.csproj.CopyComplete
+E:\АДСБ\AdsbBullion\ADSBClient\obj\Debug\ADSBClient.dll
+E:\АДСБ\AdsbBullion\ADSBClient\obj\Debug\ADSBClient.pdb

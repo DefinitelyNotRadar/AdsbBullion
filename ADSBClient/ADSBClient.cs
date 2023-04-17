@@ -1,0 +1,272 @@
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ADSBClientLib
+{
+    public class ADSBClient
+    {
+        public event EventHandler OnConnect;
+        public event EventHandler OnDisconnect;
+        public event EventHandler<string> OnReadByte;
+        public event EventHandler<MyEventArgsADSBData> OnUpdateADSBData;
+
+        ADSBParser parser = new ADSBParser();
+
+        public static LocalProperties localProperties;
+        public static Yaml yaml = new Yaml();
+        TcpClient tcpClient;
+        NetworkStream streamClient;
+
+        bool isSendToUDPClient = false;
+        private string udpClientIp = "";
+        private int udpClientPort = -1;
+
+        public ADSBClient()
+        {
+
+        }
+        public ADSBClient(bool isSendToUDPClient, string udpClientIp, int udpClientPort)
+        {
+            this.isSendToUDPClient = isSendToUDPClient;
+            this.udpClientIp = udpClientIp;
+            this.udpClientPort = udpClientPort;
+        }
+
+        public bool Connect()
+        {
+            if (tcpClient!=null && tcpClient.Connected == true)
+            {
+                tcpClient.Close();
+            }
+            tcpClient = new TcpClient();
+
+            localProperties = yaml.YamlLoad();
+
+            localProperties.IsSend2UDPAdsbReceiver = isSendToUDPClient;
+            localProperties.UDPAdsbReceiverIp = udpClientIp;
+            localProperties.UDPAdsbReceiverPort = udpClientPort;
+            
+
+            try
+            {
+
+                // create client for receiving raw hex data from Bullion
+                tcpClient = new System.Net.Sockets.TcpClient();
+
+                // begin connect 
+                var result = tcpClient.BeginConnect("127.0.0.1", 30005, null, null);
+                //var result = tcpClient.BeginConnect("192.168.0.11", 30005, null, null);
+
+                // try connect
+                var success = result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(5));
+
+                if (!success)
+                {
+                    throw new Exception("Failed to connect.");
+                }
+
+                // we have connected
+                tcpClient.EndConnect(result);
+            }
+            catch (System.Exception ex)
+            {
+                
+                OnDisconnect?.Invoke(this, EventArgs.Empty);
+                return false;
+            }
+
+            if (tcpClient.Connected)
+            {
+                OnConnect?.Invoke(this, EventArgs.Empty);
+                try
+                {
+                    streamClient = tcpClient.GetStream();
+                    //no read thread. Just waiting for aeroscope data in readData function.
+                    ReadDataNoReadThr(streamClient);
+                }
+                catch (Exception ex)
+                {
+                    // generate event
+                    //OnDisconnect?.Invoke(this, EventArgs.Empty);
+                    //return false;
+                }
+            }
+            return true;
+        }
+
+        public void Disconnect()
+        {
+            // if there is client
+            if (streamClient != null)
+            {
+                // close client stream
+                try
+                {
+                    streamClient.Close();
+                }
+                catch (System.Exception)
+                {
+
+                }
+            }
+            // if there is client
+            if (tcpClient != null)
+            {
+                // close client connection
+                try
+                {
+                    tcpClient.Close();
+                    tcpClient = null;
+                }
+                catch (System.Exception)
+                {
+
+                }
+            }
+            // generate event
+            OnDisconnect?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void ReadDataNoReadThr(NetworkStream streamClient)
+        {
+            //exitcounter = 0;
+            bool _continue = true;//added 03122020 for M2 version
+            byte[] bBufRead = new byte[1000];
+            byte[] bBufSave = new byte[1000];
+
+            int iReadByte = -1;
+            string strPackage = "";
+            while (_continue)
+            {
+                try
+                {
+                    Array.Clear(bBufRead, 0, bBufRead.Length);
+
+                    iReadByte = streamClient.Read(bBufRead, 0, bBufRead.Length);
+                    //Console.WriteLine(iReadByte);
+                    //exitcounter += 1; 
+                    if (iReadByte >= 1)
+                    {
+                        //if (OnReadByte != null)
+                        //    OnReadByte(this, strPackage);
+
+                        Array.Resize(ref bBufRead, iReadByte);
+
+
+                        try
+                        {
+                            string newstr = BitConverter.ToString(bBufRead);
+                            strPackage += newstr;
+                            if (strPackage.Length >= 200) { strPackage = strPackage.Replace("-", string.Empty); bool result = Parse1(strPackage); strPackage = ""; }
+
+                        }
+                        catch (Exception ex)
+                        {
+
+                        }
+
+
+                    }
+
+                }
+
+                catch (System.Exception ex)
+                {
+                    _continue = false;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Parsing of data packets  from emulator
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        ///       
+        public static DateTime previouseTime = new DateTime();
+        public static DateTime currentTime = new DateTime();
+        public static TimeSpan packetInterval = new TimeSpan();
+        public static int packetcounter = 0;
+        public static double sum = 0;
+        public static double averageTime = 0;
+        public static System.Net.Sockets.UdpClient udpPacketSender = new System.Net.Sockets.UdpClient();
+        public static IPEndPoint endPointClientUdp;
+        private bool Parse1(string str)
+        {
+            try
+            {                
+                for (int i = 0; i < str.Length; i++)
+                {
+                    //finding the start of the message
+                    if (str[i].Equals('2') && str[i + 1].Equals('A'))
+                    {
+                        i += 2;
+                        int j = 0;
+                        bool isoutofstring = false;
+
+                        //finding end of the message
+                        while (!(str[i + j].Equals('3') && str[i + j + 1].Equals('B')))
+                        {
+                            j++;
+                            if (j > 65 || i + j > str.Length) { isoutofstring = true; break; }
+                        }
+                        if (j >= 10 && j < 65 && isoutofstring == false)
+                        {
+                            string msg = "";
+                            for (int k = i; k < i + j; k++)
+                            {
+                                msg = msg + str[k];
+                            }
+                            bool isParsed = parser.ParseData(msg);
+                            if (isParsed == true)
+                            {
+                                OnUpdateADSBData?.Invoke(this, new MyEventArgsADSBData(parser.planeData));
+                                Console.WriteLine("data is parsed. ICAO: " + parser.listPlanes[parser.listPlanes.Count - 1].Icao);
+                            }
+
+                            //+ " DF: " +parser.listPlanes[parser.listPlanes.Count-1].DF); }
+                            try
+                            {
+
+                                if (localProperties.IsSend2UDPAdsbReceiver == true)
+                                {
+                                    ///client for getting AeroScope packets by udp               
+                                    udpPacketSender = new System.Net.Sockets.UdpClient();
+                                    endPointClientUdp = new IPEndPoint(IPAddress.Parse(localProperties.UDPAdsbReceiverIp), localProperties.UDPAdsbReceiverPort);
+                                    string json = JsonConvert.SerializeObject(parser.listPlanes);
+                                    udpPacketSender.Send(Encoding.UTF8.GetBytes(json), Encoding.UTF8.GetBytes(json).Length, endPointClientUdp);
+                                    udpPacketSender.Close();
+                                    Console.WriteLine("UDP packet was sent to" + " IP: " + localProperties.UDPAdsbReceiverIp + " Port: " + localProperties.UDPAdsbReceiverPort);
+                                }
+
+                            }
+                            catch (Exception ex)
+                            {
+
+                            }
+                            i += j;
+                        }
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
+
+    }
+}
+
+
+
+
+
+

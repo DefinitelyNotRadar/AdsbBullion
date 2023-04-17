@@ -1,0 +1,16 @@
+IPtcpServer: 192.168.1.10
+IPtcpClient: 192.168.1.11
+TcpPortServer: 16000
+TcpPortClient: 51601
+IPudpLocal: 192.168.1.11
+IPudpRemote: 225.0.0.37
+UdpPortLocal: 16000
+UdpPortRemote: 16001
+endPoint: 127.0.0.1:30051
+NameApplication: grozaAdsb
+WritingSerialNumber: ''
+IsWritingQuery: true
+IsSend2UDPAdsbReceiver: false
+UDPAdsbReceiverPort: 16002
+UDPAdsbReceiverIp: 127.0.0.1
+

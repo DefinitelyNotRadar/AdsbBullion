@@ -1,0 +1,6 @@
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+E:\АДСБ\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
