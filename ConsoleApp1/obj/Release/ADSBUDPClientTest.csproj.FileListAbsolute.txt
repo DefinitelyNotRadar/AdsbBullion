@@ -1,0 +1,17 @@
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\ConsoleApp1.exe
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\UDPAdsbReceiver.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Release\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ADSBUDPClientTest.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ADSBUDPClientTest.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ConsoleApp1.exe
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Release\ConsoleApp1.pdb

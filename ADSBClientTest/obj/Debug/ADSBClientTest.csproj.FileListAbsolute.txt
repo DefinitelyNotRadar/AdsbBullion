@@ -32,3 +32,229 @@ C:\Users\User\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
 E:\АДСБ\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
 E:\АДСБ\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
 E:\АДСБ\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\osipo\source\repos\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+E:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+E:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+E:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+E:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+E:\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+E:\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+E:\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+E:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+E:\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+E:\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+E:\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+E:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+F:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+F:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+F:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+F:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+F:\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+F:\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+F:\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+F:\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+F:\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+F:\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+F:\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+F:\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+E:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll.config
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe.config
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.exe
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClientTest.pdb
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.Interfaces.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.System.Drawing.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.pdb
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\ADSBClient.dll.config
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\EPPlus.xml
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.pdb
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\HtmlAgilityPack.xml
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.SuggestedBindingRedirects.cache
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.exe
+F:\АДСБ для теста\AdsbBullion\ADSBClientTest\obj\Debug\ADSBClientTest.pdb

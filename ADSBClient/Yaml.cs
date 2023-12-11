@@ -48,11 +48,8 @@ namespace ADSBClientLib
         private LocalProperties GenerateDefaultLocalProperties()
         {
             var localProperties = new LocalProperties();
-            localProperties.IPtcpServer = "192.168.1.10";
-            localProperties.IPtcpClient = "192.168.1.11";
-
-            localProperties.TcpPortServer = 16000;
-            localProperties.TcpPortClient = 51601;
+            localProperties.IPtcpMicroAdsb = "192.168.0.11";
+            localProperties.TcpPortMicroAdsb = 30005;
 
             localProperties.IPudpLocal = "192.168.1.11";
             localProperties.IPudpRemote = "225.0.0.37";
@@ -67,12 +64,17 @@ namespace ADSBClientLib
             localProperties.WritingSerialNumber = "";
             localProperties.IsWritingQuery = true;
 
-            ///for sending aeroscope data to lib user by udp
+            ///for sending adsb data to lib user by udp
             localProperties.UDPAdsbReceiverPort = 16002;
             localProperties.UDPAdsbReceiverIp = "127.0.0.1";
             localProperties.IsSend2UDPAdsbReceiver = false;
 
-            localProperties.Hemisphere = "North";
+            localProperties.Hemisphere = "Northern";
+
+            //reference coordinates
+            localProperties.RefLatitude = 53.889725;
+            localProperties.RefLongitude = 28.032442;
+            
 
             return localProperties;
         }

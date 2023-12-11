@@ -1,0 +1,138 @@
+﻿<Window x:Class="WpfAdsbTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAdsbTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" 
+        Closing="Window_Closing"
+        x:Name="MyWindow">
+
+    <Window.Resources>
+        <local:BlinkingConverter x:Key="BlinkingConverter"/>
+        <!--<Style x:Key="BlinkingCellStyle" TargetType="{x:Type DataGridCell}">
+            <Style.Triggers>
+                --><!--<DataTrigger Value="True">
+                    <DataTrigger.Binding>
+                        <MultiBinding Converter="{StaticResource BlinkingConverter}" Mode="OneWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding /> --><!--binding converter value field data to grid row--><!--
+                            <Binding RelativeSource="{RelativeSource Self}" Mode="OneWay"/>--><!--binding converter value field data to cell--><!--
+                        </MultiBinding>
+                    </DataTrigger.Binding>
+                    <DataTrigger.EnterActions>
+                        <BeginStoryboard Name="BlinkingStoryboard">
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetProperty="Background.Color" To="Aquamarine" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="0:0:5"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </DataTrigger.EnterActions>
+                    <DataTrigger.ExitActions>
+                        <StopStoryboard BeginStoryboardName="BlinkingStoryboard"/>
+                    </DataTrigger.ExitActions>
+                </DataTrigger>--><!--
+                <EventTrigger RoutedEvent="Binding.TargetUpdated">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard Name="BlinkingStoryboard">
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetProperty="Background.Color" To="Aquamarine" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="0:0:5"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="Binding.SourceUpdated">
+                    <EventTrigger.Actions>
+                        <StopStoryboard BeginStoryboardName="BlinkingStoryboard"/>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>-->
+    </Window.Resources>
+
+    <ScrollViewer >
+        
+        <StackPanel Orientation="Vertical">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="190*"/>                   
+                </Grid.ColumnDefinitions>
+                <Ellipse x:Name="myEllipse"  Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform">
+                    <Ellipse.Fill>
+                        <SolidColorBrush Color="Red"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse x:Name="myEllipse1" Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform" RenderTransformOrigin="0.533,0.536" Margin="33,0,0,0">
+                    <Ellipse.Fill>
+                        <SolidColorBrush Color="White"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+            <Grid>
+                
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Port Name:" VerticalAlignment="Center" Margin="5"/>
+                    <ComboBox x:Name="ComboBoxPortName" Width="100" Margin="5" 
+                      ItemsSource="{Binding serialPortNames}" 
+                      SelectedItem="{Binding serialPortName}"/>
+                    <TextBlock Text="Speed Rate:" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox x:Name="TextBoxSpeedRate" Width="100" Margin="5" 
+                     Text="{Binding serialPortBaudRate}" />
+                    <Button x:Name="btnConnectCOM" Content="Connect COM" Margin="5" 
+                    Click="btnConnectCOM_Click"/>
+                </StackPanel>
+              
+            </Grid>
+            <Button x:Name="btnConnectTCP" Content="Connect TCP" VerticalAlignment="Top" Click="btnConnectTCP_Click"/>
+            <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
+            <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
+
+            <DataGrid AutoGenerateColumns="False" 
+                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"          
+                    x:Name="dataGrid1">
+                <!--CellStyle="{StaticResource BlinkingCellStyle}">-->
+                <DataGrid.CellStyle>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text, Converter={StaticResource ResourceKey=BlinkingConverter}}" Value="true">
+                                <DataTrigger.EnterActions>
+                                    <BeginStoryboard Name="BlinkingStoryboard">
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetProperty="Background.Color" To="Red" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="Forever"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </DataTrigger.EnterActions>
+                                <DataTrigger.ExitActions>
+                                    <StopStoryboard BeginStoryboardName="BlinkingStoryboard"/>
+                                </DataTrigger.ExitActions>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </DataGrid.CellStyle>
+                <DataGrid.Columns >
+                    <DataGridTextColumn Header ="Icao" Binding="{Binding Icao, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Model" Binding="{Binding ModelName,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Time" Binding="{Binding Time,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Latitude, °" Binding="{Binding Latitude,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Longitude, °" Binding="{Binding Longitude, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header ="Altitude, m" Binding="{Binding Altitude, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Air Velocity, kt" Binding="{Binding AirVelocity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <!--<DataGridTextColumn Header="Ground Velocity" Binding="{Binding Groundvelocity,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" MinWidth="50" />-->
+                    <DataGridTextColumn Header="Track Angle, °" Binding="{Binding Direction,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Country" Binding="{Binding Country,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTemplateColumn Header="Flag" IsReadOnly="True">
+                         <!--Add the Width and IsReadOnly attributes--> 
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Flag, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" Height ="20" Width="30"/>
+                                 <!--Add the closing tag for the Image element--> 
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                  
+                    <!-- Add the closing tag for the DataGridTemplateColumn element -->
+                </DataGrid.Columns>
+            </DataGrid>
+           
+        </StackPanel>
+    </ScrollViewer>
+</Window>

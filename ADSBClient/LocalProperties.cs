@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,11 +9,8 @@ namespace ADSBClientLib
 {
     public class LocalProperties
     {
-        public string IPtcpServer { get; set; }
-        public string IPtcpClient { get; set; }
-
-        public int TcpPortServer { get; set; }
-        public int TcpPortClient { get; set; }
+        public string IPtcpMicroAdsb { get; set; }
+        public int TcpPortMicroAdsb { get; set; }
 
         public string IPudpLocal { get; set; }
         public string IPudpRemote { get; set; }
@@ -27,6 +25,7 @@ namespace ADSBClientLib
         public string WritingSerialNumber { get; set; }
         public bool IsWritingQuery { get; set; }
 
+        public bool IsWriteDataToExcel { get; set; }
 
         /// <summary>
         /// for getting aeroscope packets on lib user side by udp
@@ -36,5 +35,9 @@ namespace ADSBClientLib
         public string UDPAdsbReceiverIp { get; set; }
 
         public string Hemisphere { get; set; }//North or South hemisphere, depends on where the receiver is physically located
+
+        public double RefLatitude { get; set; }//minsk-2 airport latitude coordinate as reference latitude for adsb parser
+
+        public double RefLongitude { get; set; }// minsk-2 airport longitude coordinate as reference longitude for adsb parser
     }
 }

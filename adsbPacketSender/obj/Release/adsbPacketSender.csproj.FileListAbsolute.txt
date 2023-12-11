@@ -1,0 +1,8 @@
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\bin\Release\adsbPacketSender.exe.config
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\bin\Release\adsbPacketSender.exe
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\bin\Release\adsbPacketSender.pdb
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Release\adsbPacketSender.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Release\adsbPacketSender.csproj.SuggestedBindingRedirects.cache
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Release\adsbPacketSender.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Release\adsbPacketSender.exe
+F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Release\adsbPacketSender.pdb

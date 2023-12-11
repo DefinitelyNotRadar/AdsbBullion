@@ -36,19 +36,19 @@ namespace adsbPacketSender
                         //await stream.WriteAsync(bytestosendID, 0, bytestosendID.Length);
                         //Thread.Sleep(2000);
 
-                        //send even air coordinates message
+                        ////send even air coordinates message
                         //byte[] bytestosendEven = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x82, 0xd6, 0x90, 0xc8, 0xac, 0x28, 0x63, 0xa7, 0x3b };
                         //await stream.WriteAsync(bytestosendEven, 0, bytestosendEven.Length);
 
                         //Thread.Sleep(2000);
 
-                        //send odd air coordinates message
+                        ////send odd air coordinates message
                         //byte[] bytestosendOdd = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x86, 0x43, 0x5c, 0xc4, 0x12, 0x69, 0x2a, 0xd6, 0x3b };
                         //await stream.WriteAsync(bytestosendOdd, 0, bytestosendOdd.Length);
 
                         //Thread.Sleep(2000);
 
-                        //send GNSS plane height
+                        ////send GNSS plane height
                         //byte[] bytestosendGnssHeight = new byte[] { 0x2a, 0x8d, 0x40, 0x62, 0x1d, 0x58, 0xc3, 0x82, 0xd6, 0x90, 0xC8, 0xac, 0x28, 0x63, 0xa7, 0x3b };
                         //await stream.WriteAsync(bytestosendGnssHeight, 0, bytestosendGnssHeight.Length);
 
@@ -76,14 +76,48 @@ namespace adsbPacketSender
                         byte[] bytestosendDF17TypeCode11Even = new byte[] { 0x2a, 0x38, 0x44, 0x34, 0x30, 0x36, 0x32, 0x31, 0x44, 0x35, 0x38, 0x43, 0x33, 0x38, 0x32, 0x44, 0x36, 0x39, 0x30, 0x43, 0x38, 0x41, 0x43, 0x32, 0x38, 0x36, 0x33, 0x41, 0x37, 0x3b };
                         await stream.WriteAsync(bytestosendDF17TypeCode11Even, 0, bytestosendDF17TypeCode11Even.Length);
 
-                        Thread.Sleep(2000);
+                        Thread.Sleep(5000);
 
                         byte[] bytestosendDF17TypeCode11Odd = new byte[] { 0x2a, 0x38, 0x44, 0x34, 0x30, 0x36, 0x32, 0x31, 0x44, 0x35, 0x38, 0x43, 0x33, 0x38, 0x36, 0x34, 0x33, 0x35, 0x43, 0x43, 0x34, 0x31, 0x32, 0x36, 0x39, 0x32, 0x41, 0x44, 0x36, 0x3b };
                         await stream.WriteAsync(bytestosendDF17TypeCode11Odd, 0, bytestosendDF17TypeCode11Odd.Length);
 
-                        Thread.Sleep(4000);
+                        Thread.Sleep(6000);
+
+                        //byte[] bytestosendDF17TypeCode = new byte[] { 0x2a, 0x38, 0x44, 0x34, 0x30, 0x36, 0x42, 0x39, 0x30, 0x32, 0x30, 0x31, 0x35, 0x41, 0x36, 0x37, 0x38, 0x44, 0x34, 0x44, 0x32, 0x32, 0x30, 0x41, 0x41, 0x34, 0x42, 0x44, 0x41, 0x3b };
+                        //await stream.WriteAsync(bytestosendDF17TypeCode, 0, bytestosendDF17TypeCode.Length);
+
+
+                        ///test DF20 and DF21 bds codes 50 and 60
+                        //byte[] bytestosendDF20BdsCode50 = new byte[] { };
+                        //await stream.WriteAsync(bytestosendDF20BdsCode50, 0, bytestosendDF20BdsCode50.Length);
+
+                        //Thread.Sleep(2000);
+
+                        //byte[] bytestosendDF20BdsCode60 = new byte[] { 0x2a, 0x41, 0x30, 0x30, 0x30, 0x31, 0x38, 0x33, 0x38, 0x45, 0x35, 0x31, 0x39, 0x46, 0x33, 0x33, 0x31, 0x36, 0x30, 0x32, 0x34, 0x30, 0x31, 0x34, 0x32, 0x44, 0x37, 0x46, 0x41, 0x3b };
+                        //await stream.WriteAsync(bytestosendDF20BdsCode60, 0, bytestosendDF20BdsCode60.Length);
+
+                        //byte[] bytestosendDF20BdsCode60 = new byte[] { 0x2a, 0x41, 0x38, 0x30, 0x30, 0x30, 0x34, 0x41, 0x41, 0x41, 0x37, 0x34, 0x41, 0x30, 0x37, 0x32, 0x42, 0x46, 0x44, 0x45, 0x46, 0x43, 0x31, 0x44, 0x35, 0x43, 0x42, 0x34, 0x46, 0x3b };
+                        //await stream.WriteAsync(bytestosendDF20BdsCode60, 0, bytestosendDF20BdsCode60.Length);
+
+                        //Thread.Sleep(4000);
+
+                        //byte[] bytestosendDF21BdsCode50 = new byte[] { 0x2a, 0x41, 0x38, 0x30, 0x30, 0x31, 0x45, 0x42, 0x43, 0x46, 0x46, 0x46, 0x42, 0x32, 0x33, 0x32, 0x38, 0x36, 0x30, 0x30, 0x34, 0x41, 0x37, 0x33, 0x46, 0x36, 0x41, 0x35, 0x42, 0x3b };
+                        //await stream.WriteAsync(bytestosendDF21BdsCode50, 0, bytestosendDF21BdsCode50.Length);
+
+                        //Thread.Sleep(2000);
+
+                        //byte[] bytestosendDF21BdsCode60 = new byte[] {  };
+                        //await stream.WriteAsync(bytestosendDF21BdsCode60, 0, bytestosendDF21BdsCode60.Length);
+
+                        //Thread.Sleep(4000);
+
+
+                        //проверить более тщательно координаты, crc в df 17 и 18
+
+
 
                         Console.WriteLine($"Клиенту {tcpClient.Client.RemoteEndPoint} отправлены данные");
+                        Thread.Sleep(4000);
                     }
                 }
             }

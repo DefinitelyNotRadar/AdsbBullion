@@ -1,0 +1,792 @@
+Hello World!
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BAA4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B8A4E AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BBC7A AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB87A AirId:  Lat: -1 Long: -1 Height: 10576,56 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB74C AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB74C AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 43B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB74C AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 43B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C49 AirId:  Lat: -1 Long: -1 Height: 11277,6 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: 13167,36 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4B9748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 4BB74C AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 43B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: 12374,88 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: 12374,88 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: 12374,88 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+Data updated!
+Icao: 4BB748 AirId:  Lat: -1 Long: -1 Height: 12374,88 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B548 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 49B748 AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+Icao: 507C4D AirId:  Lat: -1 Long: -1 Height: -1 Velocity: -1 AirCat:  Track angle: -1 Ground speed:-1
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

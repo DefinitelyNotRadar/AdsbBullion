@@ -20,7 +20,6 @@ C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dl
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
-C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csprojAssemblyReference.cache
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
@@ -76,3 +75,91 @@ C:\Users\User\Desktop\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj
 C:\Users\User\Desktop\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
 C:\Users\User\Desktop\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\User\Desktop\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\source\repos\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.dll
+E:\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.dll
+E:\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.dll
+E:\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+E:\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.pdb
+E:\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
+E:\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
+E:\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+F:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+F:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+F:\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+F:\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.dll
+F:\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.dll
+F:\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.dll
+F:\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+F:\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.pdb
+F:\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
+F:\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
+F:\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+F:\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.dll
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.dll
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\UDPAdsbReceiver.pdb
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.SuggestedBindingRedirects.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ADSBUDPClientTest.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+F:\АДСБ для теста\AdsbBullion\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
