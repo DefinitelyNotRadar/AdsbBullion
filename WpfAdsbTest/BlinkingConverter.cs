@@ -76,7 +76,7 @@ namespace WpfAdsbTest
                 // Check if the cell is null or not a data grid cell
                 if (cell == null || !(cell.Column is DataGridBoundColumn))
                 {
-                    return false;
+                    return "false";
                 }
 
                 // Get the binding path of the cell
@@ -96,12 +96,12 @@ namespace WpfAdsbTest
                         previousValues[bindingPath.Path.Path.ToString()] = value.ToString();
 
                         // Return true to indicate that the value has changed
-                        return true;
+                        return "true";
                     }
                     else
                     {
                         // Return false to indicate that the value has not changed
-                        return false;
+                        return "false";
                     }
                 }
                 else
@@ -110,12 +110,12 @@ namespace WpfAdsbTest
                     previousValues.Add(bindingPath.Path.Path.ToString(), value.ToString());
 
                     // Return false to indicate that this is the first time to see this value
-                    return false;
+                    return "false";
                 }
             }
             catch (Exception ex)
             {
-                return false;
+                return "false";
             }
         }
 

@@ -10,7 +10,7 @@
         x:Name="MyWindow">
 
     <Window.Resources>
-        <local:BlinkingConverter x:Key="BlinkingConverter"/>
+        <local:BlinkingConverter x:Key="myBlinkingConverter"/>
         <!--<Style x:Key="BlinkingCellStyle" TargetType="{x:Type DataGridCell}">
             <Style.Triggers>
                 --><!--<DataTrigger Value="True">
@@ -88,16 +88,15 @@
 
             <DataGrid AutoGenerateColumns="False" 
                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"          
-                    x:Name="dataGrid1">
-                <!--CellStyle="{StaticResource BlinkingCellStyle}">-->
+                    x:Name="dataGrid1">                
                 <DataGrid.CellStyle>
                     <Style TargetType="{x:Type DataGridCell}">
                         <Style.Triggers>
-                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text, Converter={StaticResource ResourceKey=BlinkingConverter}}" Value="true">
+                            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Value, Converter={StaticResource myBlinkingConverter}}" Value="true">
                                 <DataTrigger.EnterActions>
                                     <BeginStoryboard Name="BlinkingStoryboard">
                                         <Storyboard>
-                                            <ColorAnimation Storyboard.TargetProperty="Background.Color" To="Red" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="Forever"/>
+                                            <ColorAnimation Storyboard.TargetProperty="Background.Color" To="Red" Duration="0:0:0.5" AutoReverse="True" RepeatBehavior="1x"/>
                                         </Storyboard>
                                     </BeginStoryboard>
                                 </DataTrigger.EnterActions>
@@ -111,25 +110,20 @@
                 <DataGrid.Columns >
                     <DataGridTextColumn Header ="Icao" Binding="{Binding Icao, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header="Model" Binding="{Binding ModelName,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
-                    <DataGridTextColumn Header="Time" Binding="{Binding Time,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Time" Binding="{Binding Time,  Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" MinWidth="50"/>
                     <DataGridTextColumn Header="Latitude, °" Binding="{Binding Latitude,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header="Longitude, °" Binding="{Binding Longitude, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header ="Altitude, m" Binding="{Binding Altitude, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header="Air Velocity, kt" Binding="{Binding AirVelocity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
-                    <!--<DataGridTextColumn Header="Ground Velocity" Binding="{Binding Groundvelocity,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" MinWidth="50" />-->
-                    <DataGridTextColumn Header="Track Angle, °" Binding="{Binding Direction,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
-                    <DataGridTextColumn Header="Country" Binding="{Binding Country,  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
-                    <DataGridTemplateColumn Header="Flag" IsReadOnly="True">
-                         <!--Add the Width and IsReadOnly attributes--> 
+                    <DataGridTextColumn Header="Track Angle, °" Binding="{Binding Direction, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTextColumn Header="Country" Binding="{Binding Country, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
+                    <DataGridTemplateColumn Header="Flag" IsReadOnly="True">                        
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Flag, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" Height ="20" Width="30"/>
-                                 <!--Add the closing tag for the Image element--> 
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>
-                  
-                    <!-- Add the closing tag for the DataGridTemplateColumn element -->
+                    </DataGridTemplateColumn>              
                 </DataGrid.Columns>
             </DataGrid>
            

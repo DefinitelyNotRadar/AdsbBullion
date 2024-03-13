@@ -81,3 +81,11 @@ F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketS
 F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
 F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
 F:\АДСБ для теста\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe.config
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.exe
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\bin\Debug\adsbPacketSender.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.exe
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\adsbPacketSender\obj\Debug\adsbPacketSender.pdb

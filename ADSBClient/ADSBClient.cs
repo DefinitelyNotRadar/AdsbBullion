@@ -83,9 +83,9 @@ namespace ADSBClientLib
                 tcpClient = new System.Net.Sockets.TcpClient();
 
                 // begin connect 
-                //var result = tcpClient.BeginConnect("127.0.0.1", 30005, null, null);
+                var result = tcpClient.BeginConnect("127.0.0.1", 30005, null, null);
                 //var result = tcpClient.BeginConnect("192.168.0.11", 30005, null, null);
-                var result = tcpClient.BeginConnect(localProperties.IPtcpMicroAdsb, localProperties.TcpPortMicroAdsb, null, null);
+                //var result = tcpClient.BeginConnect(localProperties.IPtcpMicroAdsb, localProperties.TcpPortMicroAdsb, null, null);
 
                 // try connect
                 var success = result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(5));
@@ -126,8 +126,6 @@ namespace ADSBClientLib
             }
             return true;            
         }
-
-
        
         /// <summary>
         /// for COM port connection
@@ -161,7 +159,6 @@ namespace ADSBClientLib
             {
                 OnDisconnect?.Invoke(this, EventArgs.Empty);
             }
-
           
             return false;
         }
@@ -212,7 +209,6 @@ namespace ADSBClientLib
             OnDisconnect?.Invoke(this, EventArgs.Empty);
             return true;
         }
-
 
         bool _continueTCP = false;
         /// <summary>
@@ -278,7 +274,6 @@ namespace ADSBClientLib
                 }
             }
         }
-
 
         /// <summary>
         /// read serial port(COM port) connection (from Alexei's tester made adsb)
@@ -425,7 +420,6 @@ namespace ADSBClientLib
             }
         }
 
-
         /// <summary>
         /// Parsing of data packets  from emulator
         /// </summary>
@@ -533,7 +527,6 @@ namespace ADSBClientLib
             }
             return false;
         }
-
 
         //messages are sent via comport one by one
         private bool ParseDimaData(string str)
@@ -669,7 +662,6 @@ namespace ADSBClientLib
 
             }
         }
-
     }
 }
 

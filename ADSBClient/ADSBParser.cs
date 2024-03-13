@@ -44,6 +44,12 @@ namespace ADSBClientLib
             listPlanes = new ObservableCollection<PlaneData>();
             listPlanes.CollectionChanged += ListPlanes_CollectionChanged;
             localProperties = yaml.YamlLoad();
+
+            CalcPermutations1(88);
+            CalcPermutations2(88);
+            CalcPermutations3(88);
+            CalcPermutations4(88);
+            CalcPermutations5(88);
         }
 
         void ListPlanes_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
@@ -70,9 +76,9 @@ namespace ADSBClientLib
                          .Where(x => x % 2 == 0)
                          .Select(x => Convert.ToByte(hexstr.Substring(x, 2), 16))
                          .ToArray();
-                string asciiHexStr = Encoding.ASCII.GetString(hexstr2byte);
+                string asciiDecodedHexStr = Encoding.ASCII.GetString(hexstr2byte);//перевод закодированного буллионом по таблице ascii сообщения в его первоначальный вид, в hex-е
 
-                Console.WriteLine(asciiHexStr);
+                Console.WriteLine(asciiDecodedHexStr);
                 
                 planeData = new PlaneData();
                 planeData.ReferenceLatitude = localProperties.RefLatitude;
@@ -80,19 +86,27 @@ namespace ADSBClientLib
                 planeData.Hemisphere = localProperties.Hemisphere;
 
                 double downlinkFormat = 0;
-                downlinkFormat = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
+                downlinkFormat = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[0], asciiDecodedHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 downlinkFormat = (int)downlinkFormat >> 3;
 
-                ////check whether the received df17 message is correct
-                //if ((downlinkFormat == 17 && !CheckCRC(asciiHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiHexStr, 18)))
-                //{
-                //    return false;
-                //}
+                //check whether the received df17/18 message is correct               
+                //if ((downlinkFormat == 17 && !CheckCRC(asciiDecodedHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiDecodedHexStr, 18)))
+                if(downlinkFormat==17 || downlinkFormat ==18)
+                {
+                    bool isBitError = CheckCRC(asciiDecodedHexStr, (int)downlinkFormat);
+                    if (isBitError == true)
+                    {
+                        if (!FixPacket(asciiDecodedHexStr, errorSyndrome.ToString()))
+                        {
+                            return false;
+                        }
+                    }
+                }
 
                 //if (downlinkFormat == 17 || downlinkFormat == 18)// || downlinkFormat == 11)//what are other df with transponderCapability data add them with || 
                 //{
                 //    double transponderCapability = 0;
-                //    transponderCapability = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
+                //    transponderCapability = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[0], asciiDecodedHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 //    transponderCapability = (int)transponderCapability & 7;
                 //    switch (transponderCapability)
                 //    {
@@ -121,12 +135,12 @@ namespace ADSBClientLib
                 double typeCode = 0;
                 if (downlinkFormat == 17 || downlinkFormat == 18)
                 {
-                    typeCode = (double)ulong.Parse(String.Concat(asciiHexStr[8], asciiHexStr[9]), System.Globalization.NumberStyles.HexNumber);
+                    typeCode = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[8], asciiDecodedHexStr[9]), System.Globalization.NumberStyles.HexNumber);
                     typeCode = (int)typeCode >> 3;
 
                     Console.WriteLine(typeCode);
 
-                    planeData.Icao = ParseICAO(asciiHexStr);                    
+                    planeData.Icao = ParseICAO(asciiDecodedHexStr);                    
                     if (planeData.Icao.Length > 0)
                     {
                         planeData = GetPlane()!=null?GetPlane():planeData;//take an old record of the plane with the same icao if exists
@@ -142,7 +156,7 @@ namespace ADSBClientLib
                     }
 
                     double transponderCapability = 0;
-                    transponderCapability = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
+                    transponderCapability = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[0], asciiDecodedHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                     transponderCapability = (int)transponderCapability & 7;
                     switch (transponderCapability)
                     {
@@ -172,7 +186,7 @@ namespace ADSBClientLib
                         try
                         {
                             planeData.PackageReceiveTime = receiveTime;
-                            ParseAirId(asciiHexStr.Substring(8, 14));
+                            ParseAirId(asciiDecodedHexStr.Substring(8, 14));
                         }
                         catch (Exception ex)
                         {
@@ -183,29 +197,29 @@ namespace ADSBClientLib
                     {
 
                         planeData.PackageReceiveTime = receiveTime;
-                        ParseSurfPos(asciiHexStr.Substring(8, 14));
+                        ParseSurfPos(asciiDecodedHexStr.Substring(8, 14));
                     }
                     if (typeCode >= 9 && typeCode <= 18)
                     {
 
                         planeData.PackageReceiveTime = receiveTime;
-                        ParseAirPosBaro(asciiHexStr.Substring(8, 14));
+                        ParseAirPosBaro(asciiDecodedHexStr.Substring(8, 14));
                     }
                     if (typeCode >= 20 && typeCode <= 22)
                     {
 
                         planeData.PackageReceiveTime = receiveTime;
-                        ParseAirPosGNSS(asciiHexStr.Substring(8, 14));
+                        ParseAirPosGNSS(asciiDecodedHexStr.Substring(8, 14));
                     }
                     if (typeCode == 19)
                     {
                         planeData.PackageReceiveTime = receiveTime;
-                        ParseAirVelocity(asciiHexStr.Substring(8, 14));
+                        ParseAirVelocity(asciiDecodedHexStr.Substring(8, 14));
                     }
                     if (typeCode == 28)
                     {
                         planeData.PackageReceiveTime = receiveTime;
-                        ParseAirStatus(asciiHexStr.Substring(8, 14));
+                        ParseAirStatus(asciiDecodedHexStr.Substring(8, 14));
                     }
                     if (typeCode == 29)
                     {
@@ -220,7 +234,7 @@ namespace ADSBClientLib
 
                 //if (downlinkFormat == 11)
                 //{
-                //    planeData.Icao = ParseICAO(asciiHexStr);
+                //    planeData.Icao = ParseICAO(asciiDecodedHexStr);
                 //    planeData = AddPlane();
 
                 //    string binarystring = String.Join(String.Empty, hexstr.Select(c => Convert.ToString(Convert.ToInt32(c.ToString(), 16), 2).PadLeft(4, '0')));//переводим 16 ичные данные пакета в их двоичный вид
@@ -252,7 +266,7 @@ namespace ADSBClientLib
 
                 //    // Extract the various fields from the message
                 //    //int subtype = (message[1] & 0xF0) >> 4;
-                //    planeData.Icao = ParseICAO(asciiHexStr);
+                //    planeData.Icao = ParseICAO(asciiDecodedHexStr);
 
                 //    planeData = AddPlane();
 
@@ -265,15 +279,15 @@ namespace ADSBClientLib
                 //    //planeData.IsOnGround = (message[10] & 0x80) >> 7;
                 //    //planeData.Altitude = ((message[10] & 0x7F) << 4) | ((message[11] & 0xF0) >> 4);
                 //    //planeData.BarometricPressureSetting = ((message[11] & 0x0F) << 8) | message[12];
-                //    planeData.VerticalSpeedSign = ((asciiHexStr[7] & 0x08) == 0x08) ? -1 : 1;
-                //    planeData.VerticalRateSpeed = (((asciiHexStr[7] & 0x07) << 6) | ((asciiHexStr[8] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
-                //    planeData.AirSpeedType = asciiHexStr[8] & 0x03;
-                //    planeData.AirVelocity = ((asciiHexStr[9] & 0x7F) << 3) | ((asciiHexStr[10] & 0xE0) >> 5);
-                //    planeData.TrackAngle = ((asciiHexStr[10] & 0x1F) << 6) | ((asciiHexStr[11] & 0xFC) >> 2);
-                //    planeData.GroundSpeed = ((asciiHexStr[11] & 0x03) << 8) | asciiHexStr[12];
-                //    planeData.IsOnGround = (asciiHexStr[13] & 0x80) >> 7;
-                //    planeData.Altitude = ((asciiHexStr[13] & 0x7F) << 4) | ((asciiHexStr[14] & 0xF0) >> 4);
-                //    planeData.BarometricPressureSetting = ((asciiHexStr[14] & 0x0F) << 8) | asciiHexStr[15];
+                //    planeData.VerticalSpeedSign = ((asciiDecodedHexStr[7] & 0x08) == 0x08) ? -1 : 1;
+                //    planeData.VerticalRateSpeed = (((asciiDecodedHexStr[7] & 0x07) << 6) | ((asciiDecodedHexStr[8] & 0xFC) >> 2)) * planeData.VerticalSpeedSign;
+                //    planeData.AirSpeedType = asciiDecodedHexStr[8] & 0x03;
+                //    planeData.AirVelocity = ((asciiDecodedHexStr[9] & 0x7F) << 3) | ((asciiDecodedHexStr[10] & 0xE0) >> 5);
+                //    planeData.TrackAngle = ((asciiDecodedHexStr[10] & 0x1F) << 6) | ((asciiDecodedHexStr[11] & 0xFC) >> 2);
+                //    planeData.GroundSpeed = ((asciiDecodedHexStr[11] & 0x03) << 8) | asciiDecodedHexStr[12];
+                //    planeData.IsOnGround = (asciiDecodedHexStr[13] & 0x80) >> 7;
+                //    planeData.Altitude = ((asciiDecodedHexStr[13] & 0x7F) << 4) | ((asciiDecodedHexStr[14] & 0xF0) >> 4);
+                //    planeData.BarometricPressureSetting = ((asciiDecodedHexStr[14] & 0x0F) << 8) | asciiDecodedHexStr[15];
 
                 //}
 
@@ -627,7 +641,7 @@ namespace ADSBClientLib
                 downlinkFormat = (int)downlinkFormat >> 3;
 
                 //check whether the received df17 message is correct
-                //if ((downlinkFormat == 17 && !CheckCRC(asciiHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiHexStr, 18)))
+                //if ((downlinkFormat == 17 && !CheckCRC(asciiDecodedHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiDecodedHexStr, 18)))
                 //{
                 //    return false;
                 //}
@@ -635,7 +649,7 @@ namespace ADSBClientLib
                 //if (downlinkFormat == 17 || downlinkFormat == 18)// || downlinkFormat == 11)//what are other df with transponderCapability data add them with || 
                 //{
                 //    double transponderCapability = 0;
-                //    transponderCapability = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
+                //    transponderCapability = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[0], asciiDecodedHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 //    transponderCapability = (int)transponderCapability & 7;
                 //    switch (transponderCapability)
                 //    {
@@ -1289,6 +1303,9 @@ namespace ADSBClientLib
                         planeData.LatEven = 90 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
 
 
+                        j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                        planeData.LatOdd = 90 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
+
                         if (NL(planeData.LatEven) == NL(planeData.LatOdd))//the odd and even lat coord are in the same lat/long? zone otherwise we cant calculate lat
                         {
                             if (planeData.Hemisphere.Equals("Northern") || planeData.Hemisphere.Equals(""))//in the case of northern hemisphere of our(adsb receiver) location
@@ -1356,6 +1373,9 @@ namespace ADSBClientLib
 
                         double j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
                         planeData.LatOdd = 90 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
+
+                        j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                        planeData.LatEven = 90 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
 
                         if (NL(planeData.LatEven) == NL(planeData.LatOdd))//the odd and even lat coord are in the same lat zone otherwise we cant calculate lat
                         {
@@ -1549,6 +1569,8 @@ namespace ADSBClientLib
                             planeData.LatEven = 360 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
                             //planeData.LatEven = 360 * (j - 60 * Math.Floor(j / 60) + planeData.CPRLatEven) / (4 * 15);
 
+                            j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                            planeData.LatOdd = 360 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
 
                             if (planeData.LatEven >= 270)
                             {
@@ -1663,6 +1685,9 @@ namespace ADSBClientLib
                             double j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
                             planeData.LatOdd = 360 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
                             //planeData.LatOdd = 360 * (j-59*Math.Floor(j/59) + planeData.CPRLatOdd) / (4 * 15 - 1);
+
+                            j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                            planeData.LatEven = 360 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
 
                             if (planeData.LatOdd >= 270)
                             {
@@ -1837,6 +1862,8 @@ namespace ADSBClientLib
                             planeData.LatEven = 360 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
                             //planeData.LatEven = 360 * (j - 60 * Math.Floor(j / 60) + planeData.CPRLatEven) / (4 * 15);
 
+                            j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                            planeData.LatOdd = 360 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
 
                             if (planeData.LatEven >= 270)
                             {
@@ -1886,8 +1913,8 @@ namespace ADSBClientLib
 
 
                             //planeData.IsLastGlobal = true;
+                            }
                         }
-                    }
                         else
                         {
                             string strCPRLat = hexstr.Substring(5, 5);
@@ -1949,6 +1976,9 @@ namespace ADSBClientLib
                             double j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
                             planeData.LatOdd = 360 * (Mod(j, 59) + planeData.CPRLatOdd) / (4 * 15 - 1);
                             //planeData.LatOdd = 360 * (j-59*Math.Floor(j/59) + planeData.CPRLatOdd) / (4 * 15 - 1);
+                            
+                            j = Math.Floor(59 * planeData.CPRLatEven - 60 * planeData.CPRLatOdd + 0.5);
+                            planeData.LatEven = 360 * (Mod(j, 60) + planeData.CPRLatEven) / (4 * 15);
 
                             if (planeData.LatOdd >= 270)
                             {
@@ -1992,7 +2022,7 @@ namespace ADSBClientLib
                             }
 
                             //planeData.IsLastGlobal = true;
-                        }
+                            }
                         }
                         else
                         {
@@ -2336,6 +2366,7 @@ namespace ADSBClientLib
             }
         }
 
+        StringBuilder errorSyndrome = new StringBuilder();
         string polynom = "1111111111111010000001001";//25 bits divisor polynom(the same as in the instruction book "book-the_1090mhz_riddle-junzi_sun.pdf")
         public bool CheckCRC(string hexstr, int downlinkFormat)
         {
@@ -2357,8 +2388,17 @@ namespace ADSBClientLib
                             if (sbbinarystring[i + j].Equals(polynom[j])) { sbbinarystring[i + j] = '0'; }
                             else sbbinarystring[i + j] = '1';
 
+                           
+
                         }
                     }
+                }
+
+                errorSyndrome = new StringBuilder();
+                //writing crc remainder(if has ones its also error syndrome)
+                for (int i = sbbinarystring.Length - 1 - 23; i <= sbbinarystring.Length - 1; i++)
+                {
+                    errorSyndrome.Append(sbbinarystring[i]);
                 }
 
                 //if remainder(last 24 bits) have any bit which is equal to '1' there was an error in the message
@@ -2786,6 +2826,254 @@ namespace ADSBClientLib
         static double ToRadians(double degrees)
         {
             return degrees * Math.PI / 180;
+        }
+        Dictionary<BigInteger, BigInteger> syndromesDict = new Dictionary<BigInteger, BigInteger>();
+
+        //вычисление всех векторов ошибок и их crc для 1 ошибки в 88 битном теле сообщения
+        private void CalcPermutations1(int vectorLength)
+        {
+            StringBuilder bitsList = new StringBuilder();
+
+            for (int i = 0; i < 88; i++)
+            {
+                for (int m = 0; m < vectorLength; m++)
+                {
+                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+                }
+                if (bitsList[i].Equals('1'))
+                {
+                    continue;
+                }
+                bitsList[i] = '1';              
+                
+                BigInteger sequenceValue = BigInteger.Parse(bitsList.ToString(), System.Globalization.NumberStyles.AllowLeadingSign);
+                StringBuilder ending = new StringBuilder(24);
+                for (int m = 0; m < 24; m++)
+                {
+                    ending.Append('0');
+                }
+                bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+                syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+               
+            }
+        }
+
+        //вычисление всех векторов ошибок и их crc для 2 ошибок в 88 битном теле сообщения
+        private void CalcPermutations2(int vectorLength)
+        {
+            StringBuilder bitsList = new StringBuilder();
+
+            for (int i = 0; i < 87; i++)
+            {
+                for (int m = 0; m < vectorLength; m++)
+                {
+                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+                }
+                if (bitsList[i].Equals('1'))
+                {
+                    continue;
+                }
+                bitsList[i] = '1';
+                for (int j = i + 1; j < 88; j++)
+                {
+                    if (bitsList[j].Equals('1'))
+                    {
+                        continue;
+                    }
+                    bitsList[j] = '1';
+                   
+
+                    int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);
+                    StringBuilder ending = new StringBuilder(24);
+                    for (int m = 0; m < 24; m++)
+                    {
+                        ending.Append('0');
+                    }
+                    bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+                    syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+
+                    
+                }
+            }
+        }
+
+        //вычисление всех векторов ошибок и их crc для 3 ошибок в 88 битном теле сообщения
+        private void CalcPermutations3(int vectorLength)
+        {
+            StringBuilder bitsList = new StringBuilder();
+
+            for (int i = 0; i < 86; i++)
+            {
+                for (int m = 0; m < vectorLength; m++)
+                {
+                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+                }
+                if (bitsList[i].Equals('1'))
+                {
+                    continue;
+                }
+                bitsList[i] = '1';
+                for (int j = i + 1; j < 87; j++)
+                {
+                    if (bitsList[j].Equals('1'))
+                    {
+                        continue;
+                    }
+                    bitsList[j] = '1';
+                    for (int k = j + 1; k < 88; k++)
+                    {
+                        if (bitsList[k].Equals('1'))
+                        {
+                            continue;
+                        }
+                        bitsList[k] = '1';                      
+                          
+                        int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);
+                        StringBuilder ending = new StringBuilder(24);
+                        for (int m = 0; m < 24; m++)
+                        {
+                            ending.Append('0');
+                        }
+                        bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+                        syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+                        
+                    }
+                }
+            }
+        }
+
+        //вычисление всех векторов ошибок и их crc для 4 ошибок в 88 битном теле сообщения
+        private void CalcPermutations4(int vectorLength)
+        {
+            StringBuilder bitsList = new StringBuilder();
+
+            for (int i = 0; i < 85; i++)
+            {
+                for (int m = 0; m < vectorLength; m++)
+                {
+                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+                }
+                if (bitsList[i].Equals('1'))
+                {
+                    continue;
+                }
+                bitsList[i] = '1';
+                for (int j = i + 1; j < 86; j++)
+                {
+                    if (bitsList[j].Equals('1'))
+                    {
+                        continue;
+                    }
+                    bitsList[j] = '1';
+                    for (int k = j + 1; k < 87; k++)
+                    {
+                        if (bitsList[k].Equals('1'))
+                        {
+                            continue;
+                        }
+                        bitsList[k] = '1';
+                        for (int l = k + 1; l < 88; l++)
+                        {
+                            if (bitsList[l].Equals('1'))
+                            {
+                                continue;
+                            }
+                            bitsList[l] = '1';
+                            int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);//for example error vector is 00000...0001111 = 15;
+                            StringBuilder ending = new StringBuilder(24);
+                            for (int m = 0; m<24; m++)
+                            {
+                                ending.Append('0');
+                            }
+                            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+                            syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+                        }
+                    }
+                }
+            }
+        }
+        //вычисление всех векторов ошибок и их crc для 5 ошибок в 88 битном теле сообщения
+        private void CalcPermutations5(int vectorLength)
+        {
+            StringBuilder bitsList = new StringBuilder();
+
+            for (int i = 0; i < 84; i++)
+            {
+                for (int m = 0; m < vectorLength; m++)
+                {
+                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+                }
+                if (bitsList[i].Equals('1'))
+                {
+                    continue;
+                }
+                bitsList[i] = '1';
+                for (int j = i + 1; j < 85; j++)
+                {
+                    if (bitsList[j].Equals('1'))
+                    {
+                        continue;
+                    }
+                    bitsList[j] = '1';
+                    for (int k = j + 1; k < 86; k++)
+                    {
+                        if (bitsList[k].Equals('1'))
+                        {
+                            continue;
+                        }
+                        bitsList[k] = '1';
+                        for (int l = k + 1; l < 87; l++)
+                        {
+                            if (bitsList[l].Equals('1'))
+                            {
+                                continue;
+                            }
+                            bitsList[l] = '1';
+                            for(int m = l+1; m<88;m++)
+                            {
+                                int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);//for example error vector is 00000...0011111 = 31;
+                                StringBuilder ending = new StringBuilder(24);
+                                for (int n = 0; n < 24; n++)
+                                {
+                                    ending.Append('0');
+                                }
+                                bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+                                syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+        private BigInteger CalcErrVectorCRC(StringBuilder bitsList)
+        {          
+            
+            //calculating crc of 112 bits error vector
+            for (int i = 0; i < bitsList.Length-24-1; i++)
+            {
+
+                if (bitsList[i].Equals('1'))
+                {
+                    for (int j = 0; j < polynom.Length; j++)
+                    {
+
+                        if (bitsList[i + j].Equals(polynom[j])) { bitsList[i + j] = '0'; }
+                        else bitsList[i + j] = '1';
+
+                    }
+                }
+            }
+
+            BigInteger crcInt = BigInteger.Parse(bitsList.ToString(), System.Globalization.NumberStyles.AllowLeadingSign);
+            return crcInt;
+            
+        }
+
+        private bool FixPacket(string packet, string syndrome)
+        {
+
+            return true;
         }
     }
 }

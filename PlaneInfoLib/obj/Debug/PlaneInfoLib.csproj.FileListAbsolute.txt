@@ -40,3 +40,9 @@ F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.cs
 F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
 F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
 F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
