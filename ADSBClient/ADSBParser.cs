@@ -47,9 +47,9 @@ namespace ADSBClientLib
 
             CalcPermutations1(88);
             CalcPermutations2(88);
-            CalcPermutations3(88);
-            CalcPermutations4(88);
-            CalcPermutations5(88);
+            //CalcPermutations3(88);
+            //CalcPermutations4(88);
+            //CalcPermutations5(88);
         }
 
         void ListPlanes_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
@@ -66,6 +66,7 @@ namespace ADSBClientLib
             //}
         }
 
+        double downlinkFormat = 0;
         public bool ParseData(string hexstr, DateTime msgTime)
         {
             try
@@ -79,29 +80,29 @@ namespace ADSBClientLib
                 string asciiDecodedHexStr = Encoding.ASCII.GetString(hexstr2byte);//перевод закодированного буллионом по таблице ascii сообщения в его первоначальный вид, в hex-е
 
                 Console.WriteLine(asciiDecodedHexStr);
-                
+
+                //проверка и исправление входящего пакета
+                bool isBitError = !CheckCRC(asciiDecodedHexStr, 17);
+                if (isBitError)
+                {
+                    if (!FixPacket(asciiDecodedHexStr, errorSyndrome.ToString()))
+                    {
+                        return false;
+                    }
+                }
+
                 planeData = new PlaneData();
                 planeData.ReferenceLatitude = localProperties.RefLatitude;
                 planeData.ReferenceLongitude = localProperties.RefLongitude;
                 planeData.Hemisphere = localProperties.Hemisphere;
 
-                double downlinkFormat = 0;
+               
                 downlinkFormat = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[0], asciiDecodedHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 downlinkFormat = (int)downlinkFormat >> 3;
 
                 //check whether the received df17/18 message is correct               
                 //if ((downlinkFormat == 17 && !CheckCRC(asciiDecodedHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiDecodedHexStr, 18)))
-                if(downlinkFormat==17 || downlinkFormat ==18)
-                {
-                    bool isBitError = CheckCRC(asciiDecodedHexStr, (int)downlinkFormat);
-                    if (isBitError == true)
-                    {
-                        if (!FixPacket(asciiDecodedHexStr, errorSyndrome.ToString()))
-                        {
-                            return false;
-                        }
-                    }
-                }
+             
 
                 //if (downlinkFormat == 17 || downlinkFormat == 18)// || downlinkFormat == 11)//what are other df with transponderCapability data add them with || 
                 //{
@@ -2588,7 +2589,7 @@ namespace ADSBClientLib
                 
         }
 
-        public static string BinaryStringToHexString(string binary)
+        private string BinaryStringToHexString(string binary)
         {
             if (string.IsNullOrEmpty(binary))
                 return binary;
@@ -2611,7 +2612,7 @@ namespace ADSBClientLib
             }
 
             return result.ToString();
-        }
+        }      
 
         public string GetCountry(string icaoValue)
         {
@@ -2832,29 +2833,39 @@ namespace ADSBClientLib
         //вычисление всех векторов ошибок и их crc для 1 ошибки в 88 битном теле сообщения
         private void CalcPermutations1(int vectorLength)
         {
-            StringBuilder bitsList = new StringBuilder();
-
-            for (int i = 0; i < 88; i++)
+            try
             {
+                StringBuilder bitsList = new StringBuilder();
                 for (int m = 0; m < vectorLength; m++)
                 {
                     bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
                 }
-                if (bitsList[i].Equals('1'))
-                {
-                    continue;
-                }
-                bitsList[i] = '1';              
-                
-                BigInteger sequenceValue = BigInteger.Parse(bitsList.ToString(), System.Globalization.NumberStyles.AllowLeadingSign);
                 StringBuilder ending = new StringBuilder(24);
                 for (int m = 0; m < 24; m++)
                 {
                     ending.Append('0');
                 }
-                bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
-                syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
-               
+                bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибки
+                for (int i = 0; i < 88; i++)
+                {
+
+                    if (bitsList[i].Equals('1'))
+                    {
+                        continue;
+                    }
+                    bitsList[i] = '1';//задаём определенный ошибочный бит в векторе ошибок и далее вычисляем его crc(синдром данной ошибки)
+
+                    StringBuilder bitsListMsg = new StringBuilder(bitsList.Length);
+                    bitsListMsg.Append(bitsList);
+                    BigInteger sequenceValue = bitsListMsg.Remove(88, 24).ToString().Aggregate(BigInteger.Zero, (s, a) => (s << 1) + a - '0');//перед вычислением значения сообщения в int, для добавления в слолварь соответствия вектора ошибки(в инте) и синдрома, убираем остаток в 24 нулевых бита от вектора ошибки, до этого добавленный для расчета crc
+
+                    syndromesDict.Add(CalcErrSyndromeCRC(bitsList), sequenceValue);//словарь хранит значения векторов ошибок и их значение crc в int
+                    bitsList[i] = '0';
+                }
+            }
+            catch(Exception ex)
+            {
+
             }
         }
 
@@ -2862,13 +2873,20 @@ namespace ADSBClientLib
         private void CalcPermutations2(int vectorLength)
         {
             StringBuilder bitsList = new StringBuilder();
+            for (int m = 0; m < vectorLength; m++)
+            {
+                bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+            }
+            StringBuilder ending = new StringBuilder(24);
+            for (int m = 0; m < 24; m++)
+            {
+                ending.Append('0');
+            }
+            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
 
             for (int i = 0; i < 87; i++)
             {
-                for (int m = 0; m < vectorLength; m++)
-                {
-                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
-                }
+               
                 if (bitsList[i].Equals('1'))
                 {
                     continue;
@@ -2881,33 +2899,37 @@ namespace ADSBClientLib
                         continue;
                     }
                     bitsList[j] = '1';
-                   
 
-                    int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);
-                    StringBuilder ending = new StringBuilder(24);
-                    for (int m = 0; m < 24; m++)
-                    {
-                        ending.Append('0');
-                    }
-                    bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
-                    syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
 
-                    
+
+                    StringBuilder bitsListMsg = new StringBuilder(bitsList.Length);
+                    bitsListMsg.Append(bitsList);
+                    BigInteger sequenceValue = bitsListMsg.Remove(88, 24).ToString().Aggregate(BigInteger.Zero, (s, a) => (s << 1) + a - '0');//перед вычислением значения сообщения в int, для добавления в слолварь соответствия вектора ошибки(в инте) и синдрома, убираем остаток в 24 нулевых бита от вектора ошибки, до этого добавленный для расчета crc
+                    syndromesDict.Add(CalcErrSyndromeCRC(bitsList), sequenceValue);//словарь хранит значения векторов ошибок и их значение crc в int
+
+                    bitsList[j] = '0';
                 }
+                bitsList[i] = '0';
             }
         }
 
         //вычисление всех векторов ошибок и их crc для 3 ошибок в 88 битном теле сообщения
         private void CalcPermutations3(int vectorLength)
         {
-            StringBuilder bitsList = new StringBuilder();
 
+            StringBuilder bitsList = new StringBuilder();
+            for (int m = 0; m < vectorLength; m++)
+            {
+                bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+            }
+            StringBuilder ending = new StringBuilder(24);
+            for (int m = 0; m < 24; m++)
+            {
+                ending.Append('0');
+            }
+            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
             for (int i = 0; i < 86; i++)
             {
-                for (int m = 0; m < vectorLength; m++)
-                {
-                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
-                }
                 if (bitsList[i].Equals('1'))
                 {
                     continue;
@@ -2926,33 +2948,39 @@ namespace ADSBClientLib
                         {
                             continue;
                         }
-                        bitsList[k] = '1';                      
-                          
-                        int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);
-                        StringBuilder ending = new StringBuilder(24);
-                        for (int m = 0; m < 24; m++)
-                        {
-                            ending.Append('0');
-                        }
-                        bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
-                        syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
-                        
+                        bitsList[k] = '1';
+
+
+                        StringBuilder bitsListMsg = new StringBuilder(bitsList.Length);
+                        bitsListMsg.Append(bitsList);
+                        BigInteger sequenceValue = bitsListMsg.Remove(88, 24).ToString().Aggregate(BigInteger.Zero, (s, a) => (s << 1) + a - '0');//перед вычислением значения сообщения в int, для добавления в слолварь соответствия вектора ошибки(в инте) и синдрома, убираем остаток в 24 нулевых бита от вектора ошибки, до этого добавленный для расчета crc
+                        syndromesDict.Add(CalcErrSyndromeCRC(bitsList), sequenceValue);//словарь хранит значения векторов ошибок и их значение crc в int
+                        bitsList[k] = '0';
                     }
+                    bitsList[j] = '0';
                 }
+                bitsList[i] = '0';
             }
         }
 
         //вычисление всех векторов ошибок и их crc для 4 ошибок в 88 битном теле сообщения
         private void CalcPermutations4(int vectorLength)
         {
-            StringBuilder bitsList = new StringBuilder();
 
+            StringBuilder bitsList = new StringBuilder();
+            for (int m = 0; m < vectorLength; m++)
+            {
+                bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+            }
+            StringBuilder ending = new StringBuilder(24);
+            for (int m = 0; m < 24; m++)
+            {
+                ending.Append('0');
+            }
+            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
             for (int i = 0; i < 85; i++)
             {
-                for (int m = 0; m < vectorLength; m++)
-                {
-                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
-                }
+               
                 if (bitsList[i].Equals('1'))
                 {
                     continue;
@@ -2979,30 +3007,39 @@ namespace ADSBClientLib
                                 continue;
                             }
                             bitsList[l] = '1';
-                            int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);//for example error vector is 00000...0001111 = 15;
-                            StringBuilder ending = new StringBuilder(24);
-                            for (int m = 0; m<24; m++)
-                            {
-                                ending.Append('0');
-                            }
-                            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
-                            syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+
+                            StringBuilder bitsListMsg = new StringBuilder(bitsList.Length);
+                            bitsListMsg.Append(bitsList);
+                            BigInteger sequenceValue = System.Numerics.BigInteger.Parse(bitsListMsg.Remove(88, 24).ToString());//перед вычислением значения сообщения в int, для добавления в слолварь соответствия вектора ошибки(в инте) и синдрома, убираем остаток в 24 нулевых бита от вектора ошибки, до этого добавленный для расчета crc//for example error error vector is 00000....0001111 = 15 в инте(далее в словаре будет пара: синдром в инте и 15);
+                            syndromesDict.Add(CalcErrSyndromeCRC(bitsList), sequenceValue);//словарь хранит значения векторов ошибок и их значение crc в int
+                            bitsList[l] = '0';
                         }
+                        bitsList[k] = '0';
                     }
+                    bitsList[j] = '0';
                 }
+                bitsList[i] = '0';
             }
         }
         //вычисление всех векторов ошибок и их crc для 5 ошибок в 88 битном теле сообщения
         private void CalcPermutations5(int vectorLength)
         {
             StringBuilder bitsList = new StringBuilder();
-
+            for (int m = 0; m < vectorLength; m++)
+            {
+                bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
+            }
+            StringBuilder ending = new StringBuilder(24);
+            for (int m = 0; m < 24; m++)
+            {
+                ending.Append('0');
+            }
+            bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
+           
+         
             for (int i = 0; i < 84; i++)
             {
-                for (int m = 0; m < vectorLength; m++)
-                {
-                    bitsList.Append('0'); // Initialize starting sequence with each bite equal to zero
-                }
+                
                 if (bitsList[i].Equals('1'))
                 {
                     continue;
@@ -3031,49 +3068,80 @@ namespace ADSBClientLib
                             bitsList[l] = '1';
                             for(int m = l+1; m<88;m++)
                             {
-                                int sequenceValue = Convert.ToInt32(bitsList.ToString(), 2);//for example error vector is 00000...0011111 = 31;
-                                StringBuilder ending = new StringBuilder(24);
-                                for (int n = 0; n < 24; n++)
+                                if (bitsList[m].Equals('1'))
                                 {
-                                    ending.Append('0');
+                                    continue;
                                 }
-                                bitsList.Append(ending);//добавили нулями до 112 бит, чтобы далее можно было вычислить crc от конкретного вектора ошибкт
-                                syndromesDict.Add(sequenceValue, CalcErrVectorCRC(bitsList));//словарь хранит значения векторов ошибок и их значение crc в int
+                                bitsList[m] = '1';
+
+                                StringBuilder bitsListMsg = new StringBuilder(bitsList.Length);
+                                bitsListMsg.Append(bitsList);
+                                BigInteger sequenceValue = bitsListMsg.Remove(88, 24).ToString().Aggregate(BigInteger.Zero, (s, a) => (s << 1) + a - '0');//перед вычислением значения сообщения в int, для добавления в слолварь соответствия вектора ошибки(в инте) и синдрома, убираем остаток в 24 нулевых бита от вектора ошибки, до этого добавленный для расчета crc//for example error vector is 00000...0011111 = 31;
+                                syndromesDict.Add(CalcErrSyndromeCRC(bitsList), sequenceValue);//словарь хранит значения векторов ошибок и их значение crc в int
+                                bitsList[m] = '0';
                             }
-                           
+                            bitsList[l] = '0';
                         }
+                        bitsList[k] = '0';
                     }
+                    bitsList[j] = '0';
                 }
+                bitsList[i] = '0';
             }
         }
-        private BigInteger CalcErrVectorCRC(StringBuilder bitsList)
-        {          
-            
+        private BigInteger CalcErrSyndromeCRC(StringBuilder vector)
+        {
+            StringBuilder errorBitVector = new StringBuilder(vector.Length);
+            errorBitVector.Append(vector);
             //calculating crc of 112 bits error vector
-            for (int i = 0; i < bitsList.Length-24-1; i++)
+            for (int i = 0; i <= errorBitVector.Length-24-1; i++)
             {
 
-                if (bitsList[i].Equals('1'))
+                if (errorBitVector[i].Equals('1'))
                 {
                     for (int j = 0; j < polynom.Length; j++)
                     {
 
-                        if (bitsList[i + j].Equals(polynom[j])) { bitsList[i + j] = '0'; }
-                        else bitsList[i + j] = '1';
+                        if (errorBitVector[i + j].Equals(polynom[j])) { errorBitVector[i + j] = '0'; }
+                        else errorBitVector[i + j] = '1';
 
                     }
                 }
             }
 
-            BigInteger crcInt = BigInteger.Parse(bitsList.ToString(), System.Globalization.NumberStyles.AllowLeadingSign);
+            BigInteger crcInt = System.Numerics.BigInteger.Parse(errorBitVector.ToString());//ненулевой! остаток(последние 24 бита) от вычисления crc от вектора ошибки и будет симптомом данной ошибки
             return crcInt;
             
         }
 
-        private bool FixPacket(string packet, string syndrome)
+        private bool FixPacket(string badPacketInHex, string packetErrSyndrome)
         {
+            
+            BigInteger packetErrSyndromeInt = System.Numerics.BigInteger.Parse(packetErrSyndrome.ToString());
+            BigInteger badPacketInInt = BigInteger.Parse(badPacketInHex, NumberStyles.HexNumber);
+            BigInteger fixingVectorInt = 0;
+            bool isKnownError = syndromesDict.TryGetValue(packetErrSyndromeInt, out fixingVectorInt);
+            BigInteger correctPacket = -1;
+            if (isKnownError)
+            {
+               fixingVectorInt = fixingVectorInt << 24;//добавляем к корректирующему вектору 24 нулевых бита остатка, так как корректируемый пакет приходит тоже с остатком
+               correctPacket = badPacketInInt ^ fixingVectorInt;//xor испорченного пакета с вектором ошибки, совпадающего по синдрому с данным испорченным пакетом, в итоге получаем исправленный пакет
 
-            return true;
+            }
+            else
+            {
+                return false;
+            }
+            //проверка crc и возвращение true если все ок, пакет исправлен
+            bool isPacketFixed = CheckCRC(correctPacket.ToString("X"), (int)downlinkFormat);
+            if(isPacketFixed)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
