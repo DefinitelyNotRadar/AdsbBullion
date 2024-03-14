@@ -1,0 +1,48 @@
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+E:\АДСБ\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+E:\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+E:\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+E:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+E:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+E:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+F:\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+F:\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+F:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+F:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+F:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+F:\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\PlaneInfoLib\obj\Debug\PlaneInfoLib.pdb

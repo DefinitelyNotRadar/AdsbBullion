@@ -1,0 +1,13 @@
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\UDPAdsbReceiver.pdb
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Release\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Release\UDPAdsbReceiver.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Release\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Release\UDPAdsbReceiver.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Release\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Release\UDPAdsbReceiver.pdb

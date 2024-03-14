@@ -1,0 +1,18 @@
+IPtcpMicroAdsb: 192.168.0.11
+TcpPortMicroAdsb: 30005
+IPudpLocal: 192.168.1.11
+IPudpRemote: 225.0.0.37
+UdpPortLocal: 16000
+UdpPortRemote: 16001
+endPoint: 127.0.0.1:30051
+NameApplication: grozaAdsb
+WritingSerialNumber: ''
+IsWritingQuery: true
+IsWriteDataToExcel: false
+IsSend2UDPAdsbReceiver: false
+UDPAdsbReceiverPort: 16002
+UDPAdsbReceiverIp: 127.0.0.1
+Hemisphere: Northern
+RefLatitude: 53.889725
+RefLongitude: 28.032442
+

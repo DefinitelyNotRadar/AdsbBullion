@@ -1,0 +1,2299 @@
+decoded data
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E Extended-squitt. Turkey      V=458 HD=-117 Var=64  CA:L2-air  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:20508675C12820 THY50R    
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36025ft  *  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:FF81C300000000 
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+4BAA4E Short-air-sourv. Turkey      AC:36025ft  crosslink  Vmax:300..600kts  
+4BAA4E Extended-squitt. Turkey      36025ft  *  CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:C6500030A40000 
+4BAA4E Extended-squitt. Turkey      V=458 HD=-117 Var=64  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Extended-squitt. Turkey      36025ft  *  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Extended-squitt. Turkey      36025ft  *  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=449 HD=-117 Var=-64  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36025ft  *  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FFDAD1386004DD 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA15303FDFFF 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D3D9FF30601C01 
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:20508675C12820 
+4BAA4E Extended-squitt. Turkey      V=457 HD=-118 Var=64  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36000ft  
+4BAA4E Sourv.-alt-reply Turkey      AC:36000ft  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E Short-air-sourv. Turkey      AC:36025ft  crosslink  
+4BAA4E Extended-squitt. Turkey      Id:THY50R    CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4511  L:24,4889 Rc<185m  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:20508675C12820 
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E Extended-squitt. Turkey      V=458 HD=-117 Var=64  CA:L2-air  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:20508675C12820 
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4472  L:24,4760 Rc<185m  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:FF81C300000000 
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+4BAA4E Short-air-sourv. Turkey      AC:36025ft  crosslink  Vmax:300..600kts  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4462  L:24,4729 Rc<185m  CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-alt-reply   Turkey      AC:36025ft  MB:C6500030A40000 
+4BAA4E Extended-squitt. Turkey      V=458 HD=-117 Var=64  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4453  L:24,4696 Rc<185m  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4434  L:24,4635 Rc<185m  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=449 HD=-117 Var=-64  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4404  L:24,4535 Rc<185m  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36025ft  
+4BAA4E Extended-squitt. Turkey      36025ft  B:54,4356  L:24,4375 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=449 HD=-117 Var=-64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FE05FFD 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3939  L:24,2993 Rc<185m  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=459 HD=-116 Var=64  CA:L2-air  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:10030A80F50000 
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:10030A80F50000 
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:10030A80F50000 
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 THY1KZ    
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:FF81C300000000 
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:10030A80F50000 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33950ft  *  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:803AD1386004DC 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6540  L:25,1689 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:801AD1386004DC 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3FA132FE03400 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AD1386004DC 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3FA1530200C00 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6519  L:25,1619 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFDAD1386004DC 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFFAD1386004DC 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFFAD1386004DC 
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6511  L:25,1589 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFFAD1386004DC 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6505  L:25,1570 Rc<185m  CA:L2-air  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:C6500030A40000 
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:D3FA132FE03400 
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:C6500030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:D3FA132FE03400 
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6489  L:25,1516 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:801AD1386004DC 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3EA132FE02C01 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:936E408F161095 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:E6E46DC588903B 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3EA132FE02C01 
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:10030A80F50000 
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  Vmax:300..600kts  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:10030A80F50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:FFFAD1386004DC 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:D3EA132FE01C01 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:20508675C12820 
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:C6500030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3EA132FE01C01 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:C6500030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D54A0330BFC400 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=64  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:20508675C12820 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3847  L:24,2647 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E Extended-squitt. Turkey      V=459 HD=-114 Var=0  CA:L2-air  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:D55A0330A01C00 
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:C6500030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6471  L:25,1452 Rc<185m  CA:L2-air  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=64  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:FF81C300000000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      Id:THY50R    CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:FFDAD1386004DC 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:00000000000000 
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:10030A80F50000 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3832  L:24,2587 Rc<185m  CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:D57A0330A03C00 
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  Vmax:300..600kts  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:00000000000000 
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:C6500030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D Extended-squitt. Turkey      V=450 HD=-117 Var=64  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FE04C02 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFBAD1387FFCDB 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:FFBAD1387FFCDB 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FE05402 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D5AA0330BFD400 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:83BAF9396044DF 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FFBAD1387FFCDB 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4E Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FE03402 
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6437  L:25,1336 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  Vmax:300..600kts  
+4BAA4D Extended-squitt. Turkey      V=450 HD=-117 Var=64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3811  L:24,2501 Rc<185m  CA:L2-air  
+4BAA4E Extended-squitt. Turkey      V=458 HD=-113 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Extended-squitt. Turkey      V=450 HD=-117 Var=64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FE03C01 
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:C2680030A40000 
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3802  L:24,2463 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4D Extended-squitt. Turkey      V=450 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3DA132FFFEC01 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6414  L:25,1257 Rc<185m  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:D3DA132FE06400 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:00000000000000 
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6398  L:25,1202 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FFBACF387FFCDC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA112FE01C00 
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:20508675C12820 
+4BAA4E Sourv-ident-repl Turkey      ID:5212  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:C6500030A40000 
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D61A0330A01C00 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF9ACF387FFCDC 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA112FFFF400 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:E6D6C7B9E2103C 
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6389  L:25,1173 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF77D1949ACC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF77D1949ACC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF77D1949ACC 
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA112FE00FFF 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4E ComB-alt-reply   Turkey      AC:36050ft  MB:C6500030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6347  L:25,1033 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=451 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:D3DA112FA01C00 
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:10010680B60000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-ident-reply USA         ID:6330  MB:10010680B60000 
+AE149A ComB-ident-reply USA         ID:6330  MB:10010680B60000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D69A0330BFE400 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4E ComB-ident-reply Turkey      ID:5212  MB:D69A0130A00400 
+4BAA4E Sourv.-alt-reply Turkey      AC:36050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4E Extended-squitt. Turkey      36050ft  B:54,3686  L:24,1942 Rc<185m  CA:L2-air  
+4BAA4E Short-air-sourv. Turkey      AC:36050ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,6208  L:25,0563 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA112FE00C00 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33950ft  crosslink  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6158  L:25,0393 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF67CDBE972E 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF67CDBE972E 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:801ACD38A004DC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,6149  L:25,0362 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FE04401 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FE04401 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:807ACD38A00CDC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FE02C01 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FE02C01 
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  Vmax:300..600kts  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:00000000000000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,6124  L:25,0278 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,6118  L:25,0259 Rc<185m  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA132FE03C01 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:805ACD38A004DC 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FE00C00 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FFFEC00 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFFACD38A004DC 
+4BAA4D Sourv.-alt-reply Turkey      AC:33950ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA132FFFDC00 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,6078  L:25,0125 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FFFACD38A004DC 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:10030A80E50000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF77CBD89564 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:58AF77CBD89564 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:990D9499F8049E 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA132FFF8C00 
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:9369F88E2D1095 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33950ft  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3CA132FFFD400 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA132FE01C00 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFFACD38E004DC 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:FF81C300000000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FFFC400 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3DA132FFFC400 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:D3DA132FE00C00 
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:33975ft  crosslink  
+4BAA4D Extended-squitt. Turkey      V=453 HD=-117 Var=0  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,5949  L:24,9689 Rc<185m  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33975ft  B:54,5892  L:24,9495 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      33950ft  B:54,5884  L:24,9470 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:805ACD38E00CDC 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:7  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:7  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:7  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:8012E3377FFCDF 
+4BA9C5 Extended-squitt. Turkey      39000ft  *  CA:7  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:20508671D8C820 THY16L    
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:7  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:FE81C300000000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:10030A80FD0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:8012E3376004E0 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:9489E130BFE400 
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3861  L:24,0957 Rc<185m  CA:7  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:20508671D8C820 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:20508671D8C820 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:7  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:58C90042748DBE 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:58C907A7C06B76 
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:7  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CD6D384C0B930B 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:FE81C300000000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3919  L:24,1168 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3942  L:24,1256 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3956  L:24,1306 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:33975ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:33975ft  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3961  L:24,1324 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3966  L:24,1339 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  no-ACAS  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  no-ACAS  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9479E130BFBC01 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9479E130A00C01 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,3979  L:24,1389 Rc<185m  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=64  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-8  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:58C907A97C6D3A 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:58C907A97C6D3A 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CD79F657AB930B 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc2  MB:10030A80FD0000 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3CA1530205C01 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:CC300030AA0000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Extended-squitt. Turkey      V=456 HD=-117 Var=64  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc2  MB:10030A80FD0000 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc2  MB:10030A80FD0000 
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5548  L:24,8341 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FFDACD392004DD 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3CA15303FE401 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc2  MB:10030A80FD0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:9479E130BFDC00 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3CA1530203401 
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:205086712DA820 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:205086712DA820 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5517  L:24,8234 Rc<185m  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:CC300030AA0000 
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:7  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA1530200C01 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3CA1530200C01 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:20508671D8C820 
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3BA1530204400 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:CC300030AA0000 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3BA1530200C00 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5455  L:24,8028 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:D3BA1530200C01 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5436  L:24,7968 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:00000000000000 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:801ACB392004DD 
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5424  L:24,7926 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:805ACB392004DD 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:801ACB393FFCDE 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5357  L:24,7703 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:10030A80E50000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:805ACB392004DE 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3AA1730601C02 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34000ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:E1038900000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34000ft  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5312  L:24,7552 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34000ft  B:54,5302  L:24,7520 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34000ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:12000000000000 
+AE149A All-call-reply   USA         Inter:SI-9  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,5159  L:24,7043 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A19307FF400 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A19307FF400 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:805ACB396004DE 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D39A19307FD400 
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,5125  L:24,6930 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 REDEYE6   
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,5100  L:24,6847 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:803AC9396004DE 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D38A17307FBC00 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D38A1730600C00 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:00000000000000 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,5068  L:24,6740 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9396004DE 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1730604C02 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D38A1730605C02 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D38A1730604402 
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,5016  L:24,6566 Rc<185m  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:00000000000000 
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:E1038900000000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BA9C5 Extended-squitt. Turkey      CA:7  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:20508671D8C820 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  no-ACAS  
+AE149A Extended-squitt. USA         Id:REDEYE6   CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-ident-reply USA         ID:6330  MB:20485105645DA0 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc2  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:10010680B60000 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BA9C5 All-call-reply   Turkey      Inter:SI-8  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9479E330FFC7FE 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:FFF2E5376004E0 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:00000000000000 
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+AE149A All-call-reply   USA         CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,4638  L:24,3810 Rc<185m  CA:7  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930A05C01 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:CC300030AA0000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:10030A80FD0000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:9469E330E02402 
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,4655  L:24,3874 Rc<185m  CA:7  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:7  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:FE81C300000000 
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9396004DF 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930A02C01 
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930A03400 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:9459E330FFF401 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:58AFA7B6808171 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-21  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9396004DF 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:E5E7BCF1CB9046 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3AA19307FDC01 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4741  L:24,5655 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:803AC9396004DF 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3AA1930602C01 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A19307FEC01 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4715  L:24,5572 Rc<185m  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A19307FF401 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:00000000000000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930BFFC01 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930A06400 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4653  L:24,5366 Rc<185m  CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:E5D98EE6149046 
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:FE81C300000000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CC300030AA0000 
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D Long-air-sourv.  Turkey      AC:34050ft  MV:58AFA04F18A22F  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4633  L:24,5298 Rc<185m  CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 Extended-squitt. Turkey      V=442 HD=65 Var=0  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930BFDC00 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9469E330E01400 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:803AC9396004DF 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1930A05C00 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4603  L:24,5202 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:805AC939600CDF 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:E1038900000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:00000000000000 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1930A02400 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9396004DF 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:8012E537A004E0 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D3AA1930A01400 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1930A02C00 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:935CB08B6910A0 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4546  L:24,5012 Rc<185m  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:58AFA7B2947DD1 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4522  L:24,4931 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:805AC939600CDF 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4498  L:24,4851 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      V=458 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1D30E03C01 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:803AC9396004E0 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1D30FFFC01 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:00000000000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:00000000000000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4474  L:24,4774 Rc<185m  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4467  L:24,4751 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:801AC9396004E0 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9397FFCE0 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1B30BFEC01 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:E5BD38CEA81046 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:205086712DA820 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4448  L:24,4687 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9396004E0 
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1B30BFF401 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1B30A03401 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1B30A03401 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1B30A01401 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  Vmax:300..600kts  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:801AC939600CE0 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FF81C300000000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:801AC9397FF4E0 
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:D39A1B30A03401 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4389  L:24,4494 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:D39A1B30A02C01 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:801AC9392004E0 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4370  L:24,4430 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=457 HD=-117 Var=64  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:E1038900000000 
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34050ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:FFFAC9393FF4E0 
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4348  L:24,4356 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=456 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,4291  L:24,4167 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      V=456 HD=-117 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D ComB-alt-reply   Turkey      AC:34050ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:7  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:7  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc2  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc2  MB:FFF2E937A004E1 
+4BAA4D Extended-squitt. Turkey      V=455 HD=-116 Var=-64  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:8012E937A004E1 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34050ft  B:54,3936  L:24,2988 Rc<185m  CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5464  L:24,6876 Rc<185m  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Short-air-sourv. Turkey      AC:34050ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D44A19307FF7FE 
+4BAA4D Extended-squitt. Turkey      V=455 HD=-116 Var=-64  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D44A19307FF7FE 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Extended-squitt. Turkey      V=444 HD=65 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3917  L:24,2919 Rc<185m  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5487  L:24,6963 Rc<185m  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 All-call-reply   Turkey      Inter:SI-8  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:841AE738E044DF 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CC300030AA0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9459E330E00FFF 
+4BAA4D All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BAA4D Extended-squitt. Turkey      V=455 HD=-114 Var=-64  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3869  L:24,2739 Rc<185m  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  Vmax:300..600kts  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9459E330E017FF 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:FFD2E937BFFCE1 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      Id:THY16L    CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      V=444 HD=65 Var=0  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3857  L:24,2693 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  Vmax:300..600kts  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D50A1730602FFE 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:58AF97A70C72F2 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      V=455 HD=-114 Var=-64  CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=444 HD=65 Var=0  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  Vmax:300..600kts  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:205086712DA820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9449E330E00C01 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3817  L:24,2531 Rc<185m  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3804  L:24,2477 Rc<185m  CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:FF81C300000000 
+4BAA4D Extended-squitt. Turkey      V=454 HD=-112 Var=-64  CA:L2-air  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:10030A80E50000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D Extended-squitt. Turkey      V=454 HD=-112 Var=-64  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:83FB0338E04CDE 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  Vmax:300..600kts  
+4BAA4D Sourv-ident-repl Turkey      ID:6244  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:C2680030A40000 
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3795  L:24,2437 Rc<185m  CA:L2-air  
+4BAA4D Sourv.-alt-reply Turkey      AC:34025ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:10030A80E50000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:9355C089EC909D 
+4BAA4D Short-air-sourv. Turkey      AC:34025ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3790  L:24,2417 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      Id:THY1KZ    CA:L2-air  
+4BAA4D ComB-alt-reply   Turkey      AC:34025ft  MB:D5AA19307FD7FE 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5626  L:24,7482 Rc<185m  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D Extended-squitt. Turkey      34025ft  B:54,3766  L:24,2313 Rc<185m  CA:L2-air  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9459E330FFE7FF 
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:58C900604CAD04 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5659  L:24,7608 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      V=444 HD=65 Var=0  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:20508671D8C820 
+4BA9C5 Extended-squitt. Turkey      V=444 HD=65 Var=0  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:00000000000000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5690  L:24,7727 Rc<185m  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9459E330FFFC00 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=445 HD=65 Var=0  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5711  L:24,7803 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5716  L:24,7821 Rc<185m  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4D All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  DR:CommB-bc1  MB:10030A80FD0000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  DR:CommB-bc1  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  DR:CommB-bc1  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:10030A80FD0000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:10030A80FD0000 
+4BA9C5 ComB-ident-reply Turkey      ID:4551  DR:CommB-bc1  MB:10030A80FD0000 
+4BAA4D ComB-ident-reply Turkey      ID:6244  MB:C2680030A40000 
+4BAA4D All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9469E330E01400 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5955  L:24,8722 Rc<185m  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:8012E937E00CE1 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9469E330E00C00 
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9469E330FFFC00 
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:00000000000000 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      V=445 HD=65 Var=0  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,5993  L:24,8864 Rc<185m  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:CE9BFF64F0930C 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9459E330E00C00 
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=445 HD=66 Var=0  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,6013  L:24,8944 Rc<185m  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9459E330FFFC00 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:20508671D8C820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:58C9006744B477 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,6074  L:24,9172 Rc<185m  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      V=445 HD=65 Var=0  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-8  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9439E530FFEC00 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=446 HD=65 Var=0  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BAA4E Extended-squitt. Turkey      35975ft  *  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:8012E937E004E1 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:9449E330FFFC00 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=445 HD=65 Var=0  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:FE81C300000000 
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-36  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  Vmax:300..600kts  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Extended-squitt. Turkey      V=446 HD=66 Var=0  CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,6221  L:24,9728 Rc<185m  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      39000ft  B:54,6225  L:24,9742 Rc<185m  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:CC300030AA0000 
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:II-1  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Extended-squitt. Turkey      V=446 HD=66 Var=0  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 All-call-reply   Turkey      Inter:SI-29  CA:L2-air  
+4BA9C5 ComB-ident-reply Turkey      ID:4551  MB:8012EB37E00CE1 
+4BA9C5 All-call-reply   Turkey      Inter:SI-55  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      Inter:SI-9  CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:9909971758049E 
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 Sourv.-alt-reply Turkey      AC:39000ft  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 ComB-alt-reply   Turkey      AC:39000ft  MB:20508671D8C820 
+4BA9C5 All-call-reply   Turkey      Inter:SI-21  CA:L2-air  
+4BA9C5 Sourv-ident-repl Turkey      ID:4551  
+4BA9C5 All-call-reply   Turkey      CA:L2-air  
+4BA9C5 Short-air-sourv. Turkey      AC:39000ft  crosslink  
+--data listing disabled
+--click again to see decoded data
+++data listing enabled
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Extended-squitt. USA         Id:REDEYE6   CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         Inter:SI-9  CA:L2-air  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:12000000000000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-ident-reply USA         ID:6330  MB:20485105645DA0 
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-ident-reply USA         ID:6330  MB:20485105645DA0 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         Inter:SI-55  CA:L2-air  
+AE149A All-call-reply   USA         Inter:SI-55  CA:L2-air  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:10010680B60000 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         Inter:SI-55  CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:00000000000000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:20485105645DA0 
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A ComB-alt-reply   USA         AC:38000ft  (old)  MB:00000000000000 
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Short-air-sourv. USA         AC:38000ft  (old)  crosslink  Vmax:300..600kts  
+AE149A Sourv.-alt-reply USA         AC:38000ft  (old)  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         Inter:II-1  CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330  
+AE149A All-call-reply   USA         Inter:SI-55  CA:L2-air  
+AE149A Sourv-ident-repl USA         ID:6330

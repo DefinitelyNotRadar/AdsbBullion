@@ -1,0 +1,261 @@
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+E:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\User\Desktop\АДСБ для теста01092023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста110923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll.config
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста200923\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll.config
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+F:\АДСБ для теста\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll.config
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\osipo\Desktop\АДСБ для теста111023\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe.config
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.exe
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\ADSBClient.dll.config
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\EPPlus.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.g.cs
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\App.g.cs
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest_MarkupCompile.lref
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\MainWindow.baml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.g.resources
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.Properties.Resources.resources
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.GenerateResource.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb

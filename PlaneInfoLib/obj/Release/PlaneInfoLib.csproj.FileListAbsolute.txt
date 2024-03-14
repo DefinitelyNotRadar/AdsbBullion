@@ -1,0 +1,6 @@
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Release\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\bin\Release\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Release\PlaneInfoLib.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Release\PlaneInfoLib.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Release\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\PlaneInfoLib\obj\Release\PlaneInfoLib.pdb

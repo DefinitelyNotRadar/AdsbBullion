@@ -1,0 +1,140 @@
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+E:\adsb\adsbTest\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csprojAssemblyReference.cache
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+E:\adsb\adsbTest\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+F:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+E:\АДСБ\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\User\Desktop\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+E:\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+E:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+E:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+E:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+E:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+E:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+F:\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+F:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+F:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+F:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+F:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+F:\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\OneDrive\Рабочий стол\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+E:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+F:\АДСБ для теста\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
