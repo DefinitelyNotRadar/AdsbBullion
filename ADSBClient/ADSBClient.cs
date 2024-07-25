@@ -35,7 +35,7 @@ namespace ADSBClientLib
             localProperties = yaml.YamlLoad();
             localProperties.IsSend2UDPAdsbReceiver = false;
             //CreateExcel("F:\\АДСБ для теста\\document.xlsx");
-            CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
+            //CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
         }
         public ADSBClient(bool isSendToUDPClient)
         {
@@ -44,7 +44,7 @@ namespace ADSBClientLib
             localProperties.IsSend2UDPAdsbReceiver = isSendToUDPClient;
 
             //CreateExcel("F:\\АДСБ для теста\\document.xlsx");
-            CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
+            //CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
         }
         public ADSBClient(bool isSendToUDPClient, string udpClientIp, int udpClientPort)
         {
@@ -55,7 +55,7 @@ namespace ADSBClientLib
             localProperties.UDPAdsbReceiverPort = udpClientPort;
 
             //CreateExcel("F:\\АДСБ для теста\\document.xlsx");
-            CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
+            //CreateExcel(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\planesInfo.xlsx");
         }
 
 
