@@ -138,3 +138,16 @@ C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Deb
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\AdsbBullion\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\UDPAdsbReceiver.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\YamlDotNet.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\PlaneInfoLib.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\bin\Debug\YamlDotNet.xml
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.AssemblyReference.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CoreCompileInputs.cache
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.csproj.CopyComplete
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.dll
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\UDPAdsbReceiver\obj\Debug\UDPAdsbReceiver.pdb

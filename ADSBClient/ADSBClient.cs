@@ -8,6 +8,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using LicenseContext = OfficeOpenXml.LicenseContext;
 
 namespace ADSBClientLib
@@ -150,7 +151,7 @@ namespace ADSBClientLib
                 if (serialPort.IsOpen == true)
                 {
                     OnConnect?.Invoke(this, EventArgs.Empty);
-                    ReadDataNoReadThr(serialPort);
+                    Task.Run(()=>ReadDataNoReadThr(serialPort));
                     //ReadDataNoReadThrTest(serialPort);//!!!!!!!!!!!!!!for test
                 }
                 return true;
