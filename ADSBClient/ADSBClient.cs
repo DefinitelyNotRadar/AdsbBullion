@@ -116,7 +116,7 @@ namespace ADSBClientLib
 
                     streamClient = tcpClient.GetStream();
                       
-                    ReadDataNoReadThr(streamClient);
+                    Task.Run(()=>ReadDataNoReadThr(streamClient));
                 }
                 catch (Exception ex)
                 {
