@@ -630,7 +630,7 @@ namespace ADSBClientLib
                 receiveTime = msgTime;
 
                 
-                Console.WriteLine(asciiHexStr);
+                //Console.WriteLine(asciiHexStr);
 
                 planeData = new PlaneData();
                 planeData.ReferenceLatitude = localProperties.RefLatitude;

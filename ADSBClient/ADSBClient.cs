@@ -374,17 +374,17 @@ namespace ADSBClientLib
                             string newstr = BitConverter.ToString(bBufRead);                            
                             newstr = newstr.Replace("-", string.Empty);
                             strPackage += newstr;
-                            if (strPackage.Length == 7)
-                            {
-                                currentTime = DateTime.Now;
-                                bool isParsed = ParseDimaData(strPackage);
-                                if (isParsed)
-                                {
-                                    strPackage = "";
-                                }
+                            //if (strPackage.Length == 14)
+                            //{
+                            //    currentTime = DateTime.Now;
+                            //    bool isParsed = ParseDimaData(strPackage);
+                            //    if (isParsed)
+                            //    {
+                            //        strPackage = "";
+                            //    }
 
-                            }
-                            if (strPackage.Length == 14)
+                            //}
+                            if (strPackage.Length == 28)
                             {                                
                                 currentTime = DateTime.Now;
                                 bool isParsed = ParseDimaData(strPackage);
@@ -393,12 +393,21 @@ namespace ADSBClientLib
                                     strPackage = "";
                                 }
                                 else 
-                                { 
+                                { //if the last package could be different packet(like 14 bytes packet) by himself and not the part of 28 bytes packet
                                     strPackage = newstr;
                                     currentTime = DateTime.Now;
                                     isParsed = ParseDimaData(strPackage);
-                                    strPackage = "";
+                                    if (isParsed)
+                                    {
+                                        strPackage = "";
+                                    }
                                 }
+                            }
+                            if(strPackage.Length>28)
+                            {
+                                strPackage = newstr;//начинаем копить байты заново с последнего пришедшего пакета, переполнившего наше байтовое накопление(strPackage)
+                                isParsed = ParseDimaData(strPackage);
+                                strPackage = "";                                
                             }
 
 
