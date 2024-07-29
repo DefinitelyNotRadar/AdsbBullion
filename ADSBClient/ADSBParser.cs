@@ -25,6 +25,7 @@ using YamlDotNet.Core.Tokens;
 using Microsoft.VisualBasic.FileIO;
 using System.Runtime.Remoting.Channels;
 using OfficeOpenXml.Drawing.Slicer.Style;
+using System.Reflection;
 
 ///TODO: Add db with icao and country of registration to receive plane registration by ICAO
 namespace ADSBClientLib
@@ -778,11 +779,11 @@ namespace ADSBClientLib
                 {
                    
 
-                    bool isCorrectMsg = CheckCRC(hexstr, 20);
-                    if (isCorrectMsg == false)
-                    {
-                        return false;
-                    }
+                    //bool isCorrectMsg = CheckCRC(hexstr, 20);
+                    //if (isCorrectMsg == false)
+                    //{
+                    //    return false;
+                    //}
 
                     planeData = GetPlane() != null ? GetPlane() : planeData;
                     planeData.LatOld = planeData.Lat;
@@ -861,11 +862,11 @@ namespace ADSBClientLib
                 }
                 if (downlinkFormat == 21)
                 {
-                    bool isCorrectMsg = CheckCRC(hexstr, 21);
-                    if (isCorrectMsg == false)
-                    {
-                        return false;
-                    }
+                    //bool isCorrectMsg = CheckCRC(hexstr, 21);
+                    //if (isCorrectMsg == false)
+                    //{
+                    //    return false;
+                    //}
                     int flightStatus = (int)ulong.Parse(hexstr.Substring(2, 1), System.Globalization.NumberStyles.HexNumber);
                     flightStatus = flightStatus & 7;
 
@@ -2616,37 +2617,46 @@ namespace ADSBClientLib
 
         public string GetCountry(string icaoValue)
         {
-            HtmlDocument htmlDoc = new HtmlDocument();
-
-            // filePath is a path to a file containing the html
-            htmlDoc.Load(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\ATDB - ICAO 24-bit addresses - Decode.html");
-            HtmlNodeCollection coll = htmlDoc.DocumentNode.SelectNodes("//text()");
-
-            int icaoIntValue = Convert.ToInt32(icaoValue, 16);
-            for (int i = 0; i <= coll.Count; i++)
+            try
             {
-                try
-                {
-                    if (Convert.ToInt32(coll[i].InnerText.ToString(), 16) < icaoIntValue)
-                    {
-                        if (Convert.ToInt32(coll[i + 2].InnerText.ToString(), 16) > icaoIntValue)
-                        {
-                            try
-                            {
-                                planeData.Flag = coll[i + 4].InnerText.ToString() + ".png";//Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\CountryFlags\\" + coll[i + 4].InnerText.ToString() + ".png";
-                            }
-                            catch(Exception ex)
-                            {
+                HtmlDocument htmlDoc = new HtmlDocument();
 
+                // filePath is a path to a file containing the html
+                //htmlDoc.Load(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\ATDB - ICAO 24-bit addresses - Decode.html");
+                htmlDoc.Load(System.AppDomain.CurrentDomain.BaseDirectory + "\\AdsbDocuments\\ATDB - ICAO 24-bit addresses - Decode.html");
+                //htmlDoc.Load(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "Documents\\ATDB - ICAO 24-bit addresses - Decode.html");
+                HtmlNodeCollection coll = htmlDoc.DocumentNode.SelectNodes("//text()");
+
+                int icaoIntValue = Convert.ToInt32(icaoValue, 16);
+                for (int i = 0; i <= coll.Count; i++)
+                {
+                    try
+                    {
+                        if (Convert.ToInt32(coll[i].InnerText.ToString(), 16) < icaoIntValue)
+                        {
+                            if (Convert.ToInt32(coll[i + 2].InnerText.ToString(), 16) > icaoIntValue)
+                            {
+                                try
+                                {
+                                    planeData.Flag = coll[i + 4].InnerText.ToString() + ".png";//Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\CountryFlags\\" + coll[i + 4].InnerText.ToString() + ".png";
+                                }
+                                catch (Exception ex)
+                                {
+
+                                }
+                                return coll[i + 4].InnerText.ToString();
                             }
-                            return coll[i + 4].InnerText.ToString();
                         }
                     }
-                }
-                catch (Exception ex)
-                {
+                    catch (Exception ex)
+                    {
 
+                    }
                 }
+            }
+            catch(Exception ex)
+            {
+
             }
 
             return "unknown";
@@ -2699,9 +2709,9 @@ namespace ADSBClientLib
         {
             try
             {
-                string filePath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\aircraft-database-complete-2023-09.csv";
-
-                
+                //string filePath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\aircraft-database-complete-2023-09.csv";
+                //string filePath = Directory.GetParent(Environment.CurrentDirectory).FullName + "\\Documents\\aircraft-database-complete-2024-06.csv";
+                string filePath = (System.AppDomain.CurrentDomain.BaseDirectory + "\\AdsbDocuments\\aircraft-database-complete-2024-06.csv");
                 // Create a new TextFieldParser object
                 using (TextFieldParser parser = new TextFieldParser(filePath))
                 {
