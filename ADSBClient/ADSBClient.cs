@@ -72,10 +72,10 @@ namespace ADSBClientLib
         public bool Connect()
         {
             token = cancelTokenSource.Token;
-            if (tcpClient != null && tcpClient.Connected == true)
-            {
-                tcpClient.Close();
-            }
+            //if (tcpClient != null && tcpClient.Connected == true)
+            //{
+            //    tcpClient.Close();
+            //}
             tcpClient = new TcpClient();
 
             try
@@ -140,6 +140,7 @@ namespace ADSBClientLib
             try
             {
                 serialPort = new SerialPort(serialPortName, serialPortBaudRate);
+                //serialPort.Encoding = Encoding.GetEncoding("ASCII");
 
                 // Set other properties of the port
                 serialPort.Parity = Parity.None;
@@ -153,6 +154,7 @@ namespace ADSBClientLib
                 {
                     OnConnect?.Invoke(this, EventArgs.Empty);
                     Task.Run(()=>ReadDataNoReadThr(serialPort));
+                    //Task.Run(() => ReadDataNoReadThr2(serialPort));
                     //ReadDataNoReadThrTest(serialPort);//!!!!!!!!!!!!!!for test
                 }
                 return true;
@@ -362,6 +364,64 @@ namespace ADSBClientLib
                     iReadByte = serialPort.Read(bBufRead, 0, bBufRead.Length);
                     //Console.WriteLine(iReadByte);
                     //exitcounter += 1; 
+                    //if (iReadByte >= 1)
+                    //{
+                    //    //if (OnReadByte != null)
+                    //    //    OnReadByte(this, strPackage);
+
+                    //    Array.Resize(ref bBufRead, iReadByte);
+
+
+                    //    try
+                    //    {
+                    //        string newstr = BitConverter.ToString(bBufRead);                            
+                    //        newstr = newstr.Replace("-", string.Empty);
+                    //        strPackage += newstr;
+                    //        //if (strPackage.Length == 14)
+                    //        //{
+                    //        //    currentTime = DateTime.Now;
+                    //        //    bool isParsed = ParseDimaData(strPackage);
+                    //        //    if (isParsed)
+                    //        //    {
+                    //        //        strPackage = "";
+                    //        //    }
+
+                    //        //}
+                    //        if (strPackage.Length == 28)
+                    //        {                                
+                    //            currentTime = DateTime.Now;
+                    //            bool isParsed = ParseDimaData(strPackage);
+                    //            if (isParsed)
+                    //            {
+                    //                strPackage = "";
+                    //            }
+                    //            else 
+                    //            { //if the last package could be different packet(like 14 bytes packet) by himself and not the part of 28 bytes packet
+                    //                strPackage = newstr;
+                    //                currentTime = DateTime.Now;
+                    //                isParsed = ParseDimaData(strPackage);
+                    //                if (isParsed)
+                    //                {
+                    //                    strPackage = "";
+                    //                }
+                    //            }
+                    //        }
+                    //        if(strPackage.Length>28)
+                    //        {
+                    //            strPackage = newstr;//начинаем копить байты заново с последнего пришедшего пакета, переполнившего наше байтовое накопление(strPackage)
+                    //            isParsed = ParseDimaData(strPackage);
+                    //            strPackage = "";                                
+                    //        }
+
+
+                    //    }
+                    //    catch (Exception ex)
+                    //    {
+
+                    //    }
+
+
+                    //}
                     if (iReadByte >= 1)
                     {
                         //if (OnReadByte != null)
@@ -369,48 +429,20 @@ namespace ADSBClientLib
 
                         Array.Resize(ref bBufRead, iReadByte);
 
-                        
+
                         try
                         {
-                            string newstr = BitConverter.ToString(bBufRead);                            
+                            string newstr = BitConverter.ToString(bBufRead);
                             newstr = newstr.Replace("-", string.Empty);
                             strPackage += newstr;
-                            //if (strPackage.Length == 14)
-                            //{
-                            //    currentTime = DateTime.Now;
-                            //    bool isParsed = ParseDimaData(strPackage);
-                            //    if (isParsed)
-                            //    {
-                            //        strPackage = "";
-                            //    }
-
-                            //}
-                            if (strPackage.Length == 28)
-                            {                                
-                                currentTime = DateTime.Now;
-                                bool isParsed = ParseDimaData(strPackage);
-                                if (isParsed)
-                                {
-                                    strPackage = "";
-                                }
-                                else 
-                                { //if the last package could be different packet(like 14 bytes packet) by himself and not the part of 28 bytes packet
-                                    strPackage = newstr;
-                                    currentTime = DateTime.Now;
-                                    isParsed = ParseDimaData(strPackage);
-                                    if (isParsed)
-                                    {
-                                        strPackage = "";
-                                    }
-                                }
-                            }
-                            if(strPackage.Length>28)
+                            if (strPackage.Length >= 112)
                             {
-                                strPackage = newstr;//начинаем копить байты заново с последнего пришедшего пакета, переполнившего наше байтовое накопление(strPackage)
-                                isParsed = ParseDimaData(strPackage);
-                                strPackage = "";                                
-                            }
+                                currentTime = DateTime.Now;
+                                bool isParsed = ParseDimaData2(strPackage);
+                                strPackage = "";
+                                strPackage += remainder;
 
+                            }
 
                         }
                         catch (Exception ex)
@@ -422,6 +454,67 @@ namespace ADSBClientLib
                     }
 
                 }
+
+                catch (System.Exception ex)
+                {
+                    _continueCOM = false;
+                    OnDisconnect?.Invoke(this, EventArgs.Empty);
+                }
+            }
+        }
+
+        private void ReadDataNoReadThr2(SerialPort serialPort)
+        {
+           
+            _continueCOM = true;           
+           
+            string strPackage = "";
+            while (_continueCOM)
+            {
+                try
+                {
+
+                    string receivedData = serialPort.ReadExisting();
+                    byte[] bytes = Encoding.UTF8.GetBytes(receivedData);
+                    string hexString = BitConverter.ToString(bytes).Replace("-", "");
+
+
+
+
+
+                    //string newstr = BitConverter.ToString(bBufRead);
+                    //newstr = newstr.Replace("-", string.Empty);
+                    //strPackage += newstr;
+
+
+                    if (hexString.Length == 28)
+                    {
+                        currentTime = DateTime.Now;
+                        bool isParsed = ParseDimaData(hexString);
+                        //if (isParsed)
+                        //{
+                        //    strPackage = "";
+                        //}
+                        //else
+                        //{ //if the last package could be different packet(like 14 bytes packet) by himself and not the part of 28 bytes packet
+                        //    strPackage = newstr;
+                        //    currentTime = DateTime.Now;
+                        //    isParsed = ParseDimaData(strPackage);
+                        //    if (isParsed)
+                        //    {
+                        //        strPackage = "";
+                        //    }
+                        //}
+                    }
+                    if (hexString.Length > 28)
+                    {
+                    //    strPackage = newstr;//начинаем копить байты заново с последнего пришедшего пакета, переполнившего наше байтовое накопление(strPackage)
+                    //    isParsed = ParseDimaData(strPackage);
+                        strPackage = "";
+                    }
+                }    
+
+                
 
                 catch (System.Exception ex)
                 {
@@ -588,6 +681,81 @@ namespace ADSBClientLib
             }
             return false;
         }
+
+        //messages should be selected handly from the stream of bytes from Dima's adsb
+        private bool ParseDimaData2(string str)
+        {
+            try
+            {
+                remainder = "";
+                for (int i = 0; i < str.Length; i++)
+                {
+                    //если вдруг остался остаток, сохраняем
+                    if(i+27>=str.Length)
+                    {
+                        for (int k = i; k<str.Length; k++)
+                        {
+                            remainder += str[k];                           
+                        }
+                        return true;
+                    }
+                    //finding the start of the message
+                    if (str[i].Equals('A') && str[i + 1].Equals('1') && str[i+2].Equals('4') && str[i+3].Equals('0'))
+                    {                        
+                        i += 4;
+
+                        string msg = "";
+                        for(int j = i; j<i+28;j++ )
+                        {
+                            msg = msg+str[j];
+                        }
+                        isParsed = parser.ParseDimaData(msg, currentTime);
+                        if (isParsed == true)
+                        {
+                            OnUpdateADSBData?.Invoke(this, new MyEventArgsADSBData(parser.planeData));
+                            //Console.WriteLine("data is parsed. ICAO: " + parser.planeData.Icao);
+
+                            if (localProperties.IsWriteDataToExcel == true)
+                            {
+                                WriteToExcel(parser.planeData);
+                            }
+
+
+                            //+ " DF: " +parser.listPlanes[parser.listPlanes.Count-1].DF); }
+                            try
+                            {
+
+                                if (localProperties.IsSend2UDPAdsbReceiver == true)
+                                {
+                                    ///client for getting AeroScope packets by udp               
+                                    udpPacketSender = new System.Net.Sockets.UdpClient();
+                                    endPointClientUdp = new IPEndPoint(IPAddress.Parse(localProperties.UDPAdsbReceiverIp), localProperties.UDPAdsbReceiverPort);
+                                    string json = JsonConvert.SerializeObject(parser.listPlanes);
+                                    udpPacketSender.Send(Encoding.UTF8.GetBytes(json), Encoding.UTF8.GetBytes(json).Length, endPointClientUdp);
+                                    udpPacketSender.Close();
+                                    Console.WriteLine("UDP packet was sent to" + " IP: " + localProperties.UDPAdsbReceiverIp + " Port: " + localProperties.UDPAdsbReceiverPort);
+                                }
+
+                            }
+                            catch (Exception ex)
+                            {
+
+                            }
+                        }
+
+                          
+
+                        
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            return false;
+        }
+
 
         string excelFilePath;
         /// <summary>
