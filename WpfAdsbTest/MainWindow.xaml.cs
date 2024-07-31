@@ -74,7 +74,7 @@ namespace WpfAdsbTest
                 if (matchingvalue != null)
                 {
                     //matchingvalue.Icao = e.planeData.Icao;
-                    //matchingvalue.ModelName = e.planeData.ModelName;
+                    matchingvalue.ModelName = e.planeData.ModelName;
                     matchingvalue.Time = e.planeData.PackageReceiveTime.ToString();
                     matchingvalue.Latitude = e.planeData.Lat;
                     matchingvalue.Longitude = e.planeData.Long;
@@ -82,8 +82,8 @@ namespace WpfAdsbTest
                     matchingvalue.Direction = e.planeData.TrackAngle;
                     matchingvalue.AirVelocity = e.planeData.AirSpeed;
                     //matchingvalue.Groundvelocity = e.planeData.GroundSpeed; 
-                    //matchingvalue.Country = e.planeData.Country;
-                    //matchingvalue.Flag = "pack://application:,,,/Images/" + e.planeData.Flag;
+                    matchingvalue.Country = e.planeData.Country;
+                    matchingvalue.Flag = "pack://application:,,,/Images/" + e.planeData.Flag;
                     
                 }
                 else
@@ -147,8 +147,8 @@ namespace WpfAdsbTest
 
         private void btnConnectCOM_Click(object sender, RoutedEventArgs e)
         {
-           
 
+            btnConnectCOM.IsEnabled = false;
             adsbClient = new ADSBClient();//распаршенные данные никуда(в смысле на udp клиента) отсылаться не будут
                                           //ADSBClient adsbClient = new ADSBClient(true, "127.0.0.1", 16002);
                                           //ADSBClient adsbClient = new ADSBClient(true, "192.168.0.11", 16002);//распаршенные данные будут отправляться по udp на указанный в скобках адрес и порт 
@@ -169,6 +169,7 @@ namespace WpfAdsbTest
             if (adsbClient != null)
             {
                 adsbClient.Disconnect();
+                btnConnectCOM.IsEnabled = true;
             }
         }
 

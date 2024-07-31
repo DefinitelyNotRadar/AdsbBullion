@@ -985,8 +985,10 @@ namespace ADSBClientLib
                 if (match == null)
                 {
 
-                    planeData.Country = GetCountry(planeData.Icao);
-                    planeData.ModelName = GetModelName(planeData.Icao);
+                    //planeData.Country = GetCountry(planeData.Icao);
+                    //planeData.ModelName = GetModelName(planeData.Icao);
+                    new Task(() => GetCountry(planeData.Icao)).Start();
+                    new Task(() => GetModelName(planeData.Icao)).Start();
                     planeData.PackageReceiveTime = receiveTime;
                     planeData.TrackAngle = 0;
                     listPlanes.Add(planeData);
@@ -2615,7 +2617,7 @@ namespace ADSBClientLib
             return result.ToString();
         }      
 
-        public string GetCountry(string icaoValue)
+        public void GetCountry(string icaoValue)
         {
             try
             {
@@ -2623,7 +2625,7 @@ namespace ADSBClientLib
 
                 // filePath is a path to a file containing the html
                 //htmlDoc.Load(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\ATDB - ICAO 24-bit addresses - Decode.html");
-                htmlDoc.Load(System.AppDomain.CurrentDomain.BaseDirectory + "\\AdsbDocuments\\ATDB - ICAO 24-bit addresses - Decode.html");
+                htmlDoc.Load(System.AppDomain.CurrentDomain.BaseDirectory + "AdsbDocuments\\ATDB - ICAO 24-bit addresses - Decode.html");
                 //htmlDoc.Load(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "Documents\\ATDB - ICAO 24-bit addresses - Decode.html");
                 HtmlNodeCollection coll = htmlDoc.DocumentNode.SelectNodes("//text()");
 
@@ -2636,15 +2638,32 @@ namespace ADSBClientLib
                         {
                             if (Convert.ToInt32(coll[i + 2].InnerText.ToString(), 16) > icaoIntValue)
                             {
-                                try
-                                {
-                                    planeData.Flag = coll[i + 4].InnerText.ToString() + ".png";//Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\CountryFlags\\" + coll[i + 4].InnerText.ToString() + ".png";
-                                }
-                                catch (Exception ex)
-                                {
+                                //try
+                                //{
+                                //    planeData.Flag = coll[i + 4].InnerText.ToString() + ".png";//Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\CountryFlags\\" + coll[i + 4].InnerText.ToString() + ".png";
+                                //}
+                                //catch (Exception ex)
+                                //{
 
+                                //}
+                                //return coll[i + 4].InnerText.ToString();
+                                PlaneData match = listPlanes.Where(x => x.Icao.Contains(icaoValue)).FirstOrDefault();
+                                if (match != null)
+                                {                                   
+                                    try
+                                    {
+                                        match.Country = coll[i + 4].InnerText.ToString();
+                                        match.Flag = coll[i + 4].InnerText.ToString() + ".png";//Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\CountryFlags\\" + coll[i + 4].InnerText.ToString() + ".png";
+                                    }
+                                    catch (Exception ex)
+                                    {
+
+                                    }
                                 }
-                                return coll[i + 4].InnerText.ToString();
+                                else
+                                {
+                                    match.Country = "unknown";
+                                }
                             }
                         }
                     }
@@ -2659,7 +2678,7 @@ namespace ADSBClientLib
 
             }
 
-            return "unknown";
+            //return "unknown";
         }
 
         /// <summary>
@@ -2705,13 +2724,13 @@ namespace ADSBClientLib
 
         //}
 
-        public string GetModelName(string icaoValue)
+        public void GetModelName(string icaoValue)
         {
             try
             {
                 //string filePath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName + "\\aircraft-database-complete-2023-09.csv";
                 //string filePath = Directory.GetParent(Environment.CurrentDirectory).FullName + "\\Documents\\aircraft-database-complete-2024-06.csv";
-                string filePath = (System.AppDomain.CurrentDomain.BaseDirectory + "\\AdsbDocuments\\aircraft-database-complete-2024-06.csv");
+                string filePath = (System.AppDomain.CurrentDomain.BaseDirectory + "AdsbDocuments\\aircraft-database-complete-2024-06.csv");
                 // Create a new TextFieldParser object
                 using (TextFieldParser parser = new TextFieldParser(filePath))
                 {
@@ -2725,6 +2744,8 @@ namespace ADSBClientLib
                         parser.ReadLine();
                     }
 
+               
+
                     // Loop through the remaining rows
                     while (!parser.EndOfData)
                     {
@@ -2733,12 +2754,38 @@ namespace ADSBClientLib
                             // Read the fields of the current row
                             string[] fields = parser.ReadFields();
 
+                            //if icao inside excel doc is  enclosed within single quotes ('') we should remove them
+                            fields[0] = fields[0].Replace("'","");
+                            if(parser.LineNumber==98002)
+                            {
+
+                            }
                             // Check if the first field matches the value
                             if (fields[0].ToLower().Equals(icaoValue.ToLower()))
                             {
-                                string fourthElement = fields[2].Length == 0 ? fields[3] : fields[2];
-                                string fifthElement = fields[4];
-                                return fourthElement + " " + fifthElement;
+                                //string fourthElement = fields[2].Length == 0 ? fields[3] : fields[2];
+                                //string fifthElement = fields[4];
+                                //string Manufacturer = fields[12];
+                                string ModelName = fields[14];
+                                //return fourthElement + " " + fifthElement;
+                                //return Manufacturer + " " + ModelName;
+                                PlaneData match = listPlanes.Where(x => x.Icao.Contains(icaoValue)).FirstOrDefault();
+                                if (match != null)
+                                {
+                                    try
+                                    {
+                                        //match.ModelName = Manufacturer + " " + ModelName;
+                                        match.ModelName = ModelName;
+                                    }
+                                    catch (Exception ex)
+                                    {
+
+                                    }
+                                }
+                                else
+                                {
+                                    match.ModelName = "unknown";
+                                }
                                 //break;
                             }
                         }
@@ -2754,9 +2801,9 @@ namespace ADSBClientLib
             }
             catch (Exception ex)
             {
-                return null;
+                //return null;
             }
-            return "unknown";
+            //return "unknown";
 
         }
         public bool isKnownIcao(string ICAO)
