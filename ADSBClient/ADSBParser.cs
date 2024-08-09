@@ -80,7 +80,7 @@ namespace ADSBClientLib
                          .ToArray();
                 string asciiDecodedHexStr = Encoding.ASCII.GetString(hexstr2byte);//перевод закодированного буллионом по таблице ascii сообщения в его первоначальный вид, в hex-е
 
-                Console.WriteLine(asciiDecodedHexStr);
+                //Console.WriteLine(asciiDecodedHexStr);
 
                 //проверка и исправление входящего пакета
                 bool isBitError = !CheckCRC(asciiDecodedHexStr, 17);
@@ -140,7 +140,7 @@ namespace ADSBClientLib
                     typeCode = (double)ulong.Parse(String.Concat(asciiDecodedHexStr[8], asciiDecodedHexStr[9]), System.Globalization.NumberStyles.HexNumber);
                     typeCode = (int)typeCode >> 3;
 
-                    Console.WriteLine(typeCode);
+                    //Console.WriteLine(typeCode);
 
                     planeData.Icao = ParseICAO(asciiDecodedHexStr);                    
                     if (planeData.Icao.Length > 0)
@@ -683,7 +683,7 @@ namespace ADSBClientLib
                     typeCode = (double)ulong.Parse(String.Concat(asciiHexStr[8], asciiHexStr[9]), System.Globalization.NumberStyles.HexNumber);
                     typeCode = (int)typeCode >> 3;
 
-                    Console.WriteLine(typeCode);
+                    //Console.WriteLine(typeCode);
 
                     planeData.Icao = ParseICAO(asciiHexStr);
                     if (planeData.Icao.Length > 0)

@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,6 @@ using System.IO.Ports;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using LicenseContext = OfficeOpenXml.LicenseContext;
 
@@ -31,6 +29,8 @@ namespace ADSBClientLib
 
         SerialPort serialPort;
 
+        bool _isConnectedTCP = false;
+        bool _isConnectedCOM = false;
         public ADSBClient()
         {
             localProperties = yaml.YamlLoad();
@@ -60,8 +60,8 @@ namespace ADSBClientLib
         }
 
 
-        CancellationTokenSource cancelTokenSource = new CancellationTokenSource();
-        CancellationToken token;
+        //CancellationTokenSource cancelTokenSource = new CancellationTokenSource();
+        //CancellationToken token;
         /// <summary>
         /// for TCP connection
         /// </summary>
@@ -71,7 +71,7 @@ namespace ADSBClientLib
         /// <returns></returns>
         public bool Connect()
         {
-            token = cancelTokenSource.Token;
+            //token = cancelTokenSource.Token;
             //if (tcpClient != null && tcpClient.Connected == true)
             //{
             //    tcpClient.Close();
@@ -95,7 +95,7 @@ namespace ADSBClientLib
                 if (!success)
                 {
                     //throw new Exception("Failed to connect.");
-
+                    _isConnectedTCP = false;
                     OnDisconnect?.Invoke(this, EventArgs.Empty);
                     return false;
                 }
@@ -105,12 +105,15 @@ namespace ADSBClientLib
             }
             catch (System.Exception ex)
             {
+                _isConnectedTCP = false;
                 OnDisconnect?.Invoke(this, EventArgs.Empty);
                 return false;
             }
 
             if (tcpClient.Connected)
             {
+
+                _isConnectedTCP = true;
                 OnConnect?.Invoke(this, EventArgs.Empty);
                 try
                 {
@@ -149,7 +152,7 @@ namespace ADSBClientLib
                 serialPort.Handshake = Handshake.None;
                 // Open the port
                 serialPort.Open();
-
+                _isConnectedCOM = true;
                 if (serialPort.IsOpen == true)
                 {
                     OnConnect?.Invoke(this, EventArgs.Empty);
@@ -162,8 +165,8 @@ namespace ADSBClientLib
             catch(Exception ex)
             {
                 OnDisconnect?.Invoke(this, EventArgs.Empty);
+                _isConnectedCOM = false;
             }
-          
             return false;
         }
 
@@ -175,6 +178,7 @@ namespace ADSBClientLib
                 {
                     
                     serialPort.Close();
+                    _isConnectedCOM = false;
                 }
                 catch (Exception ex)
                 {
@@ -203,6 +207,7 @@ namespace ADSBClientLib
                 {
                     tcpClient.Close();
                     tcpClient = null;
+                    _isConnectedTCP = false;
                 }
                 catch (System.Exception)
                 {
@@ -273,6 +278,7 @@ namespace ADSBClientLib
 
                 catch (System.Exception ex)
                 {
+                    _isConnectedTCP = false;
                     _continueTCP = false;
                     OnDisconnect?.Invoke(this, EventArgs.Empty);
                 }
@@ -336,6 +342,7 @@ namespace ADSBClientLib
 
                 catch (System.Exception ex)
                 {
+                    _isConnectedCOM = false;
                     _continue = false;
                     OnDisconnect?.Invoke(this, EventArgs.Empty);
                 }
@@ -457,6 +464,7 @@ namespace ADSBClientLib
 
                 catch (System.Exception ex)
                 {
+                    _isConnectedCOM = false;
                     _continueCOM = false;
                     OnDisconnect?.Invoke(this, EventArgs.Empty);
                 }
@@ -518,6 +526,7 @@ namespace ADSBClientLib
 
                 catch (System.Exception ex)
                 {
+                    _isConnectedCOM = false;
                     _continueCOM = false;
                     OnDisconnect?.Invoke(this, EventArgs.Empty);
                 }
