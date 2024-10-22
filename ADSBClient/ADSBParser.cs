@@ -643,10 +643,10 @@ namespace ADSBClientLib
                 downlinkFormat = (int)downlinkFormat >> 3;
 
                 //check whether the received df17 message is correct
-                //if ((downlinkFormat == 17 && !CheckCRC(asciiDecodedHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiDecodedHexStr, 18)))
-                //{
-                //    return false;
-                //}
+                if ((downlinkFormat == 17 && !CheckCRC(asciiHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiHexStr, 18)))
+                {
+                    return false;
+                }
 
                 //if (downlinkFormat == 17 || downlinkFormat == 18)// || downlinkFormat == 11)//what are other df with transponderCapability data add them with || 
                 //{
