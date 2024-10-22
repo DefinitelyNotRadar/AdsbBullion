@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" 
         Closing="Window_Closing"
-        x:Name="MyWindow">
+        x:Name="MyWindow" HorizontalAlignment="Left" VerticalAlignment="Top">
 
     <Window.Resources>
         <local:BlinkingConverter x:Key="myBlinkingConverter"/>
@@ -49,10 +49,10 @@
         </Style>-->
     </Window.Resources>
 
-    <ScrollViewer >
+   
         
-        <StackPanel Orientation="Vertical">
-            <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Stretch" Orientation="Vertical">
+            <Grid Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="190*"/>                   
                 </Grid.ColumnDefinitions>
@@ -67,7 +67,7 @@
                     </Ellipse.Fill>
                 </Ellipse>
             </Grid>
-            <Grid>
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
                 
                 <StackPanel Orientation="Horizontal" Margin="10">
                     <TextBlock Text="Port Name:" VerticalAlignment="Center" Margin="5"/>
@@ -85,10 +85,14 @@
             <Button x:Name="btnConnectTCP" Content="Connect TCP" VerticalAlignment="Top" Click="btnConnectTCP_Click"/>
             <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
             <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
-
+        <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalAlignment="Top">
+            <TextBlock x:Name="textBlockConsole" TextWrapping="Wrap" Text="" Height="242" Margin="0,2,0,0" VerticalAlignment="Top"/>
+        </ScrollViewer>
+        <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalScrollBarVisibility="Auto">
             <DataGrid AutoGenerateColumns="False" 
-                  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"          
-                    x:Name="dataGrid1">                
+                  HorizontalAlignment="Stretch"  
+                      VerticalAlignment="Bottom"
+                    x:Name="dataGrid1" Height="500">                
                 <DataGrid.CellStyle>
                     <Style TargetType="{x:Type DataGridCell}">
                         <Style.Triggers>
@@ -126,7 +130,9 @@
                     </DataGridTemplateColumn>              
                 </DataGrid.Columns>
             </DataGrid>
-           
-        </StackPanel>
-    </ScrollViewer>
+        </ScrollViewer>
+   
+
+    </StackPanel>
+
 </Window>
