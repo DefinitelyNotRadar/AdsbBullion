@@ -13,11 +13,16 @@
         <local:BlinkingConverter x:Key="myBlinkingConverter"/>
         <!--<Style x:Key="BlinkingCellStyle" TargetType="{x:Type DataGridCell}">
             <Style.Triggers>
-                --><!--<DataTrigger Value="True">
+                -->
+        <!--<DataTrigger Value="True">
                     <DataTrigger.Binding>
                         <MultiBinding Converter="{StaticResource BlinkingConverter}" Mode="OneWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding /> --><!--binding converter value field data to grid row--><!--
-                            <Binding RelativeSource="{RelativeSource Self}" Mode="OneWay"/>--><!--binding converter value field data to cell--><!--
+                            <Binding /> -->
+        <!--binding converter value field data to grid row-->
+        <!--
+                            <Binding RelativeSource="{RelativeSource Self}" Mode="OneWay"/>-->
+        <!--binding converter value field data to cell-->
+        <!--
                         </MultiBinding>
                     </DataTrigger.Binding>
                     <DataTrigger.EnterActions>
@@ -30,7 +35,8 @@
                     <DataTrigger.ExitActions>
                         <StopStoryboard BeginStoryboardName="BlinkingStoryboard"/>
                     </DataTrigger.ExitActions>
-                </DataTrigger>--><!--
+                </DataTrigger>-->
+        <!--
                 <EventTrigger RoutedEvent="Binding.TargetUpdated">
                     <EventTrigger.Actions>
                         <BeginStoryboard Name="BlinkingStoryboard">
@@ -49,50 +55,48 @@
         </Style>-->
     </Window.Resources>
 
-   
-        
-        <StackPanel HorizontalAlignment="Stretch" Orientation="Vertical">
-            <Grid Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="190*"/>                   
-                </Grid.ColumnDefinitions>
-                <Ellipse x:Name="myEllipse"  Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform">
-                    <Ellipse.Fill>
-                        <SolidColorBrush Color="Red"/>
-                    </Ellipse.Fill>
-                </Ellipse>
-                <Ellipse x:Name="myEllipse1" Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform" RenderTransformOrigin="0.533,0.536" Margin="33,0,0,0">
-                    <Ellipse.Fill>
-                        <SolidColorBrush Color="White"/>
-                    </Ellipse.Fill>
-                </Ellipse>
-            </Grid>
-            <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
-                
-                <StackPanel Orientation="Horizontal" Margin="10">
-                    <TextBlock Text="Port Name:" VerticalAlignment="Center" Margin="5"/>
-                    <ComboBox x:Name="ComboBoxPortName" Width="100" Margin="5" 
+
+
+    <StackPanel Orientation="Vertical">
+        <Grid Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="190*"/>
+            </Grid.ColumnDefinitions>
+            <Ellipse x:Name="myEllipse"  Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform">
+                <Ellipse.Fill>
+                    <SolidColorBrush Color="Red"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="myEllipse1" Height="15" MinHeight ="15" MinWidth ="15" Stroke="Black" StrokeThickness="1"  HorizontalAlignment="Left" VerticalAlignment="Center" Stretch="Uniform" RenderTransformOrigin="0.533,0.536" Margin="33,0,0,0">
+                <Ellipse.Fill>
+                    <SolidColorBrush Color="White"/>
+                </Ellipse.Fill>
+            </Ellipse>
+        </Grid>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Port Name:" VerticalAlignment="Center" Margin="5"/>
+                <ComboBox x:Name="ComboBoxPortName" Width="100" Margin="5" 
                       ItemsSource="{Binding serialPortNames}" 
                       SelectedItem="{Binding serialPortName}"/>
-                    <TextBlock Text="Speed Rate:" VerticalAlignment="Center" Margin="5"/>
-                    <TextBox x:Name="TextBoxSpeedRate" Width="100" Margin="5" 
+                <TextBlock Text="Speed Rate:" VerticalAlignment="Center" Margin="5"/>
+                <TextBox x:Name="TextBoxSpeedRate" Width="100" Margin="5" 
                      Text="{Binding serialPortBaudRate}" />
-                    <Button x:Name="btnConnectCOM" Content="Connect COM" Margin="5" 
+                <Button x:Name="btnConnectCOM" Content="Connect COM" Margin="5" 
                     Click="btnConnectCOM_Click"/>
-                </StackPanel>
-              
-            </Grid>
-            <Button x:Name="btnConnectTCP" Content="Connect TCP" VerticalAlignment="Top" Click="btnConnectTCP_Click"/>
-            <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
-            <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
+            </StackPanel>
+
+        </Grid>
+        <Button x:Name="btnConnectTCP" Content="Connect TCP" VerticalAlignment="Top" Click="btnConnectTCP_Click"/>
+        <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
+        <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
         <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalAlignment="Top">
             <TextBlock x:Name="textBlockConsole" TextWrapping="Wrap" Text="" Height="150" Margin="0,2,0,0" VerticalAlignment="Top"/>
         </ScrollViewer>
-        <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalScrollBarVisibility="Auto">
-            <DataGrid AutoGenerateColumns="False" 
-                  HorizontalAlignment="Stretch"  
-                      VerticalAlignment="Bottom"
-                    x:Name="dataGrid1" Height="500">                
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="Auto" VerticalAlignment="Top">
+            <DataGrid AutoGenerateColumns="False"
+                    x:Name="dataGrid1" VerticalAlignment="Top">
                 <DataGrid.CellStyle>
                     <Style TargetType="{x:Type DataGridCell}">
                         <Style.Triggers>
@@ -121,17 +125,17 @@
                     <DataGridTextColumn Header="Air Velocity, kt" Binding="{Binding AirVelocity, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header="Track Angle, °" Binding="{Binding Direction, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
                     <DataGridTextColumn Header="Country" Binding="{Binding Country, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" MinWidth="50"/>
-                    <DataGridTemplateColumn Header="Flag" IsReadOnly="True">                        
+                    <DataGridTemplateColumn Header="Flag" IsReadOnly="True">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Flag, UpdateSourceTrigger=PropertyChanged, NotifyOnTargetUpdated=True}" Height ="20" Width="30"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
-                    </DataGridTemplateColumn>              
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
         </ScrollViewer>
-   
+
 
     </StackPanel>
 
