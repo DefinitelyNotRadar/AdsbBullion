@@ -86,7 +86,7 @@
             <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
             <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
         <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalAlignment="Top">
-            <TextBlock x:Name="textBlockConsole" TextWrapping="Wrap" Text="" Height="242" Margin="0,2,0,0" VerticalAlignment="Top"/>
+            <TextBlock x:Name="textBlockConsole" TextWrapping="Wrap" Text="" Height="150" Margin="0,2,0,0" VerticalAlignment="Top"/>
         </ScrollViewer>
         <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalScrollBarVisibility="Auto">
             <DataGrid AutoGenerateColumns="False" 
