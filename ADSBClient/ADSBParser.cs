@@ -86,7 +86,8 @@ namespace ADSBClientLib
                 bool isBitError = !CheckCRC(asciiDecodedHexStr, 17);
                 if (isBitError)
                 {
-                    if (!FixPacket(asciiDecodedHexStr, errorSyndrome.ToString()))
+                    asciiDecodedHexStr = FixPacket(asciiDecodedHexStr, errorSyndrome.ToString());
+                    if (asciiDecodedHexStr.Equals("")) 
                     {
                         return false;
                     }
@@ -642,12 +643,18 @@ namespace ADSBClientLib
                 downlinkFormat = (double)ulong.Parse(String.Concat(asciiHexStr[0], asciiHexStr[1]), System.Globalization.NumberStyles.HexNumber);
                 downlinkFormat = (int)downlinkFormat >> 3;
 
-                //check whether the received df17 message is correct
-                if ((downlinkFormat == 17 && !CheckCRC(asciiHexStr, 17)) || (downlinkFormat == 18 && !CheckCRC(asciiHexStr, 18)))
-                {
-                    return false;
-                }
 
+                //check whether the received df17 message is correct
+                //проверка и исправление входящего пакета
+                bool isBitError = !CheckCRC(asciiHexStr, 17);
+                if (isBitError)
+                {
+                    asciiHexStr = FixPacket(asciiHexStr, errorSyndrome.ToString());
+                    if (asciiHexStr.Equals(""))
+                    {
+                        return false;
+                    }
+                }
                 //if (downlinkFormat == 17 || downlinkFormat == 18)// || downlinkFormat == 11)//what are other df with transponderCapability data add them with || 
                 //{
                 //    double transponderCapability = 0;
@@ -3171,7 +3178,7 @@ namespace ADSBClientLib
             
         }
 
-        private bool FixPacket(string badPacketInHex, string packetErrSyndrome)
+        private string FixPacket(string badPacketInHex, string packetErrSyndrome)
         {
             
             BigInteger packetErrSyndromeInt = System.Numerics.BigInteger.Parse(packetErrSyndrome.ToString());
@@ -3187,17 +3194,17 @@ namespace ADSBClientLib
             }
             else
             {
-                return false;
+                return "";
             }
             //проверка crc и возвращение true если все ок, пакет исправлен
             bool isPacketFixed = CheckCRC(correctPacket.ToString("X"), (int)downlinkFormat);
             if(isPacketFixed)
             {
-                return true;
+                return correctPacket.ToString("X");
             }
             else
             {
-                return false;
+                return "";
             }
         }
     }
