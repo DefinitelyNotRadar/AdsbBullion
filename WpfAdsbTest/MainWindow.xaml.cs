@@ -74,16 +74,40 @@ namespace WpfAdsbTest
                 if (matchingvalue != null)
                 {
                     //matchingvalue.Icao = e.planeData.Icao;
-                    matchingvalue.ModelName = e.planeData.ModelName;
+                    if (!e.planeData.ModelName.Equals("")) 
+                    { 
+                        matchingvalue.ModelName = e.planeData.ModelName;
+                    }
                     matchingvalue.Time = e.planeData.PackageReceiveTime.ToString();
-                    matchingvalue.Latitude = e.planeData.Lat;
-                    matchingvalue.Longitude = e.planeData.Long;
-                    matchingvalue.Altitude = e.planeData.Altitude;
-                    matchingvalue.Direction = e.planeData.TrackAngle;
-                    matchingvalue.AirVelocity = e.planeData.AirSpeed;
+                    if (e.planeData.Lat != -1) 
+                    { 
+                        matchingvalue.Latitude = e.planeData.Lat;
+                    }
+                    if (e.planeData.Long != -1)
+                    {
+                        matchingvalue.Longitude = e.planeData.Long;
+                    }
+                    if (e.planeData.Altitude != -1)
+                    {
+                        matchingvalue.Altitude = e.planeData.Altitude;
+                    }
+                    if(e.planeData.TrackAngle!=-1)
+                    {
+                        matchingvalue.Direction = e.planeData.TrackAngle;
+                    }
+                    if(e.planeData.AirSpeed!=-1)
+                    {
+                        matchingvalue.AirVelocity = e.planeData.AirSpeed;
+                    }
                     //matchingvalue.Groundvelocity = e.planeData.GroundSpeed; 
-                    matchingvalue.Country = e.planeData.Country;
-                    matchingvalue.Flag = "pack://application:,,,/Images/" + e.planeData.Flag;
+                    if(!e.planeData.Country.Equals(""))
+                    {
+                        matchingvalue.Country = e.planeData.Country;
+                    }
+                    if(!e.planeData.Flag.Equals(""))
+                    {
+                        matchingvalue.Flag = "pack://application:,,,/Images/" + e.planeData.Flag;
+                    }                 
                     
                 }
                 else
