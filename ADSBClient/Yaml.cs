@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using YamlDotNet.Serialization;
@@ -16,7 +17,7 @@ namespace ADSBClientLib
             string text = "";
             try
             {
-                using (StreamReader sr = new StreamReader("LocalProperties.yaml", System.Text.Encoding.Default))
+                using (StreamReader sr = new StreamReader(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\AdsbDocuments\\LocalProperties.yaml", System.Text.Encoding.Default))
                 {
                     text = sr.ReadToEnd();
                     sr.Close();
@@ -120,7 +121,7 @@ namespace ADSBClientLib
                 if (pos != -1)
                     yaml = yaml.Replace(yaml.Substring(pos), "");
 
-                using (StreamWriter sw = new StreamWriter("LocalProperties.yaml", false, System.Text.Encoding.Default))
+                using (StreamWriter sw = new StreamWriter(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)+"\\AdsbDocuments\\LocalProperties.yaml", false, System.Text.Encoding.Default))
                 {
                     sw.WriteLine(yaml);
                     sw.Close();

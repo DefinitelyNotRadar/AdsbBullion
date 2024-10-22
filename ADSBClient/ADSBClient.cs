@@ -6,6 +6,7 @@ using System.IO;
 using System.IO.Ports;
 using System.Net;
 using System.Net.Sockets;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using LicenseContext = OfficeOpenXml.LicenseContext;
@@ -33,6 +34,7 @@ namespace ADSBClientLib
         bool _isConnectedCOM = false;
         public ADSBClient()
         {
+
             localProperties = yaml.YamlLoad();
             localProperties.IsSend2UDPAdsbReceiver = false;
             //CreateExcel("F:\\АДСБ для теста\\document.xlsx");

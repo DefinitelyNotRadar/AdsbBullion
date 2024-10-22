@@ -115,14 +115,22 @@
     <Compile Include="Yaml.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="aircraft-database-complete-2024-06.csv" />
     <None Include="app.config" />
+    <None Include="CRCVectorbySyndrome.xlsx" />
     <None Include="packages.config" />
+    <None Include="planesInfo.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PlaneInfoLib\PlaneInfoLib.csproj">
       <Project>{cb6ef4a0-decf-4380-b95d-6cf88ba2abc8}</Project>
       <Name>PlaneInfoLib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ATDB - ICAO 24-bit addresses - Decode.html" />
+    <Content Include="IcaoAndCounty.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
