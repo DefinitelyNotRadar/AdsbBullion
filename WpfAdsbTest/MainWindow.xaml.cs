@@ -68,8 +68,8 @@ namespace WpfAdsbTest
 
         private void AdsbClient_OnUpdateADSBData(object sender, MyEventArgsADSBData e)
         {
-            textBlockConsole.Text += Environment.NewLine;
-            textBlockConsole.Text += Environment.NewLine;
+            //Dispatcher.Invoke(new Action(() => textBoxConsole.Text += Environment.NewLine));
+            //Dispatcher.Invoke(new Action(() => textBoxConsole.Text += Environment.NewLine));
 
             Task task3 = Task.Run(() => {
                 var matchingvalue = List.FirstOrDefault(ListElementToCheck => ListElementToCheck.Icao.Contains(e.planeData.Icao));
@@ -78,39 +78,39 @@ namespace WpfAdsbTest
                     //matchingvalue.Icao = e.planeData.Icao;
                     if (!e.planeData.ModelName.Equals("")) 
                     {
-                        textBlockConsole.Text += "ModelName: " + e.planeData.ModelName + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "ModelName: " + e.planeData.ModelName + "\r\n"));
                         matchingvalue.ModelName = e.planeData.ModelName;
                     }
                     matchingvalue.Time = e.planeData.PackageReceiveTime.ToString();
                     if (e.planeData.Lat != -1) 
                     {
-                        textBlockConsole.Text += "Lat: "+e.planeData.Lat + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Lat: "+e.planeData.Lat + "\r\n"));
                         matchingvalue.Latitude = e.planeData.Lat;
                     }
                     if (e.planeData.Long != -1)
                     {
-                        textBlockConsole.Text += "Long: " + e.planeData.Long + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Long: " + e.planeData.Long + "\r\n"));
                         matchingvalue.Longitude = e.planeData.Long;
                     }
                     if (e.planeData.Altitude != -1)
                     {
-                        textBlockConsole.Text += "Alt: " + e.planeData.Altitude + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Alt: " + e.planeData.Altitude + "\r\n"));
                         matchingvalue.Altitude = e.planeData.Altitude;
                     }
                     if(e.planeData.TrackAngle!=-1)
                     {
-                        textBlockConsole.Text += "Track angle: " + e.planeData.TrackAngle + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Track angle: " + e.planeData.TrackAngle + "\r\n"));
                         matchingvalue.Direction = e.planeData.TrackAngle;
                     }
                     if(e.planeData.AirSpeed!=-1)
                     {
-                        textBlockConsole.Text += "AirSpeed: " + e.planeData.AirSpeed + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "AirSpeed: " + e.planeData.AirSpeed + "\r\n"));
                         matchingvalue.AirVelocity = e.planeData.AirSpeed;
                     }
                     //matchingvalue.Groundvelocity = e.planeData.GroundSpeed; 
                     if(!e.planeData.Country.Equals(""))
                     {
-                        textBlockConsole.Text += "Country: " + e.planeData.Country + Environment.NewLine;
+                        Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Country: " + e.planeData.Country + "\r\n"));
                         matchingvalue.Country = e.planeData.Country;
                     }
                     if(!e.planeData.Flag.Equals(""))
@@ -125,13 +125,13 @@ namespace WpfAdsbTest
                     {
                         List.Add(new PlaneInfo() { Icao = e.planeData.Icao, ModelName = e.planeData.ModelName, Time = e.planeData.PackageReceiveTime.ToString(), Latitude = e.planeData.Lat, Longitude = e.planeData.Long, Altitude = e.planeData.Altitude, AirVelocity = e.planeData.AirSpeed, Groundvelocity = e.planeData.GroundSpeed, Direction = e.planeData.TrackAngle, Country = e.planeData.Country, Flag = "pack://application:,,,/Images/" + e.planeData.Flag });
                     });
-                    textBlockConsole.Text += "ModelName: " + e.planeData.ModelName + Environment.NewLine;
-                    textBlockConsole.Text += "Lat: " + e.planeData.Lat + Environment.NewLine;
-                    textBlockConsole.Text += "Long: " + e.planeData.Long + Environment.NewLine;
-                    textBlockConsole.Text += "Alt: " + e.planeData.Altitude + Environment.NewLine;
-                    textBlockConsole.Text += "Track angle: " + e.planeData.TrackAngle + Environment.NewLine;
-                    textBlockConsole.Text += "AirSpeed: " + e.planeData.AirSpeed + Environment.NewLine;
-                    textBlockConsole.Text += "Country: " + e.planeData.Country + Environment.NewLine;
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "ModelName: " + e.planeData.ModelName + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Lat: " + e.planeData.Lat + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Long: " + e.planeData.Long + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Alt: " + e.planeData.Altitude + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Track angle: " + e.planeData.TrackAngle + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "AirSpeed: " + e.planeData.AirSpeed + "\r\n"));
+                    Dispatcher.Invoke(new Action(() => textBoxConsole.Text += "Country: " + e.planeData.Country + "\r\n"));
 
                 }
             });

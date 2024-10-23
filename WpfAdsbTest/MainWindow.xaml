@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAdsbTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" 
+        Title="MainWindow" MinHeight="450" MinWidth="800" MaxHeight="450" MaxWidth="800" 
         Closing="Window_Closing"
-        x:Name="MyWindow" HorizontalAlignment="Left" VerticalAlignment="Top">
+        x:Name="MyWindow">
 
     <Window.Resources>
         <local:BlinkingConverter x:Key="myBlinkingConverter"/>
@@ -57,7 +57,7 @@
 
 
 
-    <StackPanel Orientation="Vertical">
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Orientation="Vertical">
         <Grid Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="190*"/>
@@ -91,12 +91,10 @@
         <Button x:Name="btnConnectTCP" Content="Connect TCP" VerticalAlignment="Top" Click="btnConnectTCP_Click"/>
         <Button x:Name="btnDisconnect" Content="Disconnect" VerticalAlignment="Top" Click="btnDisconnect_Click"/>
         <Button x:Name="btnClear" Content="Clear" VerticalAlignment="Top" Click="btnClear_Click"/>
-        <ScrollViewer VerticalScrollBarVisibility="Auto" VerticalAlignment="Top">
-            <TextBlock x:Name="textBlockConsole" TextWrapping="Wrap" Text="" Height="150" Margin="0,2,0,0" VerticalAlignment="Top"/>
-        </ScrollViewer>
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="Auto" VerticalAlignment="Top">
+        
+       
             <DataGrid AutoGenerateColumns="False"
-                    x:Name="dataGrid1" VerticalAlignment="Top">
+                    x:Name="dataGrid1" Height="178">
                 <DataGrid.CellStyle>
                     <Style TargetType="{x:Type DataGridCell}">
                         <Style.Triggers>
@@ -134,7 +132,9 @@
                     </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
-        </ScrollViewer>
+       
+            <TextBox x:Name="textBoxConsole" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Text="" Height="100"/>
+       
 
 
     </StackPanel>
