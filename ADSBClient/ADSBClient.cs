@@ -24,6 +24,7 @@ namespace ADSBClientLib
 
         public static LocalProperties localProperties;
         public static Yaml yaml = new Yaml();
+        private readonly byte[] amplifierOnArray = { 4, 11, 4, 1 };
 
         TcpClient tcpClient;
         NetworkStream streamClient;
@@ -158,6 +159,7 @@ namespace ADSBClientLib
                 if (serialPort.IsOpen == true)
                 {
                     OnConnect?.Invoke(this, EventArgs.Empty);
+                    serialPort.Write(amplifierOnArray, 0, amplifierOnArray.Length);
                     Task.Run(()=>ReadDataNoReadThr(serialPort));
                     //Task.Run(() => ReadDataNoReadThr2(serialPort));
                     //ReadDataNoReadThrTest(serialPort);//!!!!!!!!!!!!!!for test
