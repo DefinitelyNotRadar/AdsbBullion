@@ -75,10 +75,10 @@ namespace ADSBClientLib
         public bool Connect()
         {
             //token = cancelTokenSource.Token;
-            //if (tcpClient != null && tcpClient.Connected == true)
-            //{
-            //    tcpClient.Close();
-            //}
+            if (tcpClient != null && tcpClient.Connected == true)
+            {                
+                tcpClient.Close();
+            }
             tcpClient = new TcpClient();
 
             try
@@ -145,6 +145,10 @@ namespace ADSBClientLib
         {
             try
             {
+                if(serialPort!=null && serialPort.IsOpen)
+                {
+                    serialPort.Close();
+                }
                 serialPort = new SerialPort(serialPortName, serialPortBaudRate);
                 //serialPort.Encoding = Encoding.GetEncoding("ASCII");
 
