@@ -331,3 +331,6 @@ E:\адсб\Adsb_Bullion_DLL\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CoreCompil
 E:\адсб\Adsb_Bullion_DLL\WpfAdsbTest\obj\Debug\WpfAdsbTest.csproj.CopyComplete
 E:\адсб\Adsb_Bullion_DLL\WpfAdsbTest\obj\Debug\WpfAdsbTest.exe
 E:\адсб\Adsb_Bullion_DLL\WpfAdsbTest\obj\Debug\WpfAdsbTest.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\WpfAdsbTest\bin\Debug\AdsbDocuments\ATDB - ICAO 24-bit addresses - Decode.html
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\WpfAdsbTest\bin\Debug\AdsbDocuments\aircraft-database-complete-2024-06.csv
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\WpfAdsbTest\bin\Debug\AdsbDocuments\LocalProperties.yaml

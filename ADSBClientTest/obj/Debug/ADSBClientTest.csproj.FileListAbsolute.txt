@@ -312,3 +312,6 @@ C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\obj\Debug\ADSBClient
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\obj\Debug\ADSBClientTest.csproj.CopyComplete
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\obj\Debug\ADSBClientTest.exe
 C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\obj\Debug\ADSBClientTest.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\bin\Debug\AdsbDocuments\ATDB - ICAO 24-bit addresses - Decode.html
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\bin\Debug\AdsbDocuments\aircraft-database-complete-2024-06.csv
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClientTest\bin\Debug\AdsbDocuments\LocalProperties.yaml

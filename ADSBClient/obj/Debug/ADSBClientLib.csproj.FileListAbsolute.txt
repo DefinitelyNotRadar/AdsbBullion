@@ -401,3 +401,6 @@ E:\адсб\Adsb_Bullion_DLL\ADSBClient\obj\Debug\ADSBClientLib.csproj.CoreCompi
 E:\адсб\Adsb_Bullion_DLL\ADSBClient\obj\Debug\ADSBClientLib.csproj.CopyComplete
 E:\адсб\Adsb_Bullion_DLL\ADSBClient\obj\Debug\ADSBClient.dll
 E:\адсб\Adsb_Bullion_DLL\ADSBClient\obj\Debug\ADSBClient.pdb
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClient\bin\Debug\AdsbDocuments\ATDB - ICAO 24-bit addresses - Decode.html
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClient\bin\Debug\AdsbDocuments\aircraft-database-complete-2024-06.csv
+C:\Users\osipo\source\repos\Adsb_Bullion_DLL\ADSBClient\bin\Debug\AdsbDocuments\LocalProperties.yaml

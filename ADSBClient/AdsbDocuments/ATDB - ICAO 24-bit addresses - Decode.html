@@ -1,0 +1,908 @@
+<html>
+<head>
+<title>ATDB - ICAO 24-bit addresses - Decode</title>
+<style>
+table { border-collapse:collapse; padding:4px; }
+h3 { font-family:Verdana,Arial; font-size:14px; display:inline; }
+td { font-family:Verdana,Arial; font-size:9px; padding:2px; }
+td.m { background-color:gold; border:0; }
+th { font-family:Verdana,Arial; font-size:10px; color:gold; background-color:blue; text-align:left; padding:2px; } 
+th.m { border:0; }
+</style>
+</head>
+<body onmousedown='return false;'>
+
+<table border="1" cellspacing="0">
+
+<img src='../images/ATDB220.GIF' width="150" border="0"></img>
+<h3>ATDB.aero - ICAO 24-bit addresses - Decode</h3>
+
+<br></br>
+
+<tr>
+<th>From</th>
+<th>To</th>
+<th>Country</th>
+<th class="m">" "</th>
+<th>From</th>
+<th>To</th>
+<th>Country</th>
+<th class="m">" "</th>
+<th>From</th>
+<th>To</th>
+<th>Country</th>
+<th class="m">" "</th>
+<th>From</th>
+<th>To</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>000000</td>
+<td>003FFF</td>
+<td>(unallocated)</td>
+<td class="m">" "</td>
+<td>098000</td>
+<td>0983FF</td>
+<td>Djibouti</td>
+<td class="m">" "</td>
+<td>4A8000</td>
+<td>4AFFFF</td>
+<td>Sweden</td>
+<td class="m">" "</td>
+<td >730000</td>
+<td>737FFF</td>
+<td>Iran</td>
+</tr>
+<tr>
+<td>004000</td>
+<td>0043FF</td>
+<td>Zimbabwe</td>
+<td class="m">" "</td>
+<td>09A000</td>
+<td>09AFFF</td>
+<td>Gambia</td>
+<td class="m">" "</td>
+<td>4B0000</td>
+<td>4B7FFF</td>
+<td>Switzerland</td>
+<td class="m">" "</td>
+<td>738000</td>
+<td>73FFFF</td>
+<td>Israel</td>
+</tr>
+<tr>
+<td>006000</td>
+<td>006FFF</td>
+<td>Mozambique</td>
+<td class="m">" "</td>
+<td>09C000</td>
+<td>09CFFF</td>
+<td>Burkina Faso</td>
+<td class="m">" "</td>
+<td>4B8000</td>
+<td>4BFFFF</td>
+<td>Turkey</td>
+<td class="m">" "</td>
+<td>740000</td>
+<td>747FFF</td>
+<td>Jordan</td>
+</tr>
+<tr>
+<td>008000</td>
+<td>00FFFF</td>
+<td>South Africa</td>
+<td class="m">" "</td>
+<td>09E000</td>
+<td>09E3FF</td>
+<td>Sao Tome</td>
+<td class="m">" "</td>
+<td>4C0000</td>
+<td>4C7FFF</td>
+<td>Yugoslavia</td>
+<td class="m">" "</td>
+<td>748000</td>
+<td>74FFFF</td>
+<td>Lebanon</td>
+</tr>
+<tr>
+<td>010000</td>
+<td>017FFF</td>
+<td>Egypt</td>
+<td class="m">" "</td>
+<td>0A0000</td>
+<td>0A7FFF</td>
+<td>Algeria</td>
+<td class="m">" "</td>
+<td>4C8000</td>
+<td>4C83FF</td>
+<td>Cyprus</td>
+<td class="m">" "</td>
+<td>750000</td>
+<td>757FFF</td>
+<td>Malaysia</td>
+</tr>
+<tr>
+<td>018000</td>
+<td>01FFFF</td>
+<td>Libya</td>
+<td class="m">" "</td>
+<td>0A8000</td>
+<td>0A8FFF</td>
+<td>Bahamas</td>
+<td class="m">" "</td>
+<td>4CA000</td>
+<td>4CAFFF</td>
+<td>Ireland</td>
+<td class="m">" "</td>
+<td>758000</td>
+<td>75FFFF</td>
+<td>Philippines</td>
+</tr>
+<tr>
+<td>020000</td>
+<td>027FFF</td>
+<td>Morocco</td>
+<td class="m">" "</td>
+<td>0AA000</td>
+<td>0AA3FF</td>
+<td>Barbados</td>
+<td class="m">" "</td>
+<td>4CC000</td>
+<td>4CCFFF</td>
+<td>Iceland</td>
+<td class="m">" "</td>
+<td>760000</td>
+<td>767FFF</td>
+<td>Pakistan</td>
+</tr>
+<tr>
+<td>028000</td>
+<td>02FFFF</td>
+<td>Tunisia</td>
+<td class="m">" "</td>
+<td>0AB000</td>
+<td>0AB3FF</td>
+<td>Belize</td>
+<td class="m">" "</td>
+<td>4D0000</td>
+<td>4D03FF</td>
+<td>Luxembourg</td>
+<td class="m">" "</td>
+<td>768000</td>
+<td>76FFFF</td>
+<td>Singapore</td>
+</tr>
+<tr>
+<td>030000</td>
+<td>0303FF</td>
+<td>Botswana</td>
+<td class="m">" "</td>
+<td>0AC000</td>
+<td>0ACFFF</td>
+<td>Colombia</td>
+<td class="m">" "</td>
+<td>4D2000</td>
+<td>4D23FF</td>
+<td>Malta</td>
+<td class="m">" "</td>
+<td>770000</td>
+<td>777FFF</td>
+<td>Sri Lanka</td>
+</tr>
+<tr>
+<td>032000</td>
+<td>032FFF</td>
+<td>Burundi</td>
+<td class="m">" "</td>
+<td>0AE000</td>
+<td>0AEFFF</td>
+<td>Costa Rica</td>
+<td class="m">" "</td>
+<td>4D4000</td>
+<td>4D43FF</td>
+<td>Monaco</td>
+<td class="m">" "</td>
+<td>778000</td>
+<td>77FFFF</td>
+<td>Syria</td>
+</tr>
+<tr>
+<td>034000</td>
+<td>034FFF</td>
+<td>Cameroon</td>
+<td class="m">" "</td>
+<td>0B0000</td>
+<td>0B0FFF</td>
+<td>Cuba</td>
+<td class="m">" "</td>
+<td>500000</td>
+<td>5003FF</td>
+<td>San Marino</td>
+<td class="m">" "</td>
+<td>780000</td>
+<td>7BFFFF</td>
+<td>China</td>
+</tr>
+<tr>
+<td>035000</td>
+<td>0353FF</td>
+<td>Comoros</td>
+<td class="m">" "</td>
+<td>0B2000</td>
+<td>0B2FFF</td>
+<td>El Salvador</td>
+<td class="m">" "</td>
+<td>500000</td>
+<td>5FFFFF</td>
+<td>(reserved, EUR/NAT)</td>
+<td class="m">" "</td>
+<td>7C0000</td>
+<td>7FFFFF</td>
+<td>Australia</td>
+</tr>
+<tr>
+<td>036000</td>
+<td>036FFF</td>
+<td>Congo</td>
+<td class="m">" "</td>
+<td>0B4000</td>
+<td>0B4FFF</td>
+<td>Guatemala</td>
+<td class="m">" "</td>
+<td>501000</td>
+<td>5013FF</td>
+<td>Albania</td>
+<td class="m">" "</td>
+<td>800000</td>
+<td>83FFFF</td>
+<td>India</td>
+</tr>
+<tr>
+<td>038000</td>
+<td>038FFF</td>
+<td>Cote d Ivoire</td>
+<td class="m">" "</td>
+<td>0B6000</td>
+<td>0B6FFF</td>
+<td>Guyana</td>
+<td class="m">" "</td>
+<td>501C00</td>
+<td>501FFF</td>
+<td>Croatia</td>
+<td class="m">" "</td>
+<td>840000</td>
+<td>87FFFF</td>
+<td>Japan</td>
+</tr>
+<tr>
+<td>03E000</td>
+<td>03EFFF</td>
+<td>Gabon</td>
+<td class="m">" "</td>
+<td>0B8000</td>
+<td>0B8FFF</td>
+<td>Haiti</td>
+<td class="m">" "</td>
+<td>502C00</td>
+<td>502FFF</td>
+<td>Latvia</td>
+<td class="m">" "</td>
+<td>880000</td>
+<td>887FFF</td>
+<td>Thailand</td>
+</tr>
+<tr>
+<td>040000</td>
+<td>040FFF</td>
+<td>Ethiopia</td>
+<td class="m">" "</td>
+<td>0BA000</td>
+<td>0BAFFF</td>
+<td>Honduras</td>
+<td class="m">" "</td>
+<td>503C00</td>
+<td>503FFF</td>
+<td>Lithuania</td>
+<td class="m">" "</td>
+<td>888000</td>
+<td>88FFFF</td>
+<td>Viet Nam</td>
+</tr>
+<tr>
+<td>042000</td>
+<td>042FFF</td>
+<td>Equatorial Guinea</td>
+<td class="m">" "</td>
+<td>0BC000</td>
+<td>0BC3FF</td>
+<td>St.Vincent + Grenadines</td>
+<td class="m">" "</td>
+<td>504C00</td>
+<td>504FFF</td>
+<td>Moldova</td>
+<td class="m">" "</td>
+<td>890000</td>
+<td>890FFF</td>
+<td>Yemen</td>
+</tr>
+<tr>
+<td>044000</td>
+<td>044FFF</td>
+<td>Ghana</td>
+<td class="m">" "</td>
+<td>0BE000</td>
+<td>0BEFFF</td>
+<td>Jamaica</td>
+<td class="m">" "</td>
+<td>505C00</td>
+<td>505FFF</td>
+<td>Slovakia</td>
+<td class="m">" "</td>
+<td>894000</td>
+<td>894FFF</td>
+<td>Bahrain</td>
+</tr>
+<tr>
+<td>046000</td>
+<td>046FFF</td>
+<td>Guinea</td>
+<td class="m">" "</td>
+<td>0C0000</td>
+<td>0C0FFF</td>
+<td>Nicaragua</td>
+<td class="m">" "</td>
+<td>506C00</td>
+<td>506FFF</td>
+<td>Slovenia</td>
+<td class="m">" "</td>
+<td>895000</td>
+<td>8953FF</td>
+<td>Brunei</td>
+</tr>
+<tr>
+<td>048000</td>
+<td>0483FF</td>
+<td>Guinea-Bissau</td>
+<td class="m">" "</td>
+<td>0C2000</td>
+<td>0C2FFF</td>
+<td>Panama</td>
+<td class="m">" "</td>
+<td>507C00</td>
+<td>507FFF</td>
+<td>Uzbekistan</td>
+<td class="m">" "</td>
+<td>896000</td>
+<td>896FFF</td>
+<td>United Arab Emirates</td>
+</tr>
+<tr>
+<td>04A000</td>
+<td>04A3FF</td>
+<td>Lesotho</td>
+<td class="m">" "</td>
+<td>0C4000</td>
+<td>0C4FFF</td>
+<td>Dominican Republic</td>
+<td class="m">" "</td>
+<td>508000</td>
+<td>50FFFF</td>
+<td>Ukraine</td>
+<td class="m">" "</td>
+<td>897000</td>
+<td>8973FF</td>
+<td>Solomon Islands</td>
+</tr>
+<tr>
+<td>04C000</td>
+<td>04CFFF</td>
+<td>Kenya</td>
+<td class="m">" "</td>
+<td>0C6000</td>
+<td>0C6FFF</td>
+<td>Trinidad and Tobago</td>
+<td class="m">" "</td>
+<td>510000</td>
+<td>5103FF</td>
+<td>Belarus</td>
+<td class="m">" "</td>
+<td>898000</td>
+<td>898FFF</td>
+<td>Papua New Guinea</td>
+</tr>
+<tr>
+<td>050000</td>
+<td>050FFF</td>
+<td>Liberia</td>
+<td class="m">" "</td>
+<td>0C8000</td>
+<td>0C8FFF</td>
+<td>Suriname</td>
+<td class="m">" "</td>
+<td>511000</td>
+<td>5113FF</td>
+<td>Estonia</td>
+<td class="m">" "</td>
+<td>899000</td>
+<td>8993FF</td>
+<td>Taiwan (unofficial)</td>
+</tr>
+<tr>
+<td>054000</td>
+<td>054FFF</td>
+<td>Madagascar</td>
+<td class="m">" "</td>
+<td>0CA000</td>
+<td>0CA3FF</td>
+<td>Antigua &amp; Barbuda</td>
+<td class="m">" "</td>
+<td>512000</td>
+<td>5123FF</td>
+<td>Macedonia</td>
+<td class="m">" "</td>
+<td>8A0000</td>
+<td>8A7FFF</td>
+<td>Indonesia</td>
+</tr>
+<tr>
+<td>058000</td>
+<td>058FFF</td>
+<td>Malawi</td>
+<td class="m">" "</td>
+<td>0CC000</td>
+<td>0CC3FF</td>
+<td>Grenada</td>
+<td class="m">" "</td>
+<td>513000</td>
+<td>5133FF</td>
+<td>Bosnia &amp; Herzegovina</td>
+<td class="m">" "</td>
+<td>900000</td>
+<td>9FFFFF</td>
+<td>(reserved, NAM/PAC)</td>
+</tr>
+<tr>
+<td>05A000</td>
+<td>05A3FF</td>
+<td>Maldives</td>
+<td class="m">" "</td>
+<td>0D0000</td>
+<td>0D7FFF</td>
+<td>Mexico</td>
+<td class="m">" "</td>
+<td>514000</td>
+<td>5143FF</td>
+<td>Georgia</td>
+<td class="m">" "</td>
+<td>900000</td>
+<td>9003FF</td>
+<td>Marshall Islands</td>
+</tr>
+<tr>
+<td>05C000</td>
+<td>05CFFF</td>
+<td>Mali</td>
+<td class="m">" "</td>
+<td>0D8000</td>
+<td>0DFFFF</td>
+<td>Venezuela</td>
+<td class="m">" "</td>
+<td>515000</td>
+<td>5153FF</td>
+<td>Tajikistan</td>
+<td class="m">" "</td>
+<td>901000</td>
+<td>9013FF</td>
+<td>Cook Islands</td>
+</tr>
+<tr>
+<td>05E000</td>
+<td>05E3FF</td>
+<td>Mauritania</td>
+<td class="m">" "</td>
+<td>100000</td>
+<td>1FFFFF</td>
+<td>Russia</td>
+<td class="m">" "</td>
+<td>600000</td>
+<td>6003FF</td>
+<td>Armenia</td>
+<td class="m">" "</td>
+<td>902000</td>
+<td>9023FF</td>
+<td>Samoa</td>
+</tr>
+<tr>
+<td>060000</td>
+<td>0603FF</td>
+<td>Mauritius</td>
+<td class="m">" "</td>
+<td>200000</td>
+<td>27FFFF</td>
+<td>(reserved, AFI)</td>
+<td class="m">" "</td>
+<td>600000</td>
+<td>67FFFF</td>
+<td>(reserved, MID)</td>
+<td class="m">" "</td>
+<td>A00000</td>
+<td>AFFFFF</td>
+<td>United States</td>
+</tr>
+<tr>
+<td>062000</td>
+<td>062FFF</td>
+<td>Niger</td>
+<td class="m">" "</td>
+<td>201000</td>
+<td>2013FF</td>
+<td>Namibia</td>
+<td class="m">" "</td>
+<td>600800</td>
+<td>600BFF</td>
+<td>Azerbaijan</td>
+<td class="m">" "</td>
+<td>B00000</td>
+<td>BFFFFF</td>
+<td>(reserved)</td>
+</tr>
+<tr>
+<td>064000</td>
+<td>064FFF</td>
+<td>Nigeria</td>
+<td class="m">" "</td>
+<td>202000</td>
+<td>2023FF</td>
+<td>Eritrea</td>
+<td class="m">" "</td>
+<td>601000</td>
+<td>6013FF</td>
+<td>Kyrgyzstan</td>
+<td class="m">" "</td>
+<td>C00000</td>
+<td>C3FFFF</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>068000</td>
+<td>068FFF</td>
+<td>Uganda</td>
+<td class="m">" "</td>
+<td>280000</td>
+<td>2FFFFF</td>
+<td>(reserved, SAM)</td>
+<td class="m">" "</td>
+<td>601800</td>
+<td>601BFF</td>
+<td>Turkmenistan</td>
+<td class="m">" "</td>
+<td>C80000</td>
+<td>C87FFF</td>
+<td>New Zealand</td>
+</tr>
+<tr>
+<td>06A000</td>
+<td>06A3FF</td>
+<td>Qatar</td>
+<td class="m">" "</td>
+<td>300000</td>
+<td>33FFFF</td>
+<td>Italy</td>
+<td class="m">" "</td>
+<td>680000</td>
+<td>6FFFFF</td>
+<td>(reserved, ASIA)</td>
+<td class="m">" "</td>
+<td>C88000</td>
+<td>C88FFF</td>
+<td>Fiji</td>
+</tr>
+<tr>
+<td>06C000</td>
+<td>06CFFF</td>
+<td>Central African Republic</td>
+<td class="m">" "</td>
+<td>340000</td>
+<td>37FFFF</td>
+<td>Spain</td>
+<td class="m">" "</td>
+<td>680000</td>
+<td>6803FF</td>
+<td>Bhutan</td>
+<td class="m">" "</td>
+<td>C8A000</td>
+<td>C8A3FF</td>
+<td>Nauru</td>
+</tr>
+<tr>
+<td>06E000</td>
+<td>06EFFF</td>
+<td>Rwanda</td>
+<td class="m">" "</td>
+<td>380000</td>
+<td>3BFFFF</td>
+<td>France</td>
+<td class="m">" "</td>
+<td>681000</td>
+<td>6813FF</td>
+<td>Micronesia</td>
+<td class="m">" "</td>
+<td>C8C000</td>
+<td>C8C3FF</td>
+<td>Saint Lucia</td>
+</tr>
+<tr>
+<td>070000</td>
+<td>070FFF</td>
+<td>Senegal</td>
+<td class="m">" "</td>
+<td>3C0000</td>
+<td>3FFFFF</td>
+<td>Germany</td>
+<td class="m">" "</td>
+<td>682000</td>
+<td>6823FF</td>
+<td>Mongolia</td>
+<td class="m">" "</td>
+<td>C8D000</td>
+<td>C8D3FF</td>
+<td>Tonga</td>
+</tr>
+<tr>
+<td>074000</td>
+<td>0743FF</td>
+<td>Seychelles</td>
+<td class="m">" "</td>
+<td>400000</td>
+<td>43FFFF</td>
+<td>United Kingdom</td>
+<td class="m">" "</td>
+<td>683000</td>
+<td>6833FF</td>
+<td>Kazakhstan</td>
+<td class="m">" "</td>
+<td>C8E000</td>
+<td>C8E3FF</td>
+<td>Kiribati</td>
+</tr>
+<tr>
+<td>076000</td>
+<td>0763FF</td>
+<td>Sierra Leone</td>
+<td class="m">" "</td>
+<td>440000</td>
+<td>447FFF</td>
+<td>Austria</td>
+<td class="m">" "</td>
+<td>684000</td>
+<td>6843FF</td>
+<td>Palau</td>
+<td class="m">" "</td>
+<td>C90000</td>
+<td>C903FF</td>
+<td>Vanuatu</td>
+</tr>
+<tr>
+<td>078000</td>
+<td>078FFF</td>
+<td>Somalia</td>
+<td class="m">" "</td>
+<td>448000</td>
+<td>44FFFF</td>
+<td>Belgium</td>
+<td class="m">" "</td>
+<td>700000</td>
+<td>700FFF</td>
+<td>Afghanistan</td>
+<td class="m">" "</td>
+<td>D00000</td>
+<td>DFFFFF</td>
+<td>(reserved)</td>
+</tr>
+<tr>
+<td>07A000</td>
+<td>07A3FF</td>
+<td>Swaziland</td>
+<td class="m">" "</td>
+<td>450000</td>
+<td>457FFF</td>
+<td>Bulgaria</td>
+<td class="m">" "</td>
+<td>702000</td>
+<td>702FFF</td>
+<td>Bangladesh</td>
+<td class="m">" "</td>
+<td>E00000</td>
+<td>E3FFFF</td>
+<td>Argentina</td>
+</tr>
+<tr>
+<td>07C000</td>
+<td>07CFFF</td>
+<td>Sudan</td>
+<td class="m">" "</td>
+<td>458000</td>
+<td>45FFFF</td>
+<td>Denmark</td>
+<td class="m">" "</td>
+<td>704000</td>
+<td>704FFF</td>
+<td>Myanmar</td>
+<td class="m">" "</td>
+<td>E40000</td>
+<td>E7FFFF</td>
+<td>Brazil</td>
+</tr>
+<tr>
+<td>080000</td>
+<td>080FFF</td>
+<td>Tanzania</td>
+<td class="m">" "</td>
+<td>460000</td>
+<td>467FFF</td>
+<td>Finland</td>
+<td class="m">" "</td>
+<td>706000</td>
+<td>706FFF</td>
+<td>Kuwait</td>
+<td class="m">" "</td>
+<td>E80000</td>
+<td>E80FFF</td>
+<td>Chile</td>
+</tr>
+<tr>
+<td>084000</td>
+<td>084FFF</td>
+<td>Chad</td>
+<td class="m">" "</td>
+<td>468000</td>
+<td>46FFFF</td>
+<td>Greece</td>
+<td class="m">" "</td>
+<td>708000</td>
+<td>708FFF</td>
+<td>Laos</td>
+<td class="m">" "</td>
+<td>E84000</td>
+<td>E84FFF</td>
+<td>Ecuador</td>
+</tr>
+<tr>
+<td>088000</td>
+<td>088FFF</td>
+<td>Togo</td>
+<td class="m">" "</td>
+<td>470000</td>
+<td>477FFF</td>
+<td>Hungary</td>
+<td class="m">" "</td>
+<td>70A000</td>
+<td>70AFFF</td>
+<td>Nepal</td>
+<td class="m">" "</td>
+<td>E88000</td>
+<td>E88FFF</td>
+<td>Paraguay</td>
+</tr>
+<tr>
+<td>08A000</td>
+<td>08AFFF</td>
+<td>Zambia</td>
+<td class="m">" "</td>
+<td>478000</td>
+<td>47FFFF</td>
+<td>Norway</td>
+<td class="m">" "</td>
+<td>70C000</td>
+<td>70C3FF</td>
+<td>Oman</td>
+<td class="m">" "</td>
+<td>E8C000</td>
+<td>E8CFFF</td>
+<td>Peru</td>
+</tr>
+<tr>
+<td>08C000</td>
+<td>08CFFF</td>
+<td>D R Congo</td>
+<td class="m">" "</td>
+<td>480000</td>
+<td>487FFF</td>
+<td>Netherlands</td>
+<td class="m">" "</td>
+<td>70E000</td>
+<td>70EFFF</td>
+<td>Cambodia</td>
+<td class="m">" "</td>
+<td>E90000</td>
+<td>E90FFF</td>
+<td>Uruguay</td>
+</tr>
+<tr>
+<td>090000</td>
+<td>090FFF</td>
+<td>Angola</td>
+<td class="m">" "</td>
+<td>488000</td>
+<td>48FFFF</td>
+<td>Poland</td>
+<td class="m">" "</td>
+<td>710000</td>
+<td>717FFF</td>
+<td>Saudi Arabia</td>
+<td class="m">" "</td>
+<td>E94000</td>
+<td>E94FFF</td>
+<td>Bolivia</td>
+</tr>
+<tr>
+<td>094000</td>
+<td>0943FF</td>
+<td>Benin</td>
+<td class="m">" "</td>
+<td>490000</td>
+<td>497FFF</td>
+<td>Portugal</td>
+<td class="m">" "</td>
+<td>718000</td>
+<td>71FFFF</td>
+<td>Korea (South)</td>
+<td class="m">" "</td>
+<td>EC0000</td>
+<td>EFFFFF</td>
+<td>(reserved, CAR)</td>
+</tr>
+<tr>
+<td>096000</td>
+<td>0963FF</td>
+<td>Cape Verde</td>
+<td class="m">" "</td>
+<td>498000</td>
+<td>49FFFF</td>
+<td>Czech Republic</td>
+<td class="m">" "</td>
+<td>720000</td>
+<td>727FFF</td>
+<td>Korea (North)</td>
+<td class="m">" "</td>
+<td>F00000</td>
+<td>F07FFF</td>
+<td>ICAO (1)</td>
+</tr>
+<tr>
+
+<td>4A0000</td>
+<td>4A7FFF</td>
+<td>Romania</td>
+<td class="m">" "</td>
+<td>728000</td>
+<td>72FFFF</td>
+<td>Iraq</td>
+<td class="m">" "</td>
+<td>F00000</td>
+<td>FFFFFF</td>
+<td>(reserved)</td>
+<td class="m">" "</td>
+<td>F09000</td>
+<td>F093FF</td>
+<td>ICAO (2)</td>
+</tr>
+<tr>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+<td class="m">" "</td>
+</tr>	
+</table>
+</body></html>
